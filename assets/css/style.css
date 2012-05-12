@@ -550,7 +550,7 @@ table {
 		margin: 10px 3% 15px 0;
 		padding: 15px;
 		height: 20px;
-		width: 45%;
+		width: 44%;
 		background: #d8d8d8;
 		color: #333;
 		font-size: 2em;
@@ -563,7 +563,7 @@ table {
 
 	.contato textarea {
 		height: 300px;
-		width: 96%;
+		width: 94%;
 	}
 
 	.contato input[type="submit"] {
@@ -597,6 +597,17 @@ table {
 		margin: 45px 45% !important;
 	}
 
+input.error, textarea.error {
+	background: #A7073E !important;
+	color: #FFF;
+}
+
+label.error {
+	position: absolute;
+	width: 0%;
+	top: -500%;
+	left: -600%;
+}
 
 
 .IE { display: none; }

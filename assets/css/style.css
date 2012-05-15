@@ -14,8 +14,8 @@ html {
 }
 
 body {
-	font-size: 10px;
-	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
 }
 
 .global {
@@ -31,6 +31,10 @@ body {
 	margin: 0 auto;
 }
 
+p {
+	font-size: 16px;
+}
+
 h2, h3 {
 	text-transform: uppercase;
 	color: #A7073E;
@@ -40,12 +44,14 @@ h2 {
 	
 	font-size: 2.2em;
 	line-height: 2.5em;
+	font-family: "NovecentowideDemiBoldRegular";
 	
 }
 
 h3 {
 	font-size: 1.8em;
 	line-height: 2.5em;
+	font-family: "NovecentowideLightRegular";
 }
 
 .insc {
@@ -95,24 +101,25 @@ h3 {
 
 .data {
 	float: right;
-	margin: 135px -75px 0 0;
+	margin: 115px -60px 0 0;
 	font-size: 18em;
 	font-weight: bold;
 	color: #A7073E;
 	text-align: left;
-	width: 215px;
+	width: 260px;
+	font-family: "NovecentowideMediumRegular";
 }
 
 	.data span {
 		display: block;
-		font-size: .3em;
+		font-size: .2em;
 		font-weight: bold;
 		text-align: right;
 		line-height: 0em;
 	}
 
 	.data em {
-		font-size: .1em;
+		font-size: 17px;
 		font-weight: normal;
 		line-height: 4em;
 		display: block;
@@ -124,8 +131,7 @@ h3 {
 	float: left;
 	color: white;
 	width: 222px;
-	font-size: 1.5em;
-	margin: 0 0 40px 182px;
+	margin: 0 0 40px 180px;
 	text-align: center;
 }
 
@@ -254,6 +260,7 @@ h3 {
 	float: right;
 	width: 515px;
 	text-align: right;
+	margin-top: -60px;
 }
 
 	.evento p {
@@ -263,17 +270,17 @@ h3 {
 	}
 
 .valores {
-	margin: 50px 30px 20px 30px;
+	margin: 45px 50px 20px 30px;
 	float: right;
 	clear: both;
 	text-align: left;
-	width: 370px;
+	width: 490px;
 }
 
 	.valores div {
 		float: left;
 		min-width: 135px;
-		margin: 15px 15px 30px 0;
+		margin: 15px 50px 30px 0;
 	}
 
 	.valores p {
@@ -344,25 +351,17 @@ h3 {
 		width: 785px;
 	}
 
-		.patrocinadores ul.prata li.sua-marca {
-			padding: 22px;
-		}
-
 
 	.patrocinadores ul.bronze {
 		width: 890px;
 	}
 
-		.patrocinadores ul.bronze li.sua-marca {
-			padding: 15px;
-		}
-
 	.patrocinadores ul.apoio {
 		width: 955px;
 	}
 
-		.patrocinadores ul.apoio li.sua-marca {
-			padding: 15px;
+		.patrocinadores ul.apoio li.sua-marca, .patrocinadores ul.prata li.sua-marca, .patrocinadores ul.bronze li.sua-marca {
+			padding: 30px;
 		}
 
 
@@ -502,23 +501,28 @@ table {
 		margin: 10px 0px 0px 0px;
 	}
 
+	.cont_pal {
+		width: 665px;
+		margin: 15px 25px;
+		float: left;
+	}
+
+	#sponsers article h2 {
+		font-family: "NovecentowideLightRegular";
+	}
+
 	#sponsers article:nth-child(2n) {
 		text-align: right;
 	}
 
 		#sponsers article:nth-child(2n) img {
 			float: right;
-			margin: 0 0 0px 20px;
+			margin: 0 0 0px -25px;
 		}
 
 	.palestrantes img {
 		float: left;
-		margin: 0 20px 0px 0px;
-	}
-
-	#sponsers p {
-		font-size: 14px;
-		font-family: Arial, Helvetica, sans-serif;
+		margin: 0 -25px 0px 0px;
 	}
 
 .palestrantes a {
@@ -568,7 +572,7 @@ table {
 
 	.contato input[type="submit"] {
 		float: right;
-		margin: 20px 10px 40px 0px;
+		margin: 20px 30px 40px 0px;
 		border-radius: 5px;
 		background: #ed145b;
 		color: #FFF;
@@ -576,6 +580,7 @@ table {
 		width: 15%;
 		height: 50px;
 		cursor: pointer;
+		width: 180px;
 	}
 
 		.contato input[type="submit"]:hover {
@@ -584,10 +589,6 @@ table {
 			filter:alpha(opacity=8);
 		}
 
-
-#inscricoes p, #infos p {
-	font-size: 16px;
-}
 
 	#inscricoes p a {
 		color: #ed145b;

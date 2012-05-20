@@ -131,7 +131,7 @@ h3 {
 	float: left;
 	color: white;
 	width: 222px;
-	margin: 0 0 40px 180px;
+	margin: 0 0 40px 395px;
 	text-align: center;
 }
 
@@ -609,9 +609,6 @@ label.error {
 	top: -500%;
 	left: -600%;
 }
-
-
-.IE { display: none; }
 
 
 

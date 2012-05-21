@@ -53,7 +53,7 @@ h3 {
 	line-height: 2.5em;
 	font-family: "NovecentowideLightRegular";
 }
-
+/*
 .insc {
 	font-size: 2.3em;
 	font-weight: bold;
@@ -63,20 +63,21 @@ h3 {
 		font-weight: normal;
 		font-size: 1.9em;
 	}
-
+*/
 
 .right {
 	float: right !important;
 }
-
+/*
 .left {
 	float: left !important;
 }
-
-.clear {
+*/
+/*.clear {
 	clear: both !important;
 }
 
+*/
 .padding0 {
 	padding-top: 0 !important;
 }
@@ -190,10 +191,10 @@ h3 {
 			background: url(../imagens/nav/bg-menu-patrocinadores.png) top left no-repeat;
 		}
 
-		.nav li.nav-palestras {
+/*		.nav li.nav-palestras {
 			width: 195px;
 			background: url(../imagens/nav/bg-menu-palestras.png) top left no-repeat;
-		}
+		}*/
 
 		.nav li.nav-palestrantes {
 			width: 220px;
@@ -279,7 +280,7 @@ h3 {
 
 	.valores div {
 		float: left;
-		min-width: 135px;
+		min-width: 160px;
 		margin: 15px 50px 30px 0;
 	}
 
@@ -371,13 +372,13 @@ h3 {
 	top: 0;
 }
 
-.palestras {
+/*.palestras {
 	float: left;
 	width: 100%;
 	margin: 20px 0 0 0;
-}
+}*/
 
-table {
+/*table {
   max-width: 100%;
   background-color: transparent;
   border-collapse: collapse;
@@ -485,9 +486,7 @@ table {
 .table-striped tbody tr:nth-child(odd) td,
 .table-striped tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
-}
-
-
+}*/
 
 .palestrantes {
 	float: left;
@@ -536,12 +535,6 @@ table {
 	float: left;
 	width: 100%;
 }
-
-	.local iframe {
-		border: 10px solid #d8d8d8;
-	}
-
-
 
 .contato {
 	float: left;
@@ -609,9 +602,14 @@ label.error {
 	top: -500%;
 	left: -600%;
 }
+#map-canvas { 
+	height: 350px;
+	width: 940px;
+}
 
-
-
+.local .ver-maps{
+	color: #A7073E;
+}
 
 
 

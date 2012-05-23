@@ -132,7 +132,7 @@ h3 {
 	float: left;
 	color: white;
 	width: 222px;
-	margin: -10px 0 40px 395px;
+	margin: -10px 0 40px 175px;
 	text-align: center;
 }
 
@@ -191,10 +191,10 @@ h3 {
 			background: url(../imagens/nav/bg-menu-patrocinadores.png) top left no-repeat;
 		}
 
-/*		.nav li.nav-palestras {
+		.nav li.nav-palestras {
 			width: 195px;
 			background: url(../imagens/nav/bg-menu-palestras.png) top left no-repeat;
-		}*/
+		}
 
 		.nav li.nav-palestrantes {
 			width: 220px;

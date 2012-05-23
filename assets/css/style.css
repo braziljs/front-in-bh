@@ -132,7 +132,7 @@ h3 {
 	float: left;
 	color: white;
 	width: 222px;
-	margin: 0 0 40px 395px;
+	margin: -10px 0 40px 175px;
 	text-align: center;
 }
 
@@ -191,10 +191,10 @@ h3 {
 			background: url(../imagens/nav/bg-menu-patrocinadores.png) top left no-repeat;
 		}
 
-/*		.nav li.nav-palestras {
+		.nav li.nav-palestras {
 			width: 195px;
 			background: url(../imagens/nav/bg-menu-palestras.png) top left no-repeat;
-		}*/
+		}
 
 		.nav li.nav-palestrantes {
 			width: 220px;
@@ -259,7 +259,7 @@ h3 {
 ---------------------------------------*/
 .evento {
 	float: right;
-	width: 515px;
+	width: 460px;
 	text-align: right;
 	margin-top: -60px;
 }
@@ -296,7 +296,7 @@ h3 {
 		font-size: 2.5em;
 		text-align: right;
 		float: left;
-		margin: 15px 10px 0 0;
+		margin: 15px 10px 0 20px;
 	}
 
 		.valores span em {
@@ -372,13 +372,13 @@ h3 {
 	top: 0;
 }
 
-/*.palestras {
+.palestras {
 	float: left;
 	width: 100%;
 	margin: 20px 0 0 0;
-}*/
+}
 
-/*table {
+table {
   max-width: 100%;
   background-color: transparent;
   border-collapse: collapse;
@@ -486,7 +486,7 @@ h3 {
 .table-striped tbody tr:nth-child(odd) td,
 .table-striped tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
-}*/
+}
 
 .palestrantes {
 	float: left;

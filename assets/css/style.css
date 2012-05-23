@@ -372,13 +372,13 @@ h3 {
 	top: 0;
 }
 
-/*.palestras {
+.palestras {
 	float: left;
 	width: 100%;
 	margin: 20px 0 0 0;
-}*/
+}
 
-/*table {
+table {
   max-width: 100%;
   background-color: transparent;
   border-collapse: collapse;
@@ -486,7 +486,7 @@ h3 {
 .table-striped tbody tr:nth-child(odd) td,
 .table-striped tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
-}*/
+}
 
 .palestrantes {
 	float: left;

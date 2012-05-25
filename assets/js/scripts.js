@@ -106,8 +106,10 @@ function initialize() {
 		$(window).scroll(function () {
 			if ($(this).scrollTop() > 450) {
 				$('.nfloat').show();
+				$('.lang').addClass("top-lang");
 			} else {
 				$('.nfloat').hide();
+				$('.lang').removeClass("top-lang");
 			}
 		});
 	});

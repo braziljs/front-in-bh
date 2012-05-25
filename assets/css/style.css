@@ -31,6 +31,25 @@ body {
 	margin: 0 auto;
 }
 
+.lang {
+	position: fixed;
+	right: 50px;
+	top: 0;
+	padding: 10px;
+	text-transform: uppercase;
+	color: #FFF;
+	background: #A7073E;
+}
+
+.lang:hover {
+	background: #333;
+	color: #FFF;
+}
+
+.top-lang {
+	top: 105px !important;
+}
+
 p {
 	font-size: 16px;
 }

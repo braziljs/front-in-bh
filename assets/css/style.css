@@ -150,7 +150,7 @@ h3 {
 	font-family: "NovecentowideMediumRegular";
 }
 
-	.data span {
+	.data span, .data em {
 		display: block;
 		font-size: .2em;
 		font-weight: bold;
@@ -162,8 +162,6 @@ h3 {
 		font-size: 17px;
 		font-weight: normal;
 		line-height: 4em;
-		display: block;
-		text-align: right;
 	}
 
 
@@ -213,7 +211,7 @@ h3 {
 		color: #333;
 	}
 
-		.nav li a {
+		.nav a {
 			float: left;
 			font-size: 1.4em;
 			color: #a7073e;
@@ -274,22 +272,22 @@ h3 {
 		padding: 35px 30px;
 	}
 
-	.nfloat ul li {
+	.nfloat li {
 		float: left;
 		margin: 5px 5px 0 35px;
 		list-style: none;
 	}
 
-	.nfloat ul li:last-child {
+	.nfloat li:last-child {
 		margin-right: 0px;
 	}
 
-	.nfloat ul li a {
+	.nfloat a {
 		color: #FFF;
 		font-size: 14px;
 	}
 
-		.nfloat ul li a:hover {
+		.nfloat a:hover {
 			color: #ed145b;
 		}
 
@@ -366,13 +364,13 @@ h3 {
 		width: 635px;
 	}
 
-	.patrocinadores ul li {
+	.patrocinadores li {
 		float: left;
 		margin: 10px 10px 10px 0;
 		list-style: none;
 	}
 
-	.patrocinadores ul li.sua-marca {
+	.patrocinadores li.sua-marca {
 		border: 1px dashed #999;
 		padding: 40px;
 		text-align: center;
@@ -450,14 +448,6 @@ table {
   vertical-align: bottom;
 }
 
-.table caption + thead tr:first-child th,
-.table caption + thead tr:first-child td,
-.table colgroup + thead tr:first-child th,
-.table colgroup + thead tr:first-child td,
-.table thead:first-child tr:first-child th,
-.table thead:first-child tr:first-child td {
-  border-top: 0;
-}
 
 .table tbody + tbody {
   border-top: 2px solid #dddddd;

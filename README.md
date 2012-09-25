@@ -7,4 +7,4 @@ APOS QUALQUER MODIFICAÇÃO NO CSS OU JAVASCRIPT, RODE, na raiz do projeto:
 make minify
 
 
-### Fique avontade em consertar se tiver algo errado. =]
+### Fique a vontade em consertar se tiver algo errado. =]

@@ -1,0 +1,69 @@
+.gerador-certificado {
+  margin: 0 auto;
+  width: 800px;
+  height: 200px;
+  padding-top: 80px;
+}
+.gerador-certificado input {
+  padding: 7px 5px;
+  border: 2px solid #ccc;
+  display: block;
+  height: 40px;
+  width: 510px;
+  padding: 4px;
+  margin: 0 auto 20px auto;
+  font-size: 13px;
+  line-height: 18px;
+  color: #555555;
+  border-radius: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.gerador-certificado .submit {
+  background-color: #333;
+  display: block;
+  padding: 5px 10px 6px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1;
+  border-bottom: 1px solid #222;
+  cursor: pointer;
+  width: 200px;
+}
+.name-existe {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: url(none) center -30px no-repeat;
+  font-family: "Arial", Helvetica, Arial, sans-serif;
+  letter-spacing: -1px;
+}
+.name-existe .container {
+  position: relative;
+}
+.name-existe .image {
+  width: 1000px;
+  margin: 0 auto;
+}
+.name-existe .name {
+  position: absolute;
+  top: 265px;
+  left: 0;
+  font-size: 25px;
+  color: #fff;
+  font-weight: normal;
+  width: 100%;
+  text-align: center;
+}
+.not-exist .alert {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  margin-bottom: 0;
+  background-color: rgba(242, 222, 222, 0.9);
+  border-color: #eed3d7;
+  border-radius: 4px;
+  color: #b94a48;
+  padding: 20px 14px;
+  text-align: center;
+}

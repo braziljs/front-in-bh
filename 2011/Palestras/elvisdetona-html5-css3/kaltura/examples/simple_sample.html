@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple video sample</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!-- Debug version: If using the debug version you can remove all the below js / css references --> 
+    <!--  <script type="text/javascript" src="../mwEmbed.js" ></script>  -->   	 
+  	
+	
+	<!--  Include jQuery --> 	  	
+ 	<script type="text/javascript" src="../jquery-1.4.2.min.js" ></script>
+	<!-- Include the css and javascript -->
+	<style type="text/css">
+    	@import url("../skins/jquery.ui.themes/kaltura-dark/jquery-ui-1.7.2.css");
+	</style>  
+	<style type="text/css">
+		@import url("../mwEmbed-player-static.css");
+	</style>	
+	<script type="text/javascript" src="../mwEmbed-player-static.js" ></script>
+
+	
+</head>
+<body>
+<h3>Simple video sample</h3>
+
+ 
+<video id="vid1" width="480" height="267" 
+	 poster="http://cdn.kaltura.org/apis/html5lib/kplayer-examples/media/bbb480.jpg"
+	 durationHint="33"	 	 
+	 >
+	 	<source src="http://cdn.kaltura.org/apis/html5lib/kplayer-examples/media/bbb_trailer_360p.webm" type="video/webm" />
+		<source	src="http://cdn.kaltura.org/apis/html5lib/kplayer-examples/media/bbb_trailer_iphone270P.m4v" type="video/h264" />
+		<source src="http://cdn.kaltura.org/apis/html5lib/kplayer-examples/media/bbb_trailer_400p.ogv" type="video/ogg" />
+	</video>
+
+ 	 		
+
+</body>
+</html>

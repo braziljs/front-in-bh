@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Custom controls sample</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!-- Debug version: If using the debug version you can remove all the below js / css references --> 
+    <!--  <script type="text/javascript" src="../mwEmbed.js" ></script>  -->   	 	
+	
+	
+	<!--  Include jQuery --> 	
+ 	<script type="text/javascript" src="../jquery-1.4.2.min.js" ></script>
+
+	<!-- Include the css and javascript  -->
+	<style type="text/css">
+    	@import url("../skins/jquery.ui.themes/kaltura-dark/jquery-ui-1.7.2.css");
+	</style>  
+	<style type="text/css">
+		@import url("../mwEmbed-player-static.css");
+	</style>	
+	<script type="text/javascript" src="../mwEmbed-player-static.js" ></script>
+	
+</head>
+<body>
+<h3>Custom controls sample</h3>
+ 
+<video id="vp" style="width:544px;height:304px" 
+		poster="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Elephants_Dream.ogg/seek%3D13-Elephants_Dream.ogg.jpg"
+		durationHint="10:53" 
+		linkback="http://www.elephantsdream.org/" > 	
+		
+	<source type="video/webm" src="http://cdn.kaltura.org/apis/html5lib/kplayer-examples/media/elephants-dream_400p.webm" />	
+	<source type="video/ogg" src="http://cdn.kaltura.org/apis/html5lib/kplayer-examples/media/elephants-dream_400p.ogv" />
+	<source type="video/h264" src="http://cdn.kaltura.org/apis/html5lib/kplayer-examples/media/elephants-dream_iphone.m4v" />			 	
+</video>
+ 	 		
+<script>
+function playerStop() {
+	var player=$j('#vp').get(0);
+	player.stop();
+	$j('#btnPlay').attr("value", "Play");
+}
+
+function playerPause() {
+	var player=$j('#vp').get(0);
+	if (player.paused) {
+		$j('#btnPlay').attr("value", "Pause");
+		player.play();
+	} else {
+		$j('#btnPlay').attr("value", "Play");
+		player.pause();
+	}
+}
+
+function playerSeek() {
+	var val = parseFloat($j('#seekPercent').attr("value"));
+	val = parseInt(val, 10)/100;
+	var player=$j('#vp').get(0);
+	player.doSeek(val);
+}
+function seekPercentChanged() {
+	var val = parseFloat($j('#seekPercent').attr("value"));
+	val = parseInt(val, 10);
+	$j('#btnSeek').attr("value", "Seek to " + val + "%");
+}
+</script>
+		<input type="button" id="btnPlay" onclick="playerPause();" value="Play" />
+		<input type="button" id="btnStop" onclick="playerStop();" value="Stop" />
+
+		<input type="button" id="btnSeek" onclick="playerSeek()" value="Seek to 77%" /><input id="seekPercent" onchange="seekPercentChanged()" type="range" min="0" max="100" step="1" value="77"/>%
+
+
+
+</body>
+</html>

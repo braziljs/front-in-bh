@@ -1,0 +1,277 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+html {
+    background-color:#000;    
+    font: normal 22px "Verdana";
+}
+p {
+  padding: 18px;
+  
+}
+
+section{
+  width: 1100px;
+  height: 500px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background: #FFF;
+
+}
+
+a {
+color:#fff;
+background-color:#000;
+font: normal 22px "Verdana";
+text-decoration:none;
+
+
+}
+
+section.codigo {
+  display:table;  
+}
+
+article{
+  width: 50%;
+  height: 100%;
+  float: left;
+  background: #f2f2f2;
+}
+
+section#item5 li{
+  font-size:18px;
+}
+.bghtml5 {
+    background: #f2f2f2;
+}
+
+ul,h2{
+    margin: 40px 0px 0px 20px;
+}
+
+h2{
+    font-weight:bold;
+}
+
+.jaba{
+    margin:100px 40px 0px 100px;
+}
+
+#container {
+    margin:0;
+    padding:0;
+    width:800px;
+    /*height:600px;*/
+    display: table;
+    position:relative;
+}
+
+
+li{
+    list-style-image: url("../images/star.png");
+    list-style-position:inside;
+}
+
+div {
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+code{
+    font-size:12px;
+    background-color:#ffffff;
+    width:800px;
+    display:table;
+}
+
+h1 {
+    width:1px;
+    height:1px;
+    display: block;
+    position: absolute;
+    overflow:hidden;
+    text-indent:-999999px;
+}
+
+#item1{
+  background: #FFF;
+}
+
+#item1a{
+  background: url("../images/html5a.jpg");  
+}
+
+#item3b{
+  background-image: url("../images/wireframe-html5.png");
+}
+
+
+#item1 {
+	top:234px;
+	left:12px;
+	position:absolute;
+	-webkit-transform: rotate(10deg) translate(0px,0px) scale(0.1);
+	-moz-transform: rotate(10deg) translate(0px,0px)scale(0.1);
+	-o-transform: rotate(10deg) translate(0px,0px) scale(0.1);
+}
+
+#item2 {
+	top:237px;
+	left:450px;
+	position:absolute;
+	-webkit-transform: rotate(-20deg) translate(0px,0px) scale(0.2);
+	-moz-transform: rotate(-20deg) translate(0px,0px)scale(0.2);
+	-o-transform: rotate(-20deg) translate(0px,0px) scale(0.2);
+}
+
+#item3 {
+	top:543px;
+	left:850px;
+	position:absolute;
+	-webkit-transform: rotate(-70deg) translate(0px,0px) scale(0.1);
+	-moz-transform: rotate(-70deg) translate(0px,0px)scale(0.1);
+	-o-transform: rotate(-70deg) translate(0px,0px) scale(0.1);
+}
+
+#item4 {
+	top:50px;
+	left:550px;
+	position:absolute;
+	-webkit-transform: rotate(-215deg) translate(0px,0px) scale(0.2);
+	-moz-transform: rotate(-215deg) translate(0px,0px)scale(0.2);
+	-o-transform: rotate(-215deg) translate(0px,0px) scale(0.2);
+}
+
+#item5 {
+	top:350px;
+	left:150px;
+	position:absolute;
+	-webkit-transform: rotate(100deg) translate(0px,0px) scale(0.2);
+	-moz-transform: rotate(100deg) translate(0px,0px)scale(0.2);
+	-o-transform: rotate(100deg) translate(0px,0px) scale(0.2);
+}
+
+#item6 {
+	top:246px;
+	left:340px;
+	position:absolute;
+	-webkit-transform: rotate(-35deg) translate(0px,0px) scale(0.1);
+	-moz-transform: rotate(-35deg) translate(0px,0px)scale(0.1);
+	-o-transform: rotate(-35deg) translate(0px,0px) scale(0.1);
+}
+
+#item6 {
+	top:106px;
+	left:740px;
+	position:absolute;
+	-webkit-transform: rotate(250deg) translate(0px,0px) scale(0.1);
+	-moz-transform: rotate(250deg) translate(0px,0px)scale(0.1);
+	-o-transform: rotate(250deg) translate(0px,0px) scale(0.1);
+}
+
+#item7 {
+	top:106px;
+	left:40px;
+	position:absolute;
+	-webkit-transform: rotate(80deg) translate(0px,0px) scale(0.1);
+	-moz-transform: rotate(80deg) translate(0px,0px)scale(0.1);
+	-o-transform: rotate(80deg) translate(0px,0px) scale(0.1);
+}
+
+#item8 {
+	top:600px;
+	left:440px;
+	position:absolute;
+	-webkit-transform: rotate(-30deg) translate(0px,0px) scale(0.1);
+	-moz-transform: rotate(-30deg) translate(0px,0px)scale(0.1);
+	-o-transform: rotate(-30deg) translate(0px,0px) scale(0.1);
+}
+
+#item9 {
+	top:500px;
+	left:640px;
+	position:absolute;
+	-webkit-transform: rotate(30deg) translate(0px,0px) scale(0.2);
+	-moz-transform: rotate(30deg) translate(0px,0px)scale(0.2);
+	-o-transform: rotate(30deg) translate(0px,0px) scale(0.2);
+}
+
+#item10 {
+	top:400px;
+	left:350px;
+	position:absolute;
+	-webkit-transform: rotate(167deg) translate(0px,0px) scale(0.1);
+	-moz-transform: rotate(167deg) translate(0px,0px)scale(0.1);
+	-o-transform: rotate(167deg) translate(0px,0px) scale(0.1);
+}
+
+#item12 {
+	top:206px;
+	left:840px;
+	position:absolute;
+	-webkit-transform: rotate(350deg) translate(0px,0px) scale(0.2);
+	-moz-transform: rotate(350deg) translate(0px,0px)scale(0.2);
+	-o-transform: rotate(350deg) translate(0px,0px) scale(0.2);
+}
+
+#item13 {
+	top:306px;
+	left:940px;
+	position:absolute;
+	-webkit-transform: rotate(-350deg) translate(0px,0px) scale(0.1);
+	-moz-transform: rotate(-350deg) translate(0px,0px)scale(0.1);
+	-o-transform: rotate(-350deg) translate(0px,0px) scale(0.1);
+}
+
+#codigob{
+	top:500px;
+	left:600px;
+	position:absolute;
+	-webkit-transform: rotate(-180deg) translate(0px,0px) scale(0.1);
+	-moz-transform: rotate(-180deg) translate(0px,0px)scale(0.1);
+	-o-transform: rotate(-180deg) translate(0px,0px) scale(0.1);
+}
+
+
+

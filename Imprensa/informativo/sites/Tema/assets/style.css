@@ -1,0 +1,377 @@
+/*---------- ESTRUTURA
+----------------------------------------*/
+html {
+	background: #f5f5f5;
+	overflow-x: hidden;
+}
+
+body {
+	font: 10px/1.2em 'Chivo', sans-serif;
+}
+
+.wharper {
+	position: relative;
+	width: 978px;
+	margin: 0 auto;
+}
+
+hr {
+	display: none;
+}
+
+/*---------- REGRAS PARA CLASSES DO WODPRESS
+----------------------------------------*/
+.alignright {
+	float: right;
+	margin: 0 0 15px 15px;
+}
+
+.alignleft {
+	float: left;
+	margin: 0 0 15px 15px;
+}
+
+.aligncenter {
+	float: left;
+	margin: 2% 15%;
+}
+
+.wp-pagenavi {
+	float: left;
+	margin: 20px 0;
+}
+
+/*---------- REGRAS GERAIS
+----------------------------------------*/
+.left {
+	float: left !important;
+}
+
+.right {
+	float: right !important;
+}
+
+.clear {
+	clear: both !important;
+}
+
+/*---------- TIPOGRAFIAS
+----------------------------------------*/
+P {
+	font: 1.2em/1.5em 'Chivo', sans-serif;
+	color: #333;
+}
+
+a {
+	color: #CD3333;
+}
+
+a:hover {
+	color: #FF4500;
+}
+
+h2 {
+	font: bold 3.5em/1.2em 'Coming Soon',arial,sans-serif;
+	color: #FF0000;
+}
+
+	h2 a {
+		text-shadow: 1px 2px 1px #ccc;
+		font: 2em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	}
+
+h3 {
+	font: bold 1.5em/1.2em 'Coming Soon',arial,sans-serif;
+	color: #333;
+	
+}
+
+/*---------- HEADER
+----------------------------------------*/
+.header {
+	float: left;
+	width: 100%;
+	margin: 0 0 20px 0;
+	padding: 20px 0 40px 0;
+	background: #f5f5f5;
+	border-bottom: 1px solid #ccc;
+}
+
+.logo {
+	float: left;
+	width: 315px;
+}
+
+	.logo a {
+	    background: url("../imagens/logo.jpg") no-repeat scroll left top #F5F5F5;
+	    float: left;
+	    font: 2em/1.5em "Chivo",Arial,Helvetica,Geneva,sans-serif;
+	    height: 109px;
+	    margin: 0 0 10px 55px;
+	    text-indent: -9999px;
+	    width: 187px;
+	    margin: 0 0 10px 50px;
+	}
+	
+	.logo span {
+		display: block;
+		float: left;
+		font: 1em/1.5em "Chivo", Arial, Helvetica, Geneva, sans-serif;
+	}
+
+.busca {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 300px;
+}
+
+
+/*---------- NAVEGACAO
+----------------------------------------*/			
+.nav {
+	float: left;
+	width: 960px;
+	margin: 0 auto;
+	border-bottom: 3px solid #CCC
+}
+
+	.nav ul li {
+		float: left;
+		padding: 0 5px 3px 5px;
+		font: normal normal 1.5em/1em "Helveticca";
+	}
+			
+			
+/*---------- CONTEUDO
+----------------------------------------*/
+#content {
+	float: left;
+	width: 100%;
+}
+
+	.conteudo {
+		width: 640px;
+		float: left;
+	}
+	
+		.posts {
+			float: left;
+			width: 610px;
+			padding: 15px;
+			margin: 10px 0 60px 0;
+		}
+		
+			.posts:hover {
+				background: #f5f5f5;
+			}
+		
+			.materia-titulo {
+				float: left;
+				width: 100%;
+				margin: 0 0 20px 0;
+			}
+			
+			.data-postagem {
+				border-top: 1px solid #e5e5e5;
+				float: left;
+				padding: 10px 0 0 0;
+				width: 610px;
+				font-size: .8em;
+				margin: 0 0 30px 0;
+			}
+			
+			.conteudo-posts {
+				float: left;
+				width: 610px;
+			}
+			
+				.conteudo-posts p {
+					margin: 0 0 20px 0;
+				}
+				
+				
+			.tags {
+				float: left;
+				width: 100%;
+				font-size: .7em;
+			}
+			
+			
+.google-adsense {
+    border: 2px solid #ccc;
+    float: left;
+    height: 60px;
+    margin: 0 0 30px 50px;
+    text-align: center;
+    width: 468px;
+}
+
+
+.wp_bannerize_A {
+	float: left;
+	width: 630px;
+	height: 240px;
+	margin: 10px 0 40px 0;
+	position: relative;
+}
+
+	.wp_bannerize_A ul {
+		float: left;
+	}
+	
+		.wp_bannerize_A ul li {
+			float: left;
+			width: 63opx;
+		}
+		
+		
+	.nivo-controlNav {
+		position: absolute;
+		bottom: -20px;
+		left: 50%;
+	}
+	
+		.nivo-controlNav a {
+			text-indent: -9999px;
+			float: left;
+			width: 10px;
+			height: 10px;
+			display: block;
+			background: url('../imagens/buttons.png') no-repeat left top;
+		}
+		
+			.nivo-controlNav a:hover {
+				background: url('../imagens/buttons.png') no-repeat right top;
+			}
+			
+				.nivo-controlNav a.active {
+					background: url('../imagens/buttons.png') no-repeat right top;
+				}
+		
+		
+
+/*---------- SIDEBAR
+----------------------------------------*/
+.sidebar {
+	float: right;
+	width: 300px;
+	margin: 10px 0 0 0;
+}
+
+	.widget-sidebar {
+		float: left;
+		width: 285px;
+		margin: 0 0 50px 0;
+		padding: 10px;
+		background: #f5f5f5;
+	}
+	
+	.widget-sidebar h3 {
+		float: left;
+		width: 100%;
+		margin: 0 0 20px 0;
+		font: bold 1.5em/1.6em 'Coming Soon',arial,sans-serif;
+	}
+
+	.widget-sidebar ul {
+		float: left;
+		width: 300px;
+		list-style: none;
+	}
+	
+		.widget-sidebar ul li {
+			float: left;
+			padding: 20px 10px;
+			width: 250px;
+			border-top: 1px solid #e5e5e5;
+			list-style: none;
+		}
+
+
+/*---------- PRÉ FOOTER
+----------------------------------------*/
+.pre-footer {
+	float: left;
+	width: 100%;
+	padding: 20px 0;
+	background: #EE3B3B;
+}
+
+	.pre-footer a {
+		color: #FFF;
+	}
+	
+		.pre-footer a:hover {
+			color: #333;
+		}
+		
+		.widget-footer {
+		    float: left;
+		    padding: 25px;
+		    width: 275px;
+		}
+		
+			.widget-footer h3 {
+				float: left;
+				width: 100%;
+				margin: 0 0 20px 0;
+				font: bold 1.5em/1.6em 'Coming Soon',arial,sans-serif;
+			}
+		
+			.widget-footer ul {
+				float: left;
+				width: 300px;
+				list-style: none;
+			}
+			
+				.widget-footer ul li {
+					float: left;
+					padding: 15px 10px;
+					width: 270px;
+					border-top: 1px solid #B22222;
+					list-style: none;
+				}
+
+/*---------- FOOTER
+----------------------------------------*/
+.footer {
+	float: left;
+	width: 100%;
+	padding: 20px 0;
+	background: #B22222;
+}
+
+	.copyright {
+		color: #FFF;
+		font-size: .8em;
+		float: left;
+		width: 700px;
+	}
+
+	.footer a {
+		color: #FFF;
+		font-size: 1em;
+	}
+	
+		.footer a:hover {
+			color: #FF6347;
+			text-decoration: underline;
+		}
+ 		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

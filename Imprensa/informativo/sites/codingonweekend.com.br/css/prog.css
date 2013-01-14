@@ -1,0 +1,303 @@
+
+/***********
+	CSS RESET
+************/
+* {	margin: 0;	padding: 0;	list-style: none;	border: 0;	text-decoration: none;}
+img, input, label {vertical-align: middle;}
+h1, h2, h3, h4, h5, h6 {font-size:100%; line-height:1em;}
+
+/* just for acessibility */
+.jfa {position:absolute; left:0px;top:0px; width:0px; height:0px; visibility:hidden;}
+
+/* align */
+.right{display: inline; float:right !important;}
+.left{display: inline; float:left !important;}
+.alpha {margin-left:0 !important;padding-left:0 !important;}
+.omega {margin-right:0 !important;padding-right:0 !important;}
+.clear {clear:both !important;}
+.tx-right {text-align: right;}
+.tx-left {text-align: left;}
+.imgright{display: inline; float:right !important;margin-left: 10px;margin-bottom: 10px;}
+.imgleft{display: inline; float:left !important;margin-right: 10px;margin-bottom: 10px;}
+
+/* border and corner radius */
+.corner {-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;}
+.top-corner {-moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;}
+.bottom-corner {-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;}
+
+
+/* separator */
+.sep {margin-bottom: 40px !important;}
+hr {display: none;}
+
+/* fixing firefox bug */
+html:after, div:after, ol:after, li:after, form:after, ul:after, dl:after {content:".";display:block;clear:both;visibility:hidden;height:0;overflow:hidden;}
+
+
+/***********
+	TEXT ELEMENTS
+************/
+h1, h2, h3, h4 {
+	font-size:2.6em;
+	line-height:1.2em;
+	font-weight: normal;
+	margin-bottom:.8em;
+	letter-spacing: -.03em;
+	color:#2b2b2b;
+	text-transform: uppercase;
+	font-family: 'Coming Soon', arial, sans-serif;
+}
+h1 {
+	font-size:3em;
+	margin-bottom:.4em;
+}
+h3 {
+	font-size:1.6em;
+	margin-bottom:.4em;
+	font-weight: bolder;
+}
+h4 {font-size:2em;}
+p {
+	font-size:1.6em;
+	line-height: 1.3em;
+	font-weight: normal;
+	margin-bottom:2em;
+	letter-spacing: -.015em;
+	color:#777;
+}
+
+
+
+/***********
+	STRUCTURE
+************/
+html {background: #fff;}
+body {
+	background:#fff;
+	font: normal normal 10px/ 1.2em arial;
+	color:#777;
+}
+.wrapper {
+	width:960px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.header {	
+	background: #c5e568 url(../img/bg-page.png) repeat-x center bottom;
+	border-bottom:1px solid #b4d557;
+}
+.content {	
+	background: #f5f5f5;
+	padding:30px 20px 60px;
+}
+
+.benefits {
+	clear:both;
+	height:auto;
+	background:#fff url(../img/bg-benefits.jpg) repeat-x left top;
+	position:relative;
+	top:-27px;
+	z-index:1;
+	padding: 80px 0 40px;
+}
+.seminarist {
+	clear:both;
+	height:auto;
+	background:#2b2b2b;
+	padding:30px 0;
+}
+.partners {
+	clear:both;
+	height:auto;
+	background:#f7fcfe;
+	padding:60px 0;
+}
+
+/***********
+	HEADER
+************/
+.header .wrapper {
+	padding: 30px 0;
+	background:transparent url(../img/cow.png) no-repeat left 30px;
+}
+.header h1 {margin-left:320px;}
+.header p {
+	margin-left:320px;
+	padding:10px;
+	background:rgba(0,0,0,.1);
+	margin-top:-.2em;
+	color:#2b2b2b;
+	margin-bottom:0;
+	/* radius */
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px; 
+}
+.header p a{
+	color:#fff;
+}
+
+
+
+/***********
+	PROG
+************/
+
+.content ol {
+	list-style: inside decimal;
+	margin-bottom:4em;
+}
+.content ol>li {
+	font-size:2em;
+	color:#2b2b2b;
+	list-style: inside decimal;
+	margin-bottom:1em;
+}
+.content ol>li ul {
+	margin-top:.5em;
+	margin-left:23px;
+}
+.content ol>li li {
+	font-size: .8em;
+	color:#777;
+	line-height:1.4em;
+	margin-bottom:.5em;
+	list-style: inside disc;
+}
+
+
+
+
+.content form {
+	float:left;
+	display: inline-block;
+	width: 375px;
+}
+.content .vagas {
+	float:left;
+	display: block;
+	width:175px;
+	height:80px;
+	font-size:3.6em;
+	line-height:1em;
+	color:#bbb;
+	text-align:right;
+	padding:10px 30px;
+	margin-right:30px;
+	border-right:1px solid #e9e9e9;
+}
+.content .vagas span{
+	display: block;
+	height:auto;
+	color:#999;
+}
+.content .date-local {
+	float:left;
+	display: block;
+	height:80px;
+	width:225px;
+	font-size:1.6em;
+	line-height:1.2em;
+	color:#999;
+	padding:10px 30px;
+	margin-left:30px;
+	border-left:1px solid #e9e9e9;
+}
+.content .date-local address{
+	font-style: normal;
+	color:#999;
+	margin-bottom:.6em;
+}
+.content .date-local a{
+	font-size:.8em;
+	color:#2b2b2b;
+	text-decoration: underline;
+}
+.date-local a:hover {color:#bfde66 !important;}
+
+
+
+
+
+
+
+/***********
+	BENEFITS
+************/
+.informacao {margin-bottom:40px;}
+.informacao h2 {margin-bottom:.3em;}
+.informacao p {margin-bottom:1em;}
+.informacao p strong {color:#2b2b2b;}
+.informacao a{text-decoration: underline;color:#bfde66;}
+.benefits ul {}
+.benefits ul li {
+	float:left;
+	width:226px;
+	height:100%;
+	padding-left: 74px;
+	padding-right:14px;
+	border-right:1px solid #e9e9e9;
+	margin-right:15px;
+}
+.benefits ul li:last-child {
+	padding-right:0;
+	border-right:none;
+	margin-right:0;
+}
+.benefits ul li p{
+	font-size:1.3em;
+	margin:0;
+}
+.ben-01 {background:transparent url(../img/icon-certificado.png) no-repeat left top;}
+.ben-02 {background:transparent url(../img/icon-pratica.png) no-repeat left top;}
+.ben-03 {background:transparent url(../img/icon-material.png) no-repeat left top;}
+
+
+
+
+
+/***********
+	SEMINARIST
+************/
+.seminarist img {
+	float:left;
+	margin-right: 30px;
+}
+.seminarist div div {
+	float: left;
+	height:100%;
+	width:760px;
+}
+.seminarist h2 {
+	font-size:2.8em;
+	letter-spacing: 0;
+	color:#ccc;
+	margin-bottom:.2em;
+	font-family: 'Coming Soon', arial, sans-serif;
+}
+.seminarist p {
+	font-size:1.3em;
+	line-height: 1.4em;
+	color:#bbb;
+	margin-bottom:.8em;
+}
+.seminarist h2 a{color:#e9e9e9;}
+.seminarist h2 a:hover, .seminarist h2 a:focus{text-decoration: underline;color:#bfde66;}
+
+
+
+
+
+
+
+/***********
+	PARTNERS
+************/
+.partners ul {
+	margin-left: -50px;
+}
+.partners li {
+	width:200px;
+	float:left;
+	margin: 0 0 50px 50px;
+}

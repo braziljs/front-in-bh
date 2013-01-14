@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'NovecentowideDemiBoldRegular';
+    src: url('novecentowide-demibold-webfont.eot');
+    src: url('novecentowide-demibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('novecentowide-demibold-webfont.woff') format('woff'),
+         url('novecentowide-demibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'NovecentowideLightRegular';
+    src: url('novecentowide-light-webfont.eot');
+    src: url('novecentowide-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('novecentowide-light-webfont.woff') format('woff'),
+         url('novecentowide-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'NovecentowideMediumRegular';
+    src: url('novecentowide-medium-webfont.eot');
+    src: url('novecentowide-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('novecentowide-medium-webfont.woff') format('woff'),
+         url('novecentowide-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

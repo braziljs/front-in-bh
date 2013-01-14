@@ -1,4 +1,4 @@
-  <title itemprop="name">Front in Maceió 2012</title>
+  <title itemprop="name">Front in BH 2012 | Gere seu certificado</title>
   <meta charset="utf-8">
 
   <!--[if lt IE 7]>

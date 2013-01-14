@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Não encontramos seu nome</title>
 </head>
 <body>
   <h1>Não encontramos seu nome em nossa lista, por favor entre em contato conosco</h1>

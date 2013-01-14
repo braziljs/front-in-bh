@@ -242,6 +242,7 @@
                         "rhoperacoes@locaweb.com.br"=>  "RONILDO COSTA DE SOUSA",
                         "roque@gmail.com"=> "Roque Diego Viana",
                         "rosianesrocha@gmail.com"=> "Rosiane da Silveira Rocha",
-                        "ruanrm@gmail.com"=> " Ruan Mér"
+                        "ruanrm@gmail.com"=> " Ruan Mér",
+                        "diego92ms@gmail.com"=> "Diego Magalhães Soares"
                   );
 ?>

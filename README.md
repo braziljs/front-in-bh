@@ -1,4 +1,6 @@
-frontinbh-website
+Front in BH
 =================
 
-website do frontinbh 2012 - www.frontinbh.com.br
+Frontend development conference for team leads, developers, and project management. Based in Belo Horizonte, Brazil.
+
+- www.frontinbh.com.br

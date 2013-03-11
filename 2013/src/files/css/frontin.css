@@ -415,12 +415,19 @@ z-index: 999;
   height: 75px;
   border: 1px solid #ccc;
   padding: 15px 25px;
+  position: relative;
 }
 
 .sponsor-item img {
   /*width: 150px;*/
 }
 
+.conta-sponsor {
+position: absolute;
+top: -25px;
+text-align: center;
+width: 65%;
+}
 
 /* =============================================================================
    CONTATO

@@ -412,10 +412,13 @@ z-index: 999;
 .sponsor-item {
   display: inline-block;
   margin: 20px 20px 30px 0;
+  height: 75px;
+  border: 1px solid #ccc;
+  padding: 15px 25px;
 }
 
 .sponsor-item img {
-  width: 150px;
+  /*width: 150px;*/
 }
 
 

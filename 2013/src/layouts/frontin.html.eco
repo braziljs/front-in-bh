@@ -95,11 +95,11 @@
           </div>
       </div>
 
-      <div class="sponsors division">
+      <!-- <div class="sponsors division">
         <div class="row wrapper">
           <%- @partial("section/schedule-front-in-bh.html.eco", @) %>
         </div>
-      </div>
+      </div> -->
 
       <div class="sponsors division">
         <div class="row wrapper">

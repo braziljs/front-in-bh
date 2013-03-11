@@ -113,6 +113,40 @@
         </div>
       </div>
 
+      <div class="organization division">
+        <div class="row wrapper">
+          <h2 class="section-title">Organizado por</h2>
+
+          <span>
+            <img src="img/giovanni.jpg" alt="Giovanni Keppelen">
+            <em>Giovanni Keppelen</em>
+          </span>
+
+          <span>
+            <img src="img/giovanni.jpg" alt="Giovanni Keppelen">
+            <em>Davidson Felipe</em>
+          </span>
+
+        </div>
+      </div>
+
+      <div class="organization division">
+        <div class="row wrapper">
+          <h2 class="section-title">Apresentado por</h2>
+
+          <span>
+            <img src="img/giovanni.jpg" alt="Giovanni Keppelen">
+            <em>Bernard de luna</em>
+          </span>
+
+          <span>
+            <img src="img/giovanni.jpg" alt="Giovanni Keppelen">
+            <em>Zeno Rocha</em>
+          </span>
+
+        </div>
+      </div>
+
     </section><!-- content -->
 
 

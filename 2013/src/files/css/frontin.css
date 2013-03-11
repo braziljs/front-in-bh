@@ -53,9 +53,10 @@ h2 {
   font-size:2em
 }
 h3, .section-title {
-  font-size: 3.5em;
+  font-size: 4.5em;
   color: #333;
   margin-bottom: 25px;
+  text-align: center;
 }
 .wrapper {
   width:960px;
@@ -66,7 +67,6 @@ h3, .section-title {
   float:left;
   width:100%;
   box-shadow:0 0 0 1px #ccc;
-  padding:15px 0
 }
 .logo {
   float:left;
@@ -396,16 +396,17 @@ z-index: 999;
 }
 
 .footer {
-  /*background: #e7215f;*/
-  padding: 55px 0;
+  background: #ccc;
+  padding: 25px 20px 0;
   text-align: center;
   float: left;
   width: 100%;
   color: #000;
+  margin: 0px !important;
 }
 
   .footer a {
-    color: #ccc;
+    color: #333;
   }
 
 
@@ -526,3 +527,41 @@ width: 65%;
 .schedule-slot {color:#2b2b2b;}
 .schedule-tbl tbody tr:hover {background:#fffde1;}
 .schedule-coffee, .schedule-closing, .schedule-lunch, .schedule-other {color:#214f87;}
+
+
+.organization {
+  background: #e7215f;
+  padding: 35px 0;
+  color: #FFF !important;
+  margin-bottom: 0px !important;
+}
+
+.organization h2 {
+  color: #FFF;
+}
+
+.organization span {
+  position: relative;
+  left: 30%;
+  float: left;
+  margin-right: 90px;
+  text-align: center;
+}
+
+.organization img {
+  border-radius: 50%;
+}
+
+.organization em {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+

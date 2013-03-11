@@ -46,7 +46,7 @@ module.exports =
       about: "Sobre"
       location: "Localização"
       speakers: "Palestrantes"
-      schedule: "Patrocinadores"
+      schedule: "Agenda"
       sponsors: "Apoio"
       partners: "Partners"
       contact: "Contato"
@@ -67,6 +67,18 @@ module.exports =
         title: "Comunidades e seu poder sobre mundo Open source ou não"
         description: "O grande poder das comunidades, como isso pode influenciar em sua carreira profissional e particular, e o retorno e felicidade que pode se ter em sua vida."
         time: "10h00"
+    ,
+      name: "Giovanni Keppelen"
+      photo: "giovanni.jpg"
+      bio: "Co-funder da BrazilJS Foundation, idealizador e organizador do Front In BH,  Rio.JS. Já foi Frontend Engineer no Peixe Urbano, hoje é Cordenador Frontend na Mobicare. Graduando em Produção Multimídia pela UNI-BH."
+      company: "Mobicare"
+      twitter: "keppelen"
+      github: "keppelen"
+      personal: "bygiovanni.com.br"
+      presentation:
+        title: "Comunidades e seu poder sobre mundo Open source ou não"
+        description: "O grande poder das comunidades, como isso pode influenciar em sua carreira profissional e particular, e o retorno e felicidade que pode se ter em sua vida."
+        time: "11h00"
     ]
 
     # List of Sponsors

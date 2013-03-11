@@ -97,6 +97,12 @@
 
       <div class="sponsors division">
         <div class="row wrapper">
+          <%- @partial("section/schedule-front-in-bh.html.eco", @) %>
+        </div>
+      </div>
+
+      <div class="sponsors division">
+        <div class="row wrapper">
           <%- @partial("section/sponsors-front-in.html.eco", @) %>
         </div>
       </div>

@@ -1,0 +1,37 @@
+<h2 class="section-title"><%= @labels['schedule'] %></h2>
+<div class="schedule-tbl">
+  <table>
+    <thead>
+      <tr>
+        <th class="schedule-time">Horário</th>
+        <th class="schedule-slot">Palestrante</th>
+        <th class="schedule-description">Descrição Palestra</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <% for slot in @schedule: %>
+        <% if slot.presentation: %>
+          <tr>
+            <td class="schedule-time"><%= slot.presentation.time %></td>
+            <td class="schedule-slot">
+            <% if slot.photo: %>
+              <span class="speaker-photo">
+                <img class="photo" src="img/<%= slot.photo %>" alt="<%= slot.name %>">
+              </span>
+            <% end %>
+            </td>
+            <td class="schedule-description"><%= slot.presentation.description %></td>
+          </tr>
+        <% else: %>
+          <tr class="schedule-other">
+            <td class="schedule-time"><%= slot.time %></td>
+            <td class="schedule-slot"><%= slot.name %></td>
+            <td class="schedule-description">-</td>
+          </tr>
+        <% end %>
+      <% end %>
+
+    </tbody>
+  </table>
+</div>

@@ -24,9 +24,9 @@ module.exports =
       url: "http://confboilerplate.com"
       googleanalytics: "UA-33656081-1"
       images:
-        cover: "http://www.wfotografias.com.br/wp-content/gallery/beaga/destaque_bh-6-of-14.jpg"
+        cover: "baile-musica.jpg"
         facebook: "http://braziljs.org/img/fb-share.jpg"
-        logo: "img/logo.png"
+        logo: "logo.png"
 
     # Active sections on the website
     # to deactivate comment out with '#'
@@ -57,7 +57,7 @@ module.exports =
       time: "9h00"
     ,
       name: "Giovanni Keppelen"
-      photo: "https://raw.github.com/braziljs/foundation/master/img/avatar/giovanni.jpg"
+      photo: "giovanni.jpg"
       bio: "Co-funder da BrazilJS Foundation, idealizador e organizador do Front In BH,  Rio.JS. Já foi Frontend Engineer no Peixe Urbano, hoje é Cordenador Frontend na Mobicare. Graduando em Produção Multimídia pela UNI-BH."
       company: "Mobicare"
       twitter: "keppelen"
@@ -72,16 +72,12 @@ module.exports =
     # List of Sponsors
     sponsors: [
       name: "Eventick"
-      logo: "http://eventick.com.br/assets/eventick-logo-header.png"
+      logo: "eventick-logo-header.png"
       url: "http://eventick.com.br"
     ,
       name: "Globo.com"
-      logo: "img/globo.png"
+      logo: "globo.png"
       url: "http://globo.com"
-    ,
-      name: "BrazilJS"
-      logo: "http://f.cl.ly/items/2N3i2W0X2f3c2g2Z2N0f/Untitled-1.png"
-      url: "http://braziljs.org"
     ]
 
     # List of Partners

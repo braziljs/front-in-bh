@@ -11,8 +11,8 @@ module.exports =
     conf:
       name: "Front In BH 2013"
       description: "Maior evento de Front-end do Brasil"
-      date: "13 Julho"
-      price: "R$ 50,00"
+      date: "3 Agosto 2013"
+      price: "R$ 60,00"
       venue: "UNI-BH Teatro Ney Soares"
       address: "UNI-BH, Rua Diamantina, lagoinha, Belo Horizonte, Minas Gerais"
       city: "Belo Horizonte"
@@ -21,8 +21,8 @@ module.exports =
 
     # Site info
     site:
-      url: "http://confboilerplate.com"
-      googleanalytics: "UA-33656081-1"
+      url: "http://frontinbh.com.br"
+      googleanalytics: "UA-23535591-1"
       images:
         cover: "baile-musica.jpg"
         facebook: "http://braziljs.org/img/fb-share.jpg"

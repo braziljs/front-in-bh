@@ -1,0 +1,132 @@
+<section class="content home">
+
+      <div class="about division">
+        <div class="row wrapper">
+          <%- @partial("section/about-front-in.html.eco", @) %>
+        </div>
+      </div>
+
+
+      <div class="speakers division">
+          <div class="row wrapper">
+              <h3><%= @labels['speakers'] %></h3>
+
+              <% for speaker in @schedule: %>
+                <% if speaker.presentation: %>
+
+                  <div class="col6 list-speaker">
+                    <div class="col1 img-speaker">
+                      <img src="img/mask.png" class="speaker-mask" alt="">
+                      <img src="img/<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image" class="speaker-img">
+                      <div class="social">
+                      <% if speaker.twitter: %>
+                        <a target="_blank" href="https://twitter.com/<%= speaker.twitter %>" class="twitter">
+                          <img src="img/twitter-icon.png" alt="Twitter Icon">
+                        </a>
+                      <% end %>
+
+                      <% if speaker.github: %>
+                        <a target="_blank" href="https://github.com/<%= speaker.github %>" class="github">
+                          <img src="img/github-icon.png" alt="Github Icon">
+                        </a>
+                      <% end %>
+
+                      <% if speaker.personal: %>
+                        <a target="_blank" href="http://<%= speaker.personal %>" class="personal">
+                          <img src="img/personal-icon.png" alt="Personal Website Icon">
+                        </a>
+                      <% end %>
+                      </div><!-- /Social -->
+                    </div><!-- img-speaker -->
+
+                    <div class="col5 desc-speaker">
+                      <h2><span><%= speaker.name %> /</span> <%= speaker.presentation.title %></h2>
+                      <div id="content">
+                      <p id="talk" class="talk-description">
+                          <%= speaker.presentation.description %>
+                      </p>
+                      <p id="bio" class="bio hide" >
+                        <%= speaker.bio %>
+                      </p>
+                    </div>
+                    </div>
+
+                    <div id="tabs" class="nav">
+                      <a href="#talk" class="btn talk-btn current">Palestra</a>
+                      <a href="#bio" class="btn bio-btn">Biografia</a>
+                    </div>
+
+                  </div><!-- /col6 speaker list -->
+
+                <% end %>
+              <% end %>
+          </div>
+      </div>
+
+      <!-- <div class="sponsors division">
+        <div class="row wrapper">
+          <%- @partial("section/schedule-front-in-bh.html.eco", @) %>
+        </div>
+      </div> -->
+
+      <div class="organization division">
+        <div class="row wrapper">
+          <h2 class="section-title">Organizado por</h2>
+
+          <span>
+            <img src="img/giovanni.jpg" alt="Giovanni Keppelen">
+            <em>Giovanni Keppelen</em>
+          </span>
+
+          <span>
+            <img src="img/davidson.jpg" alt="Davidson Felipe">
+            <em>Davidson Felipe</em>
+          </span>
+
+        </div>
+      </div>
+
+      <div class="organization division">
+        <div class="row wrapper">
+          <h2 class="section-title">Apresentado por</h2>
+
+          <span>
+            <img src="img/bernard.jpg" alt="Bernard de Luna">
+            <em>Bernard de luna</em>
+          </span>
+
+          <span>
+            <img src="img/zeno.jpg" alt="Zeno Rocha">
+            <em>Zeno Rocha</em>
+          </span>
+
+        </div>
+      </div>
+
+      <div class="sponsors division">
+        <div class="row wrapper">
+
+        </div>
+      </div>
+
+      <div class="sponsors division">
+        <div class="row wrapper">
+          <%- @partial("section/partners-front-in-bh.html.eco", @) %>
+        </div>
+      </div>
+
+      <div class="sponsors division">
+        <div class="row wrapper">
+          <%- @partial("section/sponsors-front-in.html.eco", @) %>
+        </div>
+      </div>
+
+    </section><!-- content -->
+
+
+    <footer class="footer">
+      <div class="wrapper">
+        <p>© Front In BH 2013 – Desing and Code by <a href="http://bygiovanni.com.br" title="Giovanni Keppelen">Giovanni Keppelen </a> and <a href="http://confboilerplate.com/" title="Conf Boilerplate">using conf boilerplate</a></p>
+      </div>
+    </footer>
+  </div>

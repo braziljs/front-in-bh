@@ -1,4 +1,11 @@
 <h2 class="section-title"><%= @labels['sponsors'] %></h2>
+
+<div class="sponsors-contact">
+    <h3>que tal sua <em>empresa</em> no <span>front in BH?</span></h3>
+    <p>Sua empresa quer patrocinar ou apoiar o <span>Front in BH</span>, fale com a gente: 
+    <a href="mailto:contato2013@frontinbh.com.br" title="contato2013@frontinbh.com.br">contato2013@frontinbh.com.br</a></p>
+</div>
+
 <ul class="sponsors-list">
 
 <% for sponsor in @sponsors: %>

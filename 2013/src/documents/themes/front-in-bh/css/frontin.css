@@ -535,16 +535,43 @@ width: 65%;
 
 
 .organization {
-  background: #e7215f;
   padding: 35px 0;
-  color: #FFF !important;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
+  position: relative;
   float: left;
   width: 100%;
+  border-bottom: 1px solid #e7e7e7;
+  background: #f5f5f5 -webkit-linear-gradient(top, rgba(0,0,0,.1) -10px, transparent 50%) repeat-x;
+Invalid property value.background: #f5f5f5 -moz-linear-gradient(top, rgba(0,0,0,.1) -10px, transparent 50%) repeat-x;
+background: #f5f5f5 linear-gradient(to bottom, rgba(0,0,0,.1) -10px, transparent 50%) repeat-x;
+background-size: auto 100px;
+}
+
+.ticktes {
+  background: #f5f5f5 !important;
+  margin-top: -30px;
+  padding-top: 60px;
+}
+
+.ticktes .section-title {
+  margin-bottom: 40px;
+}
+
+.ticktes:before {
+content: "";
+display: block;
+height: 21px;
+width: 22px;
+position: absolute;
+z-index: 5;
+bottom: -18px;
+left: 50%;
+margin-left: -11px;
+background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
 }
 
 .organization h2 {
-  color: #FFF;
+  color: #000;
 }
 
 .organization span {
@@ -572,3 +599,31 @@ width: 65%;
 
 
 
+
+.sponsors-contact {
+  width: 270px;
+  float:left;
+  margin-right: 30px;
+}
+
+.sponsors-contact h3 {
+  font-size: 1.8em;
+text-transform: uppercase;
+text-align: left;
+margin-bottom: 5px;
+}
+
+.sponsors-contact  h3 span {
+  color: #cc2154;
+}
+.sponsors-contact p {
+  font-size: 1em;
+}
+
+.finaldiv {
+  margin-bottom: 0px;
+}
+
+span {
+  font-weight: bold;
+}

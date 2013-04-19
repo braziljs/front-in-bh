@@ -16,7 +16,7 @@
   <meta property="og:url" content="<%= @site.url %>">
   <meta property="og:title" content="<%= @conf.name %>">
   <meta property="og:description" content="<%= @conf.description %>">
-  <meta property="og:image" content="<%= @getTheme() %>/img/badge.jpg">
+  <meta property="og:image" content="http://frontinbh.com.br/facebook/facebook.png">
   <!-- / FACEBOOK -->
 
   <link rel="shortcut icon" href="<%= @getTheme() %>/img/favicon.ico" type="image/x-icon">
@@ -45,14 +45,14 @@
               <em>
                 <%= @conf.date %> - <%= @conf.venue %> / <%= @conf.city %> - <%= @conf.state %>
               </em>
-              <a class="" title="cadasre-se" href="<%= @conf.eventick %>" target="_blank"><img src="/themes/front-in-bh/img/purchase.png" alt=""></a>
+              <a class="" title="cadasre-se" href="#ticktes"><img src="/themes/front-in-bh/img/purchase.png" alt=""></a>
             </span>
           </article>
         </div><!-- /wrapper -->
     </div>
 
 
-    <section class="content home">
+    <!-- <section class="content home">
 
       <div class="speakers division">
           <div class="row wrapper">
@@ -82,8 +82,8 @@
                           <img src="/themes/front-in-bh/img/personal-icon.png" alt="Personal Website Icon">
                         </a>
                       <% end %>
-                      </div><!-- /Social -->
-                    </div><!-- img-speaker -->
+                      </div>
+                    </div>
 
                     <div class="col5 desc-speaker">
                       <h2><span><%= speaker.name %> /</span> <%= speaker.presentation.title %></h2>
@@ -102,35 +102,38 @@
                       <a href="#bio" class="btn bio-btn current">Biografia</a>
                     </div>
 
-                  </div><!-- /col6 speaker list -->
+                  </div>
 
                 <% end %>
               <% end %>
           </div>
-      </div>
+      </div> -->
 
       <div class="organization division">
         <div class="row wrapper">
           <h2 class="section-title">Apresentado por</h2>
 
           <span>
-            <img src="/themes/front-in-bh/img/bernard.jpg" alt="Bernard de Luna">
+            <a href="https://twitter.com/bernarddeluna" title="Bernard de luna" target="_blank"><img src="/themes/front-in-bh/img/bernard.jpg" alt="Bernard de Luna"></a>
             <em>Bernard de luna</em>
           </span>
 
           <span>
-            <img src="/themes/front-in-bh/img/zeno.jpg" alt="Zeno Rocha">
+            <a href="https://twitter.com/zenorocha" title="Zeno Rocha" target="_blank"><img src="/themes/front-in-bh/img/zeno.jpg" alt="Zeno Rocha"></a>
             <em>Zeno Rocha</em>
           </span>
 
         </div>
       </div>
 
-      <!-- <div class="location division">
+      <div class="organization ticktes division" id="ticktes">
         <div class="row wrapper">
-          <%- @partial("section/location.html.eco", @) %>
+        <h2 class="section-title">Garanta já seu ingresso :)</h2>
+
+          <iframe src="http://www.eventick.com.br/FrontInBH2013/embedded" frameborder="0" height="250px" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="0" scrolling="auto" allowtransparency="true"></iframe>
+
         </div>
-      </div> -->
+      </div>
 
       <div class="sponsors division">
         <div class="row wrapper">
@@ -138,14 +141,31 @@
         </div>
       </div>
 
+      <div class="organization finaldiv division">
+        <div class="row wrapper">
+          <h2 class="section-title">Organizado por</h2>
+
+          <span>
+            <a href="https://twitter.com/davidsonFellipe" title="Davidson Felipe" target="_blank"><img src="/themes/front-in-bh/img/davidson.jpg" alt="Davidson Felipe"></a>
+            <em>Davidson Fellipe</em>
+          </span>
+
+          <span>
+            <a href="https://twitter.com/keppelen" title="Giovanni Keppelen" target="_blank"><img src="/themes/front-in-bh/img/giovanni.jpg" alt="Giovanni Keppelen"></a>
+            <em>Giovanni Keppelen</em>
+          </span>
+
+        </div>
+      </div>
+
     </section><!-- content -->
 
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="wrapper">
         <p>© Front In BH 2013 – <a href="http://confboilerplate.com/" title="Conf Boilerplate">Orgulhosamente desenvolvido com conf boilerplate</a></p>
       </div>
-    </footer>
+    </footer> -->
   </div>
 
   <script src="themes/front-in-bh/js/jquery.js"></script>
@@ -159,7 +179,7 @@
           height = $(window).height();
 
       $(".cover").css( 'height', height ).css(  'width', width );
-      $(".header").css( 'height', height).css("margin-bottom", "100px") ;
+      $(".header").css( 'height', height);
     })
   </script>
 

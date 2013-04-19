@@ -29,7 +29,7 @@
   <div class="global">
 
     <div class="header">
-      <img src="img/<%= @site.images.cover %>" alt="<%= @conf.name %>" class="cover">
+      <!--<img src="img/<%= @site.images.cover %>" alt="<%= @conf.name %>" class="cover">-->
       <div class="wrapper">
           <h1>
             <a href="#" class="logo" title="<%= @conf.name %>">
@@ -50,13 +50,6 @@
     
     
     <section class="content home">
-
-      <div class="about division">
-        <div class="row wrapper">
-          <%- @partial("section/about-front-in.html.eco", @) %>
-        </div>
-      </div>
-
 
       <div class="speakers division">
           <div class="row wrapper">
@@ -114,29 +107,6 @@
           </div>
       </div>
 
-      <!-- <div class="sponsors division">
-        <div class="row wrapper">
-          <%- @partial("section/schedule-front-in-bh.html.eco", @) %>
-        </div>
-      </div> -->
-
-      <div class="organization division">
-        <div class="row wrapper">
-          <h2 class="section-title">Organizado por</h2>
-
-          <span>
-            <img src="img/giovanni.jpg" alt="Giovanni Keppelen">
-            <em>Giovanni Keppelen</em>
-          </span>
-
-          <span>
-            <img src="img/davidson.jpg" alt="Davidson Felipe">
-            <em>Davidson Felipe</em>
-          </span>
-
-        </div>
-      </div>
-
       <div class="organization division">
         <div class="row wrapper">
           <h2 class="section-title">Apresentado por</h2>
@@ -151,24 +121,6 @@
             <em>Zeno Rocha</em>
           </span>
 
-        </div>
-      </div>
-
-      <div class="sponsors division">
-        <div class="row wrapper">
-
-        </div>
-      </div>
-
-      <div class="sponsors division">
-        <div class="row wrapper">
-          <%- @partial("section/partners-front-in-bh.html.eco", @) %>
-        </div>
-      </div>
-
-      <div class="sponsors division">
-        <div class="row wrapper">
-          <%- @partial("section/sponsors-front-in.html.eco", @) %>
         </div>
       </div>
 

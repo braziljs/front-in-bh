@@ -68,6 +68,11 @@ h3, .section-title {
   width:100%;
   box-shadow:0 0 0 1px #ccc;
 }
+.header{
+  background: url(img/baile-musica.jpg) center center no-repeat;
+  background-size: cover;
+  height: 1080px;
+}
 .logo {
   float:left;
   width: 100%;

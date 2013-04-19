@@ -1,6 +1,6 @@
-Front in BH
-=================
+![ScreenShot](http://frontinbh.com.br/readme.png)
 
-Frontend development conference for team leads, developers, and project management. Based in Belo Horizonte, Brazil.
+
+##Frontend development conference for team leads, developers, and project management. Based in Belo Horizonte, Brazil.
 
 - www.frontinbh.com.br

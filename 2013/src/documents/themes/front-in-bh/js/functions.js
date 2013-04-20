@@ -8,8 +8,7 @@ $(document).ready(function(){
    });
 
    $(".header").css({
-      'height': height,
-      'margin-bottom' : '100px'
+      'height': height
    });
 
    $(".list-speaker").organicTabs();

@@ -30,7 +30,7 @@
 <body>
    <div class="global">
       <div class="header">
-         <img src="/themes/front-in-bh/img/baile-musica.jpg" alt="<%= @conf.name %>" class="cover">
+         <!-- <img src="/themes/front-in-bh/img/baile-musica.png" alt="<%= @conf.name %>" class="cover"> -->
          <div class="wrapper">
             <h1>
                <a href="#" class="logo" title="<%= @conf.name %>">

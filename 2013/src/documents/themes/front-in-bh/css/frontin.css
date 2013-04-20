@@ -58,6 +58,8 @@ h3, .section-title {
   margin-bottom: 25px;
   text-align: center;
 }
+.global{width: 100%;overflow: hidden;}
+
 .wrapper {
   width:960px;
   margin:auto
@@ -68,14 +70,20 @@ h3, .section-title {
   width:100%;
   box-shadow:0 0 0 1px #ccc;
 }
-.header{
-  background: url(img/baile-musica.jpg) center center no-repeat;
+
+.header {
+  background: url(/themes/front-in-bh/img/baile-musica-blur.png)center center no-repeat;
   background-size: cover;
-  height: 1080px;
+  background-attachment: fixed;
+
 }
 .logo {
   float:left;
   width: 100%;
+}
+
+.logo img{
+  width: 81%;
 }
 
 .header .wrapper {
@@ -325,14 +333,13 @@ input.error {
   text-align: center;
   position: relative;
 }
-
 .row .desc-speaker {
   width: 720px;
   margin-right: 0;
 }
 
 .desc-speaker h2 {
-  font-size: 2.5em;
+  font-size: 2.4em;
   margin-bottom: 25px;
 }
 
@@ -405,7 +412,7 @@ z-index: 999;
   padding: 25px 20px 0;
   text-align: center;
   float: left;
-  width: 100%;
+  width: 98%;
   color: #000;
   font-size: 12px;
   margin: 0px !important;
@@ -595,6 +602,29 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
 
 
 
+/* =======================================================================
+  Mobile
+========================================================================== */
+
+@media only screen and (min-width: 0px) and (max-width: 767px){
+  .wrapper{width: 100%;top: 4em!important;}
+  .header h3 {font-size: 2em;width: 77%;display: inline-block;}
+  .infos-header span em{line-height: 1.2em;padding-top: 1em;width: 73%;display: inline-block;}
+  #selo-link{width: 90%;}
+  .row .img-speaker{float: none; display: inline-block;}
+  .speakers{text-align: center;}
+  .row.wrapper{width: 93%;text-align: center;}
+  .list-speaker.col6{width: 100%;margin-left: 0;margin-right: 0;display: inline-block;}
+  .row .desc-speaker{width: 100%;margin: 0;}
+  .desc-speaker h2{font-size: 2em;}
+  #tabs {left: 70px;bottom: 330px;}
+  .h3, .section-title{font-size: 3em;}
+  .organization span{float: none; width: 150px;position: static;}
+  .organization em{display: inline-block;width: 100%;margin-bottom: 10%;}
+
+  .sponsors-list{text-align: center;}
+  .footer{width: 90%;}
+}
 
 
 

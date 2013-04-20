@@ -71,7 +71,7 @@ h3, .section-title {
   box-shadow:0 0 0 1px #ccc;
 }
 .header {
-  background: url(/themes/front-in-bh/img/baile-musica.png)center center no-repeat;
+  background: url(/themes/front-in-bh/img/baile-musica-blur.png)center center no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }

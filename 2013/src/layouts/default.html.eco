@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="author" content="<%= @conf.name %>">
   <meta name="description" content="<%= @conf.description %>">
-  <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <!-- FACEBOOK -->
@@ -32,7 +32,6 @@
   <div class="global">
 
     <div class="header">
-      <img src="/themes/front-in-bh/img/baile-musica.jpg" alt="<%= @conf.name %>" class="cover">
       <div class="wrapper">
           <h1>
             <a href="#" class="logo" title="<%= @conf.name %>">
@@ -128,7 +127,7 @@
 
       <div class="organization ticktes division" id="ticktes">
         <div class="row wrapper">
-        <h2 class="section-title">Garanta já seu ingresso :)</h2>
+        <h2 class="section-title">Garanta seu ingresso :)</h2>
 
           <iframe src="http://www.eventick.com.br/FrontInBH2013/embedded" frameborder="0" height="250px" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="0" scrolling="auto" allowtransparency="true"></iframe>
 

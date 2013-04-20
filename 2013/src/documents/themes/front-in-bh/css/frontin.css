@@ -607,6 +607,7 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
 ========================================================================== */
 
 @media only screen and (min-width: 0px) and (max-width: 767px){
+  html { overflow-y: hidden; }
   .wrapper{width: 100%;top: 4em!important;}
   .header h3 {font-size: 2em;width: 77%;display: inline-block;}
   .infos-header span em{line-height: 1.2em;padding-top: 1em;width: 73%;display: inline-block;}

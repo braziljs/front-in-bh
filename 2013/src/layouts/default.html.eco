@@ -28,14 +28,13 @@
 
 </head>
 <body>
-
    <div class="global">
       <div class="header">
          <img src="/themes/front-in-bh/img/baile-musica.jpg" alt="<%= @conf.name %>" class="cover">
          <div class="wrapper">
             <h1>
                <a href="#" class="logo" title="<%= @conf.name %>">
-                  <img src="/themes/front-in-bh/img/logo.png" alt="<%= @conf.name %>" width="780">
+                  <img src="/themes/front-in-bh/img/logo.png" alt="<%= @conf.name %>">
                </a>
             </h1>
             <h3><%= @conf.description %></h3>
@@ -44,7 +43,7 @@
                   <em>
                      <%= @conf.date %> - <%= @conf.venue %> / <%= @conf.city %> - <%= @conf.state %>
                   </em>
-                  <a class="" title="cadasre-se" href="<%= @conf.eventick %>" target="_blank"><img src="/themes/front-in-bh/img/purchase.png" alt=""></a>
+                  <a class="" title="cadasre-se" href="<%= @conf.eventick %>" target="_blank"><img src="/themes/front-in-bh/img/purchase.png" alt="clique aqui e cadastre-se no front in bh" id="selo-link"></a>
                </span>
             </article>
          </div><!-- /wrapper -->
@@ -156,5 +155,6 @@
       })();
    </script>
    <!-- /GOOGLE ANALYTICS -->
+   <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>

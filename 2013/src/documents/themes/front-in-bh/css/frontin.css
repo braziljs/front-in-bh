@@ -72,6 +72,11 @@ h3, .section-title {
   float:left;
   width: 100%;
 }
+
+.logo img{
+  width: 81%;
+}
+
 .header .wrapper {
   position: relative;
   top: 130px;
@@ -319,14 +324,13 @@ input.error {
   text-align: center;
   position: relative;
 }
-
 .row .desc-speaker {
   width: 720px;
   margin-right: 0;
 }
 
 .desc-speaker h2 {
-  font-size: 2.5em;
+  font-size: 2.4em;
   margin-bottom: 25px;
 }
 
@@ -561,6 +565,30 @@ width: 65%;
 
 
 
+/* =======================================================================
+  Mobile
+========================================================================== */
+
+@media only screen and (min-width: 0px) and (max-width: 767px){
+  .global{width: 100%;overflow: hidden;}
+  .wrapper{width: 100%;top: 4em!important;}
+  .header h3 {font-size: 2em;width: 77%;display: inline-block;}
+  .infos-header span em{line-height: 1.2em;padding-top: 1em;width: 73%;display: inline-block;}
+  #selo-link{width: 90%;}
+  .row .img-speaker{float: none; display: inline-block;}
+  .speakers{text-align: center;}
+  .row.wrapper{width: 93%;text-align: center;}
+  .list-speaker.col6{width: 100%;margin-left: 0;margin-right: 0;display: inline-block;}
+  .row .desc-speaker{width: 100%;margin: 0;}
+  .desc-speaker h2{font-size: 2em;}
+  #tabs {left: 70px;bottom: 330px;}
+  .h3, .section-title{font-size: 3em;}
+  .organization span{float: none; width: 150px;position: static;}
+  .organization em{display: inline-block;width: 100%;margin-bottom: 10%;}
+
+  .sponsors-list{text-align: center;}
+  .footer{width: 90%;}
+}
 
 
 

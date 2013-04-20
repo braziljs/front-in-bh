@@ -16,7 +16,7 @@
   <meta property="og:url" content="<%= @site.url %>">
   <meta property="og:title" content="<%= @conf.name %>">
   <meta property="og:description" content="<%= @conf.description %>">
-  <meta property="og:image" content="<%= @getTheme() %>/img/badge.jpg">
+  <meta property="og:image" content="http://frontinbh.com.br/facebook/facebook.png">
   <!-- / FACEBOOK -->
 
   <link rel="shortcut icon" href="<%= @getTheme() %>/img/favicon.ico" type="image/x-icon">
@@ -170,18 +170,7 @@
 
   <script src="themes/front-in-bh/js/jquery.js"></script>
   <script src="themes/front-in-bh/js/tabs.js"></script>
-  <script>
-    $(function() {
-      $(".list-speaker").organicTabs();
-    });
-    $(document).ready(function(){
-      var width = $(window).width()
-          height = $(window).height();
-
-      $(".cover").css( 'height', height ).css(  'width', width );
-      $(".header").css( 'height', height);
-    })
-  </script>
+  <script src="themes/front-in-bh/js/functions.js"></script>
 
   <!-- GOOGLE ANALYTICS -->
   <script type="text/javascript">

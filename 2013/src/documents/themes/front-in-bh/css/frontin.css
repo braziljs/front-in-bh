@@ -606,12 +606,74 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
   Mobile
 ========================================================================== */
 
-@media only screen and (min-width: 0px) and (max-width: 767px){
-  html { overflow-y: hidden; }
-  .wrapper{width: 100%;top: 4em!important;}
-  .header h3 {font-size: 2em;width: 77%;display: inline-block;}
-  .infos-header span em{line-height: 1.2em;padding-top: 1em;width: 73%;display: inline-block;}
-  #selo-link{width: 90%;}
+@media only screen and (min-width: 0px) and (max-width: 768px){
+  /*html { overflow-y: hidden; }*/
+  .wrapper {
+    width: 100%;
+    top: 4em !important;
+  }
+
+  .h3, .section-title {
+    font-size: 2em;
+  }
+
+  .header {
+    height: 390px !important;
+  }
+
+  .logo img {
+    width: 55%;
+  }
+
+  .header h3 {
+    font-size: 1em;
+    width: 77%;
+    display: inline-block;
+  }
+
+  .infos-header span em { 
+    line-height: 1.1em;
+    font-size: 1em;
+    padding-top: 1em;
+    width: 73%;
+    display: inline-block;
+  }
+
+  .infos-header img {
+    width: 55%;
+  }
+
+  .organization span {
+    display: inline-block;
+    text-align: center;
+    left: 0;
+    width: 50%;
+    margin: 0 !important;
+  }
+
+  .organization img {
+    width: 100px;
+  }
+
+  .organization em {
+    font-size: 1.2em;
+  }
+
+  .ticktes {
+    padding-top: 10px;
+  }
+
+  iframe {
+    width: 90% !important;
+  }
+
+  .sponsors-contact {
+    width: 100% !important;
+  }
+
+  .sponsors-contact h3 {
+    text-align: center !important;
+  }
   .row .img-speaker{float: none; display: inline-block;}
   .speakers{text-align: center;}
   .row.wrapper{width: 93%;text-align: center;}
@@ -619,12 +681,9 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
   .row .desc-speaker{width: 100%;margin: 0;}
   .desc-speaker h2{font-size: 2em;}
   #tabs {left: 70px;bottom: 330px;}
-  .h3, .section-title{font-size: 3em;}
-  .organization span{float: none; width: 150px;position: static;}
   .organization em{display: inline-block;width: 100%;margin-bottom: 10%;}
 
   .sponsors-list{text-align: center;}
-  .footer{width: 90%;}
 }
 
 

@@ -142,25 +142,7 @@
    </div>
    <script src="themes/front-in-bh/js/jquery.js"></script>
    <script src="themes/front-in-bh/js/tabs.js"></script>
-   <script>
-      $(function() {
-         $(".list-speaker").organicTabs();
-      });
-      $(document).ready(function(){
-         var width = $(window).width(),
-         height = $(window).height();
-
-         $(".cover").css({
-            'height': height, 
-            'width': width
-         });
-
-         $(".header").css({
-            'height': height,
-            'margin-bottom' : '100px'
-         });
-      })
-   </script>
+   <script src="themes/front-in-bh/js/functions.js"></script>
    <!-- GOOGLE ANALYTICS -->
    <script type="text/javascript">
       var _gaq = _gaq || [];

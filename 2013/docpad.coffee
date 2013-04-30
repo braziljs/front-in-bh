@@ -65,10 +65,10 @@ module.exports =
 
     # List of Sponsors
     sponsors: [
-    #   name: "Globo.com"
-    #   logo: "/themes/front-in-bh/img/globo.png"
-    #   url: "http://globo.com"
-    # ,
+      name: "Casa do Código"
+      logo: "/themes/front-in-bh/img/casa-codigo.png"
+      url: "http://www.casadocodigo.com.br/"
+    ,
       name: "Eventick"
       logo: "/themes/front-in-bh/img/eventick.png"
       url: "http://eventick.com.br"

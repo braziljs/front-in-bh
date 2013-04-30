@@ -3,7 +3,7 @@ $(document).ready(function(){
       height = $(window).height();
 
    $(".cover").css({
-      'height': height, 
+      'height': height,
       'width': width
    });
 

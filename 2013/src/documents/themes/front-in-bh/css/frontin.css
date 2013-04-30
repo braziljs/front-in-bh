@@ -631,7 +631,7 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
     display: inline-block;
   }
 
-  .infos-header span em { 
+  .infos-header span em {
     line-height: 1.1em;
     font-size: 1em;
     padding-top: 1em;

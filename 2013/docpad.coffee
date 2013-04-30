@@ -11,7 +11,7 @@ module.exports =
       description: "Maior evento de Front-end do Brasil"
       date: "3 Agosto 2013"
       price: "60"
-      venue: "UNI-BH Teatro Ney Soares"
+      venue: "Teatro Ney Soares, Rua Diamantina, 463"
       address: "Rua Diamantina"
       city: "Belo Horizonte"
       state: "MG"

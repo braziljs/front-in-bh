@@ -65,6 +65,10 @@ module.exports =
 
     # List of Sponsors
     sponsors: [
+      name: "Caelum"
+      logo: "/themes/front-in-bh/img/caelum.png"
+      url: "http://www.caelum.com.br/"
+    ,
       name: "Casa do Código"
       logo: "/themes/front-in-bh/img/casa-codigo.png"
       url: "http://www.casadocodigo.com.br/"

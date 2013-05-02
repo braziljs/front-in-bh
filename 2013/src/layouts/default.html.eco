@@ -51,7 +51,7 @@
     </div>
 
 
-    <!-- <section class="content home">
+    <section class="content home">
 
       <div class="speakers division">
           <div class="row wrapper">
@@ -106,7 +106,7 @@
                 <% end %>
               <% end %>
           </div>
-      </div> -->
+      </div>
 
       <div class="organization division">
         <div class="row wrapper">

@@ -50,17 +50,29 @@ module.exports =
       name: "Check-in / Breakfast"
       time: "9h00"
     ,
-      name: "Giovanni Keppelen"
-      photo: "giovanni.jpg"
-      bio: "Fundador do Front in BH e moderador do Rio.js. Estudante de Produção Multimídia na UNI-BH. Front-end Engineer/Coordenador na Mobicare, sempre focando em performance."
-      company: "Mobicare"
-      twitter: "keppelen"
-      github: "keppelen"
-      personal: "bygiovanni.com.br"
+      name: "Miller Medeiros"
+      photo: "miller.png"
+      bio: "Em breve"
+      company: "Senior Developer - Firstborn"
+      twitter: "millermedeiros"
+      github: "millermedeiros"
+      personal: "blog.millermedeiros.com/"
       presentation:
-        title: "Comunidade e seu poder"
-        description: "Descrição da apresentação"
-        time: "08h00"
+        title: "Senior Developer Firstborn, NY"
+        description: "Em breve"
+        time: ""
+    ,
+      name: "Sérgio Lopes"
+      photo: "sergio.png"
+      bio: "Trabalha na Caelum como instrutor e desenvolvedor há 8 anos, nas áreas de front-end, mobile e Java. Já palestrou em diversos eventos, é meio louco por páginas rápidas e otimizadas."
+      company: "Caelum"
+      twitter: "sergio_caelum"
+      github: "sergiolopes"
+      personal: "sergiolopes.org/"
+      presentation:
+        title: ""
+        description: "Em breve"
+        time: ""
     ]
 
     # List of Sponsors

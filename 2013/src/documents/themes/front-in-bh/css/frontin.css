@@ -524,6 +524,10 @@ width: 65%;
   font-size:12px;
 }
 
+.speakers {
+  padding: 60px 0 25px 0;
+}
+
 .schedule-tbl {
   background:#fff;
   border:1px solid #ccc;

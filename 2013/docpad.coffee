@@ -52,25 +52,27 @@ module.exports =
     ,
       name: "Miller Medeiros"
       photo: "miller.png"
-      bio: "Em breve"
-      company: "Senior Developer - Firstborn"
+      bio: "Começou como Designer, depois focou na Área de desenvolvimento, e desde 2009 trabalha para a agência Nova Iorquina, Firstborn. Um grande contribuidor de projetosOpen Source, entre eles destacar o Require.JS e o Mout."
+      company: "Firstborn"
+      job: "Senior Developer"
       twitter: "millermedeiros"
       github: "millermedeiros"
       personal: "blog.millermedeiros.com/"
       presentation:
-        title: "Senior Developer Firstborn, NY"
+        title: "Em breve"
         description: "Em breve"
         time: ""
     ,
       name: "Sérgio Lopes"
       photo: "sergio.png"
       bio: "Trabalha na Caelum como instrutor e desenvolvedor há 8 anos, nas áreas de front-end, mobile e Java. Já palestrou em diversos eventos, é meio louco por páginas rápidas e otimizadas."
+      job: "Developer, professor e consultor"
       company: "Caelum"
       twitter: "sergio_caelum"
       github: "sergiolopes"
       personal: "sergiolopes.org/"
       presentation:
-        title: ""
+        title: "Em breve"
         description: "Em breve"
         time: ""
     ]

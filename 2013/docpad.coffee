@@ -52,7 +52,7 @@ module.exports =
     ,
       name: "Miller Medeiros"
       photo: "miller.png"
-      bio: "Começou como Designer, depois focou na Área de desenvolvimento, e desde 2009 trabalha para a agência Nova Iorquina, Firstborn. Um grande contribuidor de projetos Open Source, entre eles o Require.JS e o Mout."
+      bio: "Começou como Designer, depois focou na área de desenvolvimento. Desde 2009 vem trabalhando para a agência Nova Iorquina, Firstborn. É também um grande contribuidor de projetos Open Source, entre eles o Require.JS e o Mout."
       company: "Firstborn (NY, EUA)"
       job: "Senior Developer"
       twitter: "millermedeiros"

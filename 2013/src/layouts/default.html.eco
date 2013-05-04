@@ -85,7 +85,10 @@
                     </div>
 
                     <div class="col5 desc-speaker">
-                      <h2><span><%= speaker.name %> /</span> <%= speaker.presentation.title %></h2>
+                      <h2>
+                        <span class="desc-speaker-name"><%= speaker.name %></span><br>
+                        <span class="desc-speaker-company"><%= speaker.job %> - <%= speaker.company %></span>
+                      </h2>
                       <div id="content">
                       <p id="talk" class="talk-description hide">
                           <%= speaker.presentation.description %>

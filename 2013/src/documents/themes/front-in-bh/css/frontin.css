@@ -343,10 +343,12 @@ input.error {
   margin-bottom: 25px;
 }
 
-.desc-speaker span {
+.desc-speaker .desc-speaker-name {
   color: #e7215f;
 }
-
+.desc-speaker .desc-speaker-company {
+  font-size: 18px;
+}
 .desc-speaker p {
 }
 

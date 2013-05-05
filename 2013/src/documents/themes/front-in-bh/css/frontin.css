@@ -696,14 +696,43 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
   .sponsors-contact h3 {
     text-align: center !important;
   }
-  .row .img-speaker{float: none; display: inline-block;}
+  
+  .row .img-speaker{
+    float: none;
+    display: inline-block;
+  }
+  
   .speakers{text-align: center;}
-  .row.wrapper{width: 93%;text-align: center;}
-  .list-speaker.col6{width: 100%;margin-left: 0;margin-right: 0;display: inline-block;}
-  .row .desc-speaker{width: 100%;margin: 0;}
+  
+  .row.wrapper{
+    width: 93%;
+    text-align: center;
+  }
+  
+  .list-speaker.col6{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    display: inline-block;
+  }
+  
+  .row .desc-speaker{
+    width: 100%;
+    margin: 0;
+  }
+  
   .desc-speaker h2{font-size: 2em;}
-  #tabs {left: 70px;bottom: 330px;}
-  .organization em{display: inline-block;width: 100%;margin-bottom: 10%;}
+  
+  #tabs {
+    left: 91px;
+    top: 151px;
+  }
+  
+  .organization em{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10%;
+  }
 
   .sponsors-list{text-align: center;}
 }

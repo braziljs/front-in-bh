@@ -52,7 +52,7 @@ module.exports =
     ,
       name: "Michael Lancaster"
       photo: "michael.png"
-      bio: "Em breve"
+      bio: "Um jovem norte-americano-brasileiro apaixonado por desenvolvimento Web e Open Source já foi voluntario na CPBR, trabalhou em Produtoras interativas fazendo trabalhos para clientes como Banco Itaú, Açucar União, entre outros e Agencias como IDTBWA, LEWLARA, Africa, etc. Também foi consultor Front End para HP ajudando JSP developers com JS e Grid Systems. Atualmente atua como Developer/HTML5 Digital na agência GolinHarris, em Chicago."
       company: "Golinharris (Chicago, EUA)"
       job: "Digital Developer"
       twitter: "weblancaster"

@@ -702,7 +702,11 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
   .list-speaker.col6{width: 100%;margin-left: 0;margin-right: 0;display: inline-block;}
   .row .desc-speaker{width: 100%;margin: 0;}
   .desc-speaker h2{font-size: 2em;}
-  #tabs {left: 70px;bottom: 330px;}
+
+  #tabs {
+    left: 0;
+    top: 150px;
+  }
   .organization em{display: inline-block;width: 100%;margin-bottom: 10%;}
 
   .sponsors-list{text-align: center;}

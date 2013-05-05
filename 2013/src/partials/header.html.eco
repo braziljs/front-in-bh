@@ -1,20 +1,14 @@
-<a href="https://github.com/braziljs/conf-boilerplate" class="github-link">
-  <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub">
-</a>
-
-<!-- HEADER -->
-<header class="header">
-  <div class="wrapper">
-    <h1 class="logo-name">
-      <a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name"><%= @conf.name %></a>
-    </h1>
-    <h2 class="tagline"><%= @conf.date %>, <%= @conf.venue %>, <%= @conf.city %></h2>
-    <div class="call-action-area">
-      <span class="price">Only <%= @conf.price %></span>
-      <a href="http://eventick.com.br" class="call-action-link" title="Register now!">Register now!</a>
-    </div>
-  </div>
-</header>
-<!--  / HEADER -->
-
-<hr>
+<h1>
+            <a href="#" class="logo" title="<%= @conf.name %>">
+              <img src="/themes/front-in-bh/img/logo.png" alt="<%= @conf.name %>" width="780">
+            </a>
+          </h1>
+          <h3><%= @conf.description %></h3>
+          <article class="infos-header">
+            <span>
+              <em>
+                <%= @conf.date %> - <%= @conf.venue %> / <%= @conf.city %> - <%= @conf.state %>
+              </em>
+              <a class="" title="cadasre-se" href="#ticktes"><img src="/themes/front-in-bh/img/purchase.png" alt=""></a>
+            </span>
+          </article>

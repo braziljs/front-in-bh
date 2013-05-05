@@ -330,6 +330,7 @@ input.error {
 
 .row  .img-speaker {
   width: 188px;
+  height: 280px;
   text-align: center;
   position: relative;
 }
@@ -401,9 +402,8 @@ display: block;
 
 #tabs {
   position: absolute;
-left: 10px;
-bottom: 56px;
-z-index: 999;
+  bottom: 56px;
+  z-index: 999;
 }
 
 #tabs a {
@@ -707,10 +707,6 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
 
   .sponsors-list{text-align: center;}
 }
-
-
-
-
 
 .sponsors-contact {
   width: 270px;

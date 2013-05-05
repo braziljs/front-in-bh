@@ -53,7 +53,7 @@ module.exports =
       name: "Michael Lancaster"
       photo: "michael.png"
       bio: "Em breve"
-      company: "Golinharris, (Chicago, EUA)"
+      company: "Golinharris (Chicago, EUA)"
       job: "Digital Developer"
       twitter: "weblancaster"
       github: "weblancaster"

@@ -343,11 +343,14 @@ input.error {
   margin-bottom: 25px;
 }
 
-.desc-speaker span {
+.desc-speaker .desc-speaker-name {
   color: #e7215f;
 }
-
-.desc-speaker p {
+.desc-speaker .desc-speaker-company {
+  font-size: 16px;
+font-weight: normal;
+line-height: 30px;
+display: block;
 }
 
 .social {
@@ -425,7 +428,7 @@ z-index: 999;
 
 .sponsor-item {
   display: inline-block;
-  margin: 20px 20px 30px 0;
+  margin: 5px 5px 20px 0;
   height: 75px;
   padding: 15px 25px;
   position: relative;
@@ -603,7 +606,22 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
   font-size: 20px;
 }
 
+.partners h2 {
+  font-size: 40px;
+}
 
+.partners img {
+  width: 100px;
+}
+
+.partners-list {
+  text-align: center;
+}
+
+.partner-item {
+  display: inline-block;
+  margin: 5px;
+}
 
 
 /* =======================================================================

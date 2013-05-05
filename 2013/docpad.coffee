@@ -42,7 +42,7 @@ module.exports =
       speakers: "Speakers"
       #schedule: "Schedule"
       sponsors: "Patrocínios"
-      partners: "Apoio"
+      partners: "Apoios"
       #contact: "Contact"
 
     # The entire schedule
@@ -53,7 +53,8 @@ module.exports =
       name: "Michael Lancaster"
       photo: "michael.png"
       bio: "Em breve"
-      company: "Golinharris"
+      company: "Golinharris, (Chicago, EUA)"
+      job: "Digital Developer"
       twitter: "weblancaster"
       github: "weblancaster"
       personal: "bymichaellancaster.com/"
@@ -64,25 +65,27 @@ module.exports =
     ,
       name: "Miller Medeiros"
       photo: "miller.png"
-      bio: "Em breve"
-      company: "Senior Developer - Firstborn"
+      bio: "Começou como Designer, depois focou na área de desenvolvimento. Desde 2009 vem trabalhando para a agência Nova Iorquina, Firstborn. É também um grande contribuidor de projetos Open Source, entre eles o Require.JS e o Mout."
+      company: "Firstborn (NY, EUA)"
+      job: "Senior Developer"
       twitter: "millermedeiros"
       github: "millermedeiros"
       personal: "blog.millermedeiros.com/"
       presentation:
-        title: "Javascript Larga Escala"
+        title: "Em breve"
         description: "Em breve"
         time: ""
     ,
       name: "Sérgio Lopes"
       photo: "sergio.png"
       bio: "Trabalha na Caelum como instrutor e desenvolvedor há 8 anos, nas áreas de front-end, mobile e Java. Já palestrou em diversos eventos, é meio louco por páginas rápidas e otimizadas."
-      company: "Caelum"
+      job: "Developer e Professor"
+      company: "Caelum (SP, Brasil)"
       twitter: "sergio_caelum"
       github: "sergiolopes"
       personal: "sergiolopes.org/"
       presentation:
-        title: ""
+        title: "Em breve"
         description: "Em breve"
         time: ""
     ]
@@ -96,17 +99,25 @@ module.exports =
       name: "Casa do Código"
       logo: "/themes/front-in-bh/img/casa-codigo.png"
       url: "http://www.casadocodigo.com.br/"
-    ,
-      name: "Eventick"
-      logo: "/themes/front-in-bh/img/eventick.png"
-      url: "http://eventick.com.br"
     ]
 
     # List of Partners
     partners: [
       name: "BrazilJS"
-      logo: "http://f.cl.ly/items/2N3i2W0X2f3c2g2Z2N0f/Untitled-1.png"
+      logo: "/themes/front-in-bh/img/braziljs.png"
       url: "http://braziljs.org"
+    ,
+      name: "Eventick"
+      logo: "/themes/front-in-bh/img/eventick.png"
+      url: "http://eventick.com.br"
+    ,
+      name: "Apiki"
+      logo: "/themes/front-in-bh/img/apiki.png"
+      url: "http://apiki.com"
+    ,
+      name: "Web BR"
+      logo: "/themes/front-in-bh/img/web-br.png"
+      url: "http://conferenciaweb.w3c.br/"
     ]
 
     # Theme path

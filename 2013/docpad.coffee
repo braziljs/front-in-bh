@@ -50,6 +50,18 @@ module.exports =
       name: "Check-in / Breakfast"
       time: "9h00"
     ,
+      name: "Michael Lancaster"
+      photo: "michael.png"
+      bio: "Em breve"
+      company: "Golinharris"
+      twitter: "weblancaster"
+      github: "weblancaster"
+      personal: "bymichaellancaster.com/"
+      presentation:
+        title: "CSS do jeito correto?"
+        description: "Em breve"
+        time: ""
+    ,
       name: "Miller Medeiros"
       photo: "miller.png"
       bio: "Em breve"
@@ -58,7 +70,7 @@ module.exports =
       github: "millermedeiros"
       personal: "blog.millermedeiros.com/"
       presentation:
-        title: "Senior Developer Firstborn, NY"
+        title: "Javascript Larga Escala"
         description: "Em breve"
         time: ""
     ,

@@ -5,6 +5,10 @@
                     <div class="col1 img-speaker">
                       <img src="/themes/front-in-bh/img/mask.png" class="speaker-mask" alt="">
                       <img src="/themes/front-in-bh/img/<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image" class="speaker-img">
+                      <div id="tabs" class="nav">
+                      <a href="#talk" class="btn talk-btn">Palestra</a>
+                      <a href="#bio" class="btn bio-btn current">Biografia</a>
+                    </div>
                       <div class="social">
                       <% if speaker.twitter: %>
                         <a target="_blank" href="https://twitter.com/<%= speaker.twitter %>" class="twitter">
@@ -40,12 +44,6 @@
                       </p>
                     </div>
                     </div>
-
-                    <div id="tabs" class="nav">
-                      <a href="#talk" class="btn talk-btn">Palestra</a>
-                      <a href="#bio" class="btn bio-btn current">Biografia</a>
-                    </div>
-
                   </div>
 
                 <% end %>

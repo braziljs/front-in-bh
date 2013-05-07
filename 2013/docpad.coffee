@@ -131,6 +131,10 @@ module.exports =
       name: "Web BR"
       logo: "/themes/front-in-bh/img/web-br.png"
       url: "http://conferenciaweb.w3c.br/"
+    ,
+      name: "JD Comunicação"
+      logo: "/themes/front-in-bh/img/jd.png"
+      url: "http://www.jdcom.com.br/"
     ]
 
     # Theme path

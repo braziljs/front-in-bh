@@ -640,7 +640,6 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
 /* =======================================================================
   Mobile
 ========================================================================== */
-
 @media only screen and (min-width: 0px) and (max-width: 768px){
   /*html { overflow-y: hidden; }*/
   .wrapper {
@@ -723,6 +722,20 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
   .organization em{display: inline-block;width: 100%;margin-bottom: 10%;}
 
   .sponsors-list{text-align: center;}
+}
+
+@media (max-width: 500px) {
+  #tabs , #content{ display: none !important;}
+  .list-speaker.col6 { margin-bottom: 20px; width: 50%; }
+  .header {
+    height: 430px !important;
+  }
+  .social {
+    display: none;
+  }
+  .row .img-speaker {
+    height: 220px;
+  }
 }
 
 .sponsors-contact {

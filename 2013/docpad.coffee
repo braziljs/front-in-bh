@@ -50,6 +50,19 @@ module.exports =
       name: "Check-in / Breakfast"
       time: "9h00"
     ,
+      name: "Ciro Nunes"
+      photo: "ciro.png"
+      bio: "Tem 21 anos, e já foi responsável pelo Front-end dos maiores e-commerces da América Latina como Americanas, Submarino e Shoptime, enquanto trabalhou na Ideais. Recentemente foi o head do Front-end e Scrum Master da Kanui e hoje faz parte do time do Veduca. Como palestrante já esteve presente nos encontros locais de desenvolvedores JavaScript do Rio de Janeiro e São Paulo apresentando principalmente sobre o framework AngularJS."
+      job: "Front-end Engineer"
+      company: "Veduca (SP, Brasil)"
+      twitter: "cironunesdev"
+      github: "cironunes"
+      personal: "cironunes.github.io"
+      presentation:
+        title: "Em breve"
+        description: "Em breve"
+        time: ""
+    ,
       name: "Michael Lancaster"
       photo: "michael.png"
       bio: "Um jovem norte-americano-brasileiro apaixonado por desenvolvimento Web e Open Source já foi voluntario na CPBR, trabalhou em Produtoras interativas fazendo trabalhos para clientes como Banco Itaú, Açucar União, entre outros e Agencias como IDTBWA, LEWLARA, Africa, etc. Também foi consultor Front End para HP ajudando JSP developers com JS e Grid Systems. Atualmente atua como Developer/HTML5 Digital na agência GolinHarris, em Chicago."

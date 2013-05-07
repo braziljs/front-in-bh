@@ -584,6 +584,19 @@ margin-left: -11px;
 background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
 }
 
+.ticktes p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: -25px !important;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.ticktes strong {
+  font-weight: bold;
+  color: #cc2154;
+}
+
 .organization h2 {
   color: #000;
 }

@@ -726,7 +726,7 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
 
 @media (max-width: 500px) {
   #tabs , #content{ display: none !important;}
-  .list-speaker.col6 { margin-bottom: 20px; width: 50%; }
+  .list-speaker.col6 { margin-bottom: 20px;}
   .header {
     height: 430px !important;
   }

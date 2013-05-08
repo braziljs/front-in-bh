@@ -52,7 +52,7 @@ module.exports =
     ,
       name: "Ciro Nunes"
       photo: "ciro.png"
-      bio: "Tem 21 anos, e já foi responsável pelo Front-end dos maiores e-commerces da América Latina como Americanas, Submarino e Shoptime, enquanto trabalhou na Ideais. Recentemente foi o head do Front-end e Scrum Master da Kanui e hoje faz parte do time do Veduca. Como palestrante já esteve presente nos encontros locais de desenvolvedores JavaScript do Rio de Janeiro e São Paulo apresentando principalmente sobre o framework AngularJS."
+      bio: "Foi responsável pelo Front-end dos maiores e-commerces da América Latina como Americanas, Submarino e Shoptime, enquanto trabalhou na Ideais. Recentemente foi o head do Front-end e Scrum Master da Kanui e hoje faz parte do time do Veduca. Como palestrante já esteve presente nos encontros locais de desenvolvedores JavaScript do Rio de Janeiro e São Paulo, apresentando principalmente sobre o framework AngularJS."
       job: "Front-end Engineer"
       company: "Veduca (SP, Brasil)"
       twitter: "cironunesdev"

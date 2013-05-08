@@ -111,7 +111,7 @@
   <script src="themes/front-in-bh/js/functions.js"></script>
 
   <!-- GOOGLE ANALYTICS -->
-  <script type="text/javascript">
+  <script>
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', '<%= @site.googleanalytics %>']);
       _gaq.push(['_trackPageview']);

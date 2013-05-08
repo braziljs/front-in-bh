@@ -117,9 +117,8 @@ text-shadow: 1px 2px 1px #333;
   font-weight: 200;
   font-style: italic;
   margin-bottom: 50px;
+  text-shadow: 2px -1px 0px #000;
 }
-
-
 
 .nav li {
   float:left;

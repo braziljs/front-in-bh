@@ -98,8 +98,8 @@ module.exports =
       github: "sergiolopes"
       personal: "sergiolopes.org/"
       presentation:
-        title: "Em breve"
-        description: "Em breve"
+        title: "Repensando o front-end para telas de alta resolução"
+        description: "Telas de alta resolução? Imagens responsivas? Retina? Gráficos vetoriais? SVG, icon fonts? DPIs, viewports, device pixel ratio? Muitos termos confusos? Essa palestra vai mostrar tudo que você precisa saber pra entender e trabalhar com telas de resoluções diferentes. Vamos ver como adaptar seu design e suas imagens pra esses contextos e dicas de como suportar os vários tipos de tela de hoje e do futuro!"
         time: ""
     ]
 

@@ -126,7 +126,7 @@ module.exports =
     ,
       name: "Apiki"
       logo: "/themes/front-in-bh/img/apiki.png"
-      url: "http://apiki.com"
+      url: "http://apiki.com/?utm_source=FrontInBH&utm_medium=Marca&utm_content=Patrocinio&utm_campaign=Apiki"
     ,
       name: "Web BR"
       logo: "/themes/front-in-bh/img/web-br.png"

@@ -1,6 +1,6 @@
 <h1>
-    <a href="#" class="logo" title="<%= @conf.name %>">
-        <img src="/themes/front-in-bh/img/logo.png" alt="<%= @conf.name %>" width="780">
+    <a href="/" class="logo" title="<%= @conf.name %>">
+        <img src="/themes/front-in-bh/img/logo.png" alt="<%= @conf.name %>" width="780" height="144">
     </a>
 </h1>
 

@@ -52,12 +52,22 @@ p {
 h2 {
   font-size:2em
 }
-h3, .section-title {
+h3,
+.section-title {
   font-size: 4.5em;
   color: #333;
   margin-bottom: 25px;
   text-align: center;
 }
+
+.section-subtitle {
+  font-size: 2.5em;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #e7215f;
+  font-weight: bold;
+}
+
 .global{width: 100%;overflow: hidden;}
 
 .wrapper {
@@ -420,28 +430,31 @@ display: block;
   margin: 0px !important;
 }
 
-  .footer a {
-    color: #333;
-  }
+.footer a {
+  color: #333;
+}
 
+.sponsors-list {
+    margin-bottom: 15px;
+}
 
 .sponsor-item {
   display: inline-block;
-  margin: 5px 5px 20px 0;
+  margin: 5px 0 20px 0;
   height: 75px;
-  padding: 15px 25px;
+  padding: 0 25px;
   position: relative;
 }
 
-.sponsor-item img {
-  /*width: 150px;*/
+.sponsor-item:first-child {
+  padding-left: 0;
 }
 
 .conta-sponsor {
-position: absolute;
-top: -25px;
-text-align: center;
-width: 65%;
+  position: absolute;
+  top: -25px;
+  text-align: center;
+  width: 65%;
 }
 
 /* =============================================================================
@@ -608,7 +621,7 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
   text-align: center;
 }
 
-.organization img {
+.organization .people {
   border-radius: 50%;
 }
 
@@ -618,6 +631,10 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
   font-size: 20px;
 }
 
+.partners {
+    border-top: 1px dashed #ddd;
+    padding-top: 40px;
+}
 .partners h2 {
   font-size: 40px;
 }
@@ -651,7 +668,8 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
   }
 
   .logo img {
-    width: 55%;
+    width: 300px;
+    height: 90px;
   }
 
   .header h3 {
@@ -680,7 +698,7 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
     margin: 0 !important;
   }
 
-  .organization img {
+  .organization .people {
     width: 100px;
   }
 
@@ -717,6 +735,11 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
   .organization em{display: inline-block;width: 100%;margin-bottom: 10%;}
 
   .sponsors-list{text-align: center;}
+
+  .section-subtitle {
+    text-align: center;
+   }
+
 }
 
 @media (max-width: 500px) {
@@ -734,16 +757,15 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
 }
 
 .sponsors-contact {
-  width: 270px;
-  float:left;
-  margin-right: 30px;
+  margin: 60px 30px 30px 30px;
+  text-align: center;
 }
 
 .sponsors-contact h3 {
   font-size: 1.8em;
-text-transform: uppercase;
-text-align: left;
-margin-bottom: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 5px;
 }
 
 .sponsors-contact  h3 span {

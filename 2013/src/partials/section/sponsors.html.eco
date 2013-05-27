@@ -1,14 +1,8 @@
 <h2 class="section-title"><%= @labels['sponsors'] %></h2>
 
-<div class="sponsors-contact">
-    <h3>que tal sua <em>empresa</em> no <span>front in BH?</span></h3>
-    <p>Sua empresa quer patrocinar ou apoiar o <span>Front in BH</span>, fale com a gente:
-        <a href="mailto:contato@frontinbh.com.br" title="contato@frontinbh.com.br">contato@frontinbh.com.br</a>
-    </p>
-</div>
-
+<h3 class="section-subtitle">Diamante</h3>
 <ul class="sponsors-list">
-<% for sponsor in @sponsors: %>
+<% for sponsor in @sponsors_diamond: %>
   <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
     <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url" target="_blank">
       <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image"width="177" height="95">
@@ -16,3 +10,22 @@
   </li>
 <% end %>
 </ul>
+
+<h3 class="section-subtitle">Bronze</h3>
+<ul class="sponsors-list">
+<% for sponsor in @sponsors_bronze: %>
+  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url" target="_blank">
+      <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image"width="177" height="95">
+    </a>
+  </li>
+<% end %>
+</ul>
+
+
+<div class="sponsors-contact">
+    <h3>que tal sua <em>empresa</em> no <span>front in BH?</span></h3>
+    <p>Sua empresa quer patrocinar ou apoiar o <span>Front in BH</span>, fale com a gente:
+        <a href="mailto:contato@frontinbh.com.br" title="contato@frontinbh.com.br">contato@frontinbh.com.br</a>
+    </p>
+</div>

@@ -50,6 +50,19 @@ module.exports =
       name: "Check-in / Breakfast"
       time: "9h00"
     ,
+      name: "Maurício Samy Silva - MAUJOR"
+      photo: "maujor.png"
+      bio: "Convidado especial - Irá autografar seus livros, bater um papo com a galera, tomar um café"
+      job: "Dinossauro das CSS"
+      company: "Maujor (RJ, Brasil)"
+      twitter: "maujor"
+      github: "Maujor"
+      personal: "maujor.com"
+      presentation:
+        title: "Convidado Especial"
+        description: "Convidado especial - Irá autografar seus livros, bater um papo com a galera, tomar um café"
+        time: ""
+    ,
       name: "Ciro Nunes"
       photo: "ciro.png"
       bio: "Foi responsável pelo Front-end dos maiores e-commerces da América Latina como Americanas, Submarino e Shoptime, enquanto trabalhou na Ideais. Recentemente foi o head do Front-end e Scrum Master da Kanui e hoje faz parte do time do Veduca. Como palestrante já esteve presente nos encontros locais de desenvolvedores JavaScript do Rio de Janeiro e São Paulo, apresentando principalmente sobre o framework AngularJS."

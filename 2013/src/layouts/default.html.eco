@@ -51,12 +51,16 @@
           <h2 class="section-title">Apresentado por</h2>
 
           <span>
-            <a href="https://twitter.com/bernarddeluna" title="Bernard de luna" target="_blank"><img src="/themes/front-in-bh/img/bernard.jpg" alt="Bernard de Luna"></a>
+            <a href="https://twitter.com/bernarddeluna" title="Bernard de luna" target="_blank">
+                <img src="/themes/front-in-bh/img/bernard.jpg" alt="Bernard de Luna" width="140" height="140">
+            </a>
             <em>Bernard de luna</em>
           </span>
 
           <span>
-            <a href="https://twitter.com/zenorocha" title="Zeno Rocha" target="_blank"><img src="/themes/front-in-bh/img/zeno.jpg" alt="Zeno Rocha"></a>
+            <a href="https://twitter.com/zenorocha" title="Zeno Rocha" target="_blank">
+                <img src="/themes/front-in-bh/img/zeno.jpg" alt="Zeno Rocha" width="140" height="140">
+            </a>
             <em>Zeno Rocha</em>
           </span>
 
@@ -91,12 +95,16 @@
           <h2 class="section-title">Organizado por</h2>
 
           <span>
-            <a href="https://twitter.com/keppelen" title="Giovanni Keppelen" target="_blank"><img src="/themes/front-in-bh/img/giovanni.jpg" alt="Giovanni Keppelen"></a>
+            <a href="https://twitter.com/keppelen" title="Giovanni Keppelen" target="_blank">
+                <img src="/themes/front-in-bh/img/giovanni.jpg" alt="Giovanni Keppelen" width="140" height="140">
+            </a>
             <em>Giovanni Keppelen</em>
           </span>
 
           <span>
-            <a href="https://twitter.com/davidsonFellipe" title="Davidson Felipe" target="_blank"><img src="/themes/front-in-bh/img/davidson.jpg" alt="Davidson Felipe"></a>
+            <a href="https://twitter.com/davidsonFellipe" title="Davidson Felipe" target="_blank">
+                <img src="/themes/front-in-bh/img/davidson.jpg" alt="Davidson Felipe" width="140" height="140">
+            </a>
             <em>Davidson Fellipe</em>
           </span>
 

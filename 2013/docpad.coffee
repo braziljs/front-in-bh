@@ -105,6 +105,10 @@ module.exports =
 
     # List of Sponsors
     sponsors: [
+      name: "Mozilla"
+      logo: "/themes/front-in-bh/img/mozilla.png"
+      url: "http://www.mozilla.org/"
+    ,
       name: "Caelum"
       logo: "/themes/front-in-bh/img/caelum.png"
       url: "http://www.caelum.com.br/"

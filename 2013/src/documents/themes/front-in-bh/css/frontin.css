@@ -433,6 +433,12 @@ display: block;
   position: relative;
 }
 
+.sponsor-item:first-child {
+margin-top: 20px;
+float: left;
+margin-bottom: 5px;
+}
+
 .sponsor-item img {
   /*width: 150px;*/
 }
@@ -741,6 +747,7 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
   width: 270px;
   float:left;
   margin-right: 30px;
+  height: 130px;
 }
 
 .sponsors-contact h3 {

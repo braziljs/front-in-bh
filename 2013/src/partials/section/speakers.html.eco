@@ -1,50 +1,50 @@
 <% for speaker in @schedule: %>
-                <% if speaker.presentation: %>
+    <% if speaker.presentation: %>
 
-                  <div class="col6 list-speaker">
-                    <div class="col1 img-speaker">
-                      <img src="/themes/front-in-bh/img/mask.png" class="speaker-mask" alt="">
-                      <img src="/themes/front-in-bh/img/<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image" class="speaker-img">
-                      <div id="tabs" class="nav">
-                        <a href="#talk" class="btn talk-btn">Palestra</a>
-                        <a href="#bio" class="btn bio-btn current">Biografia</a>
-                      </div>
-                      <div class="social">
-                      <% if speaker.twitter: %>
-                        <a target="_blank" href="https://twitter.com/<%= speaker.twitter %>" class="twitter">
-                          <img src="/themes/front-in-bh/img/twitter-icon.png" alt="Twitter Icon">
-                        </a>
-                      <% end %>
+      <div class="col6 list-speaker">
+        <div class="col1 img-speaker">
+          <img src="/themes/front-in-bh/img/mask.png" class="speaker-mask" alt="" width="188" height="220">
+          <img src="/themes/front-in-bh/img/<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image" class="speaker-img" width="140" height="140">
+          <div id="tabs" class="nav">
+            <a href="#talk" class="btn talk-btn">Palestra</a>
+            <a href="#bio" class="btn bio-btn current">Biografia</a>
+          </div>
+          <div class="social">
+          <% if speaker.twitter: %>
+            <a target="_blank" href="https://twitter.com/<%= speaker.twitter %>" class="twitter">
+              <img src="/themes/front-in-bh/img/twitter-icon.png" alt="Twitter Icon" width="40" height="40">
+            </a>
+          <% end %>
 
-                      <% if speaker.github: %>
-                        <a target="_blank" href="https://github.com/<%= speaker.github %>" class="github">
-                          <img src="/themes/front-in-bh/img/github-icon.png" alt="Github Icon">
-                        </a>
-                      <% end %>
+          <% if speaker.github: %>
+            <a target="_blank" href="https://github.com/<%= speaker.github %>" class="github">
+              <img src="/themes/front-in-bh/img/github-icon.png" alt="Github Icon" width="40" height="40">
+            </a>
+          <% end %>
 
-                      <% if speaker.personal: %>
-                        <a target="_blank" href="http://<%= speaker.personal %>" class="personal">
-                          <img src="/themes/front-in-bh/img/personal-icon.png" alt="Personal Website Icon">
-                        </a>
-                      <% end %>
-                      </div>
-                    </div>
+          <% if speaker.personal: %>
+            <a target="_blank" href="http://<%= speaker.personal %>" class="personal">
+              <img src="/themes/front-in-bh/img/personal-icon.png" alt="Personal Website Icon" width="40" height="40">
+            </a>
+          <% end %>
+          </div>
+        </div>
 
-                    <div class="col5 desc-speaker">
-                      <h2>
-                        <span class="desc-speaker-name"><%= speaker.name %></span><br>
-                        <span class="desc-speaker-company"><%= speaker.job %> - <%= speaker.company %></span>
-                      </h2>
-                      <div id="content">
-                      <p id="talk" class="talk-description hide">
-                          <%= speaker.presentation.description %>
-                      </p>
-                      <p id="bio" class="bio" >
-                        <%= speaker.bio %>
-                      </p>
-                    </div>
-                    </div>
-                  </div>
+        <div class="col5 desc-speaker">
+            <h2>
+                <span class="desc-speaker-name"><%= speaker.name %></span><br>
+                <span class="desc-speaker-company"><%= speaker.job %> - <%= speaker.company %></span>
+            </h2>
+            <div id="content">
+              <p id="talk" class="talk-description hide">
+                  <%= speaker.presentation.description %>
+              </p>
+              <p id="bio" class="bio" >
+                <%= speaker.bio %>
+              </p>
+            </div>
+        </div>
+      </div>
 
-                <% end %>
-              <% end %>
+    <% end %>
+  <% end %>

@@ -1,14 +1,16 @@
 <h1>
-            <a href="#" class="logo" title="<%= @conf.name %>">
-              <img src="/themes/front-in-bh/img/logo.png" alt="<%= @conf.name %>" width="780">
-            </a>
-          </h1>
-          <h3><%= @conf.description %></h3>
-          <article class="infos-header">
-            <span>
-              <em>
-                <%= @conf.date %> - <%= @conf.venue %> / <%= @conf.city %> - <%= @conf.state %>
-              </em>
-              <a class="" title="cadasre-se" href="#ticktes"><img src="/themes/front-in-bh/img/purchase.png" alt=""></a>
-            </span>
-          </article>
+    <a href="/" class="logo" title="<%= @conf.name %>">
+        <img src="/themes/front-in-bh/img/logo.png" alt="<%= @conf.name %>" width="780" height="144">
+    </a>
+</h1>
+
+<h3><%= @conf.description %></h3>
+
+<article class="infos-header">
+    <span>
+        <em><%= @conf.date %> - <%= @conf.venue %> / <%= @conf.city %> - <%= @conf.state %></em>
+        <a class="" title="cadasre-se" href="#ticktes">
+            <img src="/themes/front-in-bh/img/purchase.png" alt="inscreva-se" width="450" height="128">
+        </a>
+    </span>
+</article>

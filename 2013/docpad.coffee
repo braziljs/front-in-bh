@@ -41,8 +41,8 @@ module.exports =
       location: "Location"
       speakers: "Speakers"
       #schedule: "Schedule"
-      sponsors: "Patrocínios"
-      partners: "Apoios"
+      sponsors: "Patrocinadores"
+      partners: "apoios"
       #contact: "Contact"
 
     # The entire schedule
@@ -104,11 +104,13 @@ module.exports =
     ]
 
     # List of Sponsors
-    sponsors: [
+    sponsors_diamond: [
       name: "Mozilla"
       logo: "/themes/front-in-bh/img/mozilla.png"
-      url: "http://www.mozilla.org/"
-    ,
+      url: "http://www.mozilla.org/en-US/"
+    ]
+
+    sponsors_bronze: [
       name: "Caelum"
       logo: "/themes/front-in-bh/img/caelum.png"
       url: "http://www.caelum.com.br/"

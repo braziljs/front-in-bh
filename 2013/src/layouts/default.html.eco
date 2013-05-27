@@ -46,30 +46,12 @@
           </div>
       </div>
 
-      <div class="organization division">
-        <div class="row wrapper">
-          <h2 class="section-title">Apresentado por</h2>
-
-          <span>
-            <a href="https://twitter.com/bernarddeluna" title="Bernard de luna" target="_blank"><img src="/themes/front-in-bh/img/bernard.jpg" alt="Bernard de Luna"></a>
-            <em>Bernard de luna</em>
-          </span>
-
-          <span>
-            <a href="https://twitter.com/zenorocha" title="Zeno Rocha" target="_blank"><img src="/themes/front-in-bh/img/zeno.jpg" alt="Zeno Rocha"></a>
-            <em>Zeno Rocha</em>
-          </span>
-
-        </div>
-      </div>
-
       <div class="organization ticktes division" id="ticktes">
         <div class="row wrapper">
-        <h2 class="section-title">Garanta seu ingresso :)</h2>
-        <p><strong>PROMOÇÃO:</strong> Os 100 primeiros inscritos no <strong>Front in BH 2013</strong> ganharão <strong>R$ 60,00</strong> de desconto no ingresso da <strong>conferência W3C</strong> webbr 2013.</p>
+            <h2 class="section-title">Garanta seu ingresso :)</h2>
+            <p><strong>PROMOÇÃO:</strong> Os 100 primeiros inscritos no <strong>Front in BH 2013</strong> ganharão <strong>R$ 60,00</strong> de desconto no ingresso da <strong>conferência W3C</strong> webbr 2013.</p>
 
-          <iframe src="http://www.eventick.com.br/FrontInBH2013/embedded" frameborder="0" height="250px" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="0" scrolling="auto" allowtransparency="true"></iframe>
-
+              <iframe src="http://www.eventick.com.br/FrontInBH2013/embedded" frameborder="0" height="250px" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="0" scrolling="auto" allowtransparency="true"></iframe>
         </div>
       </div>
 
@@ -79,24 +61,48 @@
         </div>
       </div>
 
-
       <div class="partners division">
-        <div class="row wrapper">
+          <div class="row wrapper">
           <%- @partial("section/partners.html.eco", @) %>
-        </div>
+          </div>
       </div>
-
       <div class="organization finaldiv division">
+
+      <div class="row wrapper" style="margin-bottom: 50px">
+          <h2 class="section-title">Apresentado por</h2>
+
+          <span>
+            <a href="https://twitter.com/bernarddeluna" title="Bernard de luna" target="_blank">
+                <img src="/themes/front-in-bh/img/bernard.jpg" alt="Bernard de Luna" width="140" height="140" class="people">
+            </a>
+            <em>Bernard de luna</em>
+          </span>
+
+          <span>
+            <a href="https://twitter.com/zenorocha" title="Zeno Rocha" target="_blank">
+                <img src="/themes/front-in-bh/img/zeno.jpg" alt="Zeno Rocha" width="140" height="140" class="people">
+            </a>
+            <em>Zeno Rocha</em>
+          </span>
+
+        </div>
+
         <div class="row wrapper">
+
+
           <h2 class="section-title">Organizado por</h2>
 
           <span>
-            <a href="https://twitter.com/keppelen" title="Giovanni Keppelen" target="_blank"><img src="/themes/front-in-bh/img/giovanni.jpg" alt="Giovanni Keppelen"></a>
+            <a href="https://twitter.com/keppelen" title="Giovanni Keppelen" target="_blank">
+                <img src="/themes/front-in-bh/img/giovanni.jpg" alt="Giovanni Keppelen" width="140" height="140" class="people">
+            </a>
             <em>Giovanni Keppelen</em>
           </span>
 
           <span>
-            <a href="https://twitter.com/davidsonFellipe" title="Davidson Felipe" target="_blank"><img src="/themes/front-in-bh/img/davidson.jpg" alt="Davidson Felipe"></a>
+            <a href="https://twitter.com/davidsonFellipe" title="Davidson Felipe" target="_blank">
+                <img src="/themes/front-in-bh/img/davidson.jpg" alt="Davidson Felipe" width="140" height="140" class="people">
+            </a>
             <em>Davidson Fellipe</em>
           </span>
 

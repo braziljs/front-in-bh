@@ -1,13 +1,13 @@
 (function($) {
 
     $.organicTabs = function(el, options) {
-    
+
         var base = this;
         base.$el = $(el);
         base.$nav = base.$el.find(".nav");
-                
+
         base.init = function() {
-        
+
             base.options = $.extend({},$.organicTabs.defaultOptions, options);
             
             // Accessible hiding fix
@@ -15,10 +15,10 @@
                 "display": "none"
             }); 
             
-            base.$nav.delegate("a", "click", function() {
+            base.$nav.delegate(".btn", "click", function() {
             
                 // Figure out current list via CSS class
-                var curList = base.$el.find("a.current").attr("href").substring(1),
+                var curList = base.$el.find(".btn.current").attr("href").substring(1),
                 
                 // List moving to
                     $newList = $(this),
@@ -44,7 +44,7 @@
                         });
                         
                         // Remove highlighting - Add to just-clicked tab
-                        base.$el.find(".nav a").removeClass("current");
+                        base.$el.find(".nav .btn").removeClass("current");
                         $newList.addClass("current");
                             
                     });

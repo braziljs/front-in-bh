@@ -134,11 +134,11 @@ text-shadow: 1px 2px 1px #333;
   float:left;
   padding:0 5px
 }
-.nav a {
+.nav .item {
   padding: 15px 5px;
   font-size: 18px;
   color: #666;
-  width: 180px;
+  width: 178px;
   height: 20px;
 }
 .nav-log-in,.nav {
@@ -157,24 +157,6 @@ text-shadow: 1px 2px 1px #333;
   left: 0;
   -webkit-filter: blur(1px);
 }
-
-
-/*.btn {
-  padding: 20px 35px;
-  max-width: 150px;
-  border-radius:3px;
-  font-size: 16px;
-  line-height:1;
-  color:#FFF;
-  text-transform:uppercase;
-  background: #ED145B;
-  cursor: pointer;
-}
-.btn:hover {
-  text-decoration:none;
-  color: #FFF;
-  opacity: .8;
-}*/
 
 .purchase {
   background: url("../img/purchase.png");
@@ -385,11 +367,13 @@ display: block;
   top: 0;
   left: 0;
   z-index: 25;
+  display: none;
 }
 
 .speaker-img {
   width: 188px;
   height: 200px;
+  border-radius: 5px 5px 0 0;
 }
 
 .list-speaker {
@@ -397,12 +381,30 @@ display: block;
   position: relative;
 }
 
-.talk-btn, .bio-btn {
+
+.convidado .guest-btn {
+    display: block;
+}
+
+.talk-btn,
+.guest-btn,
+.bio-btn {
   min-width: 120px;
   float: left;
   text-align: center;
   color: #FFF !important;
-  background: #c6c6c6;
+  background: #e7215f;
+  cursor: pointer;
+}
+
+.guest-btn {
+    display: none;
+    cursor: auto;
+}
+
+.convidado .talk-btn,
+.convidado .bio-btn {
+    display: none;
 }
 
 .talk-btn.current, .bio-btn.current {
@@ -418,7 +420,7 @@ display: block;
 #tabs a {
   text-decoration: none;
 }
-
+.
 .footer {
   background: #ccc;
   padding: 25px 20px 0;

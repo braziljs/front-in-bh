@@ -51,7 +51,7 @@ module.exports =
       time: "9h00"
     ,
       name: "Maurício Samy Silva - MAUJOR"
-      photo: "maujor.png"
+      photo: "maujor.jpg"
       bio: "Convidado especial - Irá autografar seus livros, bater um papo com a galera, tomar um café"
       job: "Dinossauro das CSS"
       company: "Maujor (RJ, Brasil)"

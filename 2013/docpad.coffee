@@ -159,6 +159,10 @@ module.exports =
       name: "JD Comunicação"
       logo: "/themes/front-in-bh/img/jd.png"
       url: "http://www.jdcom.com.br/"
+    ,
+      name: "Devcast"
+      logo: "/themes/front-in-bh/img/devcast.png"
+      url: "http://devcastbrasil.com/"
     ]
 
     # Theme path

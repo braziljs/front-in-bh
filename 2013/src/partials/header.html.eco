@@ -9,7 +9,7 @@
 <article class="infos-header">
     <span>
         <em><%= @conf.date %> - <%= @conf.venue %> / <%= @conf.city %> - <%= @conf.state %></em>
-        <a class="" title="cadasre-se" href="#ticktes">
+        <a href="#ticktes">
             <img src="/themes/front-in-bh/img/purchase.png" alt="inscreva-se" width="450" height="128">
         </a>
     </span>

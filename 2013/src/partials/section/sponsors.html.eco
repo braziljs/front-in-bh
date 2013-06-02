@@ -5,7 +5,7 @@
 <% for sponsor in @sponsors_diamond: %>
   <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
     <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url" target="_blank">
-      <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image"width="177" height="95">
+      <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image" width="177" height="95">
     </a>
   </li>
 <% end %>
@@ -16,7 +16,7 @@
 <% for sponsor in @sponsors_bronze: %>
   <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
     <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url" target="_blank">
-      <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image"width="177" height="95">
+      <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image" width="177" height="95">
     </a>
   </li>
 <% end %>

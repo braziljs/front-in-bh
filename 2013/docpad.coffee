@@ -78,6 +78,20 @@ module.exports =
         description: "Em breve"
         time: ""
     ,
+      name: "Eduardo Lundgren"
+      photo: "eduardo.png"
+      bio: "Criador do @alloyui and @trackingjs, ex-membro do @jquery e @jqueryui. Graduado em Engenharia Elétrica de Telecomunicações pela UPE e Mestrando em Ciência da Computação na UFPE. Atualmente é líder de desenvolvimento na Liferay Brasil."
+      job: "Software Engineer"
+      type: "palestrante"
+      company: "Liferay Inc. (Los Angeles, EUA)"
+      twitter: "eduardolundgren"
+      github: "eduardolundgren"
+      personal: "eduardolundgren.com"
+      presentation:
+        title: "Em breve"
+        description: "Em breve"
+        time: ""
+    ,
       name: "Michael Lancaster"
       photo: "michael.png"
       bio: "Um jovem norte-americano-brasileiro apaixonado por desenvolvimento Web e Open Source já foi voluntario na CPBR, trabalhou em Produtoras interativas fazendo trabalhos para clientes como Banco Itaú, Açucar União, entre outros e Agencias como IDTBWA, LEWLARA, Africa, etc. Também foi consultor Front End para HP ajudando JSP developers com JS e Grid Systems. Atualmente atua como Developer/HTML5 Digital na agência GolinHarris, em Chicago."

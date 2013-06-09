@@ -51,6 +51,7 @@ module.exports =
       time: "9h00"
     ,
       name: "Maurício Samy Silva (Maujor)"
+      slug: "maujor"
       photo: "maujor.jpg"
       bio: "Como convidado especial, ele irá autografar seus livros e bater um papo com a galera."
       job: "Dinossauro das CSS"
@@ -65,6 +66,7 @@ module.exports =
         time: ""
     ,
       name: "Ciro Nunes"
+      slug: "ciro-nunes"
       photo: "ciro.jpg"
       bio: "Foi responsável pelo Front-end dos maiores e-commerces da América Latina como Americanas, Submarino e Shoptime, enquanto trabalhou na Ideais. Recentemente foi o head do Front-end e Scrum Master da Kanui e hoje faz parte do time do Veduca. Como palestrante já esteve presente nos encontros locais de desenvolvedores JavaScript do Rio de Janeiro e São Paulo, apresentando principalmente sobre o framework AngularJS."
       job: "Front-end Engineer"
@@ -79,6 +81,7 @@ module.exports =
         time: ""
     ,
       name: "Eduardo Lundgren"
+      slug: "eduardo-lundgren"
       photo: "eduardo.png"
       bio: "Criador do @alloyui and @trackingjs, ex-membro do @jquery e @jqueryui. Graduado em Engenharia Elétrica de Telecomunicações pela UPE e Mestrando em Ciência da Computação na UFPE. Atualmente é líder de desenvolvimento na Liferay Brasil."
       job: "Software Engineer"
@@ -93,6 +96,7 @@ module.exports =
         time: ""
     ,
       name: "Michael Lancaster"
+      slug: "michael-lancaster"
       photo: "michael.png"
       bio: "Um jovem norte-americano-brasileiro apaixonado por desenvolvimento Web e Open Source já foi voluntario na CPBR, trabalhou em Produtoras interativas fazendo trabalhos para clientes como Banco Itaú, Açucar União, entre outros e Agencias como IDTBWA, LEWLARA, Africa, etc. Também foi consultor Front End para HP ajudando JSP developers com JS e Grid Systems. Atualmente atua como Developer/HTML5 Digital na agência GolinHarris, em Chicago."
       company: "Golinharris (Chicago, EUA)"
@@ -107,6 +111,7 @@ module.exports =
         time: ""
     ,
       name: "Miller Medeiros"
+      slug: "miller-medeiros"
       photo: "miller.png"
       bio: "Começou como Designer, depois focou na área de desenvolvimento. Desde 2009 vem trabalhando para a agência Nova Iorquina, Firstborn. É também um grande contribuidor de projetos Open Source, entre eles o Require.JS e o Mout."
       company: "Firstborn (NY, EUA)"
@@ -121,6 +126,7 @@ module.exports =
         time: ""
     ,
       name: "Sérgio Lopes"
+      slug: "sergio-lopes"
       photo: "sergio.png"
       bio: "Trabalha na Caelum como instrutor e desenvolvedor há 8 anos, nas áreas de front-end, mobile e Java. Já palestrou em diversos eventos, é meio louco por páginas rápidas e otimizadas."
       job: "Developer e Professor"

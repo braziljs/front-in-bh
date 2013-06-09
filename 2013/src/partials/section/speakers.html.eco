@@ -1,7 +1,7 @@
 <% for speaker in @schedule: %>
     <% if speaker.presentation: %>
 
-      <div class="col6 list-speaker">
+      <div class="col6 list-speaker" id="<%= speaker.slug %>">
         <div class="col1 img-speaker">
           <img src="/themes/front-in-bh/img/mask.png" class="speaker-mask" alt="" width="188" height="220">
           <img src="/themes/front-in-bh/img/<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image" class="speaker-img" width="140" height="140">

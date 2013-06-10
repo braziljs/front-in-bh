@@ -76,8 +76,8 @@ module.exports =
       github: "cironunes"
       personal: "cironunes.github.io"
       presentation:
-        title: "Em breve"
-        description: "Em breve"
+        title: "Desenvolvimento ágil com o AngularJS"
+        description: "A demanda do mercado por agilidade no desenvolvimento de sites/apps/serviços é cada vez mais evidente. Os frameworks ágeis como o SCRUM são excelentes para nos ajudar a nos organizar, para respondermos rapidamente a mudanças e fazer entregas rápidas. Nesta palestra, ele vai mostrar como o AngularJS e seu ecosistema de desenvolvimento se encaixa nos princípios do Agile Manifest, racionalizando o workflow e facilitando testar nosso JavaScript"
         time: ""
     ,
       name: "Eduardo Lundgren"

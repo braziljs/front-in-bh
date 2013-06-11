@@ -107,7 +107,8 @@ module.exports =
       personal: "bymichaellancaster.com/"
       presentation:
         title: "CSS do jeito correto?"
-        description: "Em breve"
+        description: "Mesmo com vários cases de que CSS faz muita diferença na qualidade da aplicação Web e na produtividade do time desenvolvedores continuam ignorando esses cases e sinais de que um CSS bem arquitetado é essencial para o sucesso da aplicação Web.
+Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você a ser mais produtivo, desenvolver melhores CSS arquitetura, também vamos falar de standards e melhores pratica."
         time: ""
     ,
       name: "Miller Medeiros"

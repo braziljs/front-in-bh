@@ -161,6 +161,10 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       name: "Casa do Código"
       logo: "/themes/front-in-bh/img/casa-codigo.png"
       url: "http://www.casadocodigo.com.br/"
+    ,
+      name: "Treinaweb"
+      logo: "/themes/front-in-bh/img/treinaweb.png"
+      url: "http://www.treinaweb.com.br/"
     ]
 
     # List of Partners

@@ -150,6 +150,10 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
     ]
 
     sponsors_bronze: [
+      name: "Avenue Code"
+      logo: "/themes/front-in-bh/img/avenue-code.png"
+      url: "http://www.avenuecode.com.br/"
+    ,
       name: "Caelum"
       logo: "/themes/front-in-bh/img/caelum.png"
       url: "http://www.caelum.com.br/"

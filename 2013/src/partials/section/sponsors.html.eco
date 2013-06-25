@@ -11,6 +11,17 @@
 <% end %>
 </ul>
 
+<h3 class="section-subtitle">Ouro</h3>
+<ul class="sponsors-list">
+<% for sponsor in @sponsors_gold: %>
+  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url" target="_blank">
+      <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image" width="177" height="95">
+    </a>
+  </li>
+<% end %>
+</ul>
+
 <h3 class="section-subtitle">Bronze</h3>
 <ul class="sponsors-list">
 <% for sponsor in @sponsors_bronze: %>

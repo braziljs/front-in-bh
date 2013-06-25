@@ -149,6 +149,12 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       url: "http://www.mozilla.org/en-US/"
     ]
 
+    sponsors_gold: [
+      name: "JD Comunicação"
+      logo: "/themes/front-in-bh/img/jd.png"
+      url: "http://www.jdcom.com.br/"
+    ]
+
     sponsors_bronze: [
       name: "Avenue Code"
       logo: "/themes/front-in-bh/img/avenue-code.png"
@@ -184,10 +190,6 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       name: "Web BR"
       logo: "/themes/front-in-bh/img/web-br.png"
       url: "http://conferenciaweb.w3c.br/"
-    ,
-      name: "JD Comunicação"
-      logo: "/themes/front-in-bh/img/jd.png"
-      url: "http://www.jdcom.com.br/"
     ,
       name: "Devcast"
       logo: "/themes/front-in-bh/img/devcast.png"

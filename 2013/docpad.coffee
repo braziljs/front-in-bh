@@ -65,6 +65,21 @@ module.exports =
         description: "Como convidado especial, ele irá autografar seus livros e bater um papo com a galera."
         time: ""
     ,
+      name: "Andrews Medina"
+      slug: "andrews-medina"
+      photo: "andrews.jpg"
+      bio: "Andrews Medina é desenvolvedor, um dos criadores do Splinter, uma ferramenta open source para testes de webapps, entusiasta de open source, cloud computing, e profeta nas horas vagas. É desenvolvedor na globo.com e atualmente trabalha no tsuru (tsuru.io) um PaaS opensource."
+      job: "Sr. Software Engineer"
+      type: "palestrante"
+      company: "Globo.com (RJ, Brasil)"
+      twitter: "andrewsmedina"
+      github: "andrewsmedina"
+      personal: "andrewsmedina.com"
+      presentation:
+        title: ""
+        description: ""
+        time: ""
+    ,
       name: "Ciro Nunes"
       slug: "ciro-nunes"
       photo: "ciro.jpg"

@@ -76,8 +76,8 @@ module.exports =
       github: "andrewsmedina"
       personal: "andrewsmedina.com"
       presentation:
-        title: ""
-        description: ""
+        title: "Em breve"
+        description: "Em breve"
         time: ""
     ,
       name: "Ciro Nunes"

@@ -110,6 +110,21 @@ module.exports =
         description: "Em breve"
         time: ""
     ,
+      name: "Fábio Magnoni"
+      slug: "fabio-magnoni"
+      photo: "fabio-magnoni.jpg"
+      bio: "Developer Evangelist da Mozilla na América Latina."
+      job: "Developer Evangelist"
+      type: "palestrante"
+      company: "Mozilla Corporation (América Latina)"
+      twitter: "FabioMagnoni"
+      github: "FabioMagnoni"
+      personal: ""
+      presentation:
+        title: "Persona"
+        description: "Em breve"
+        time: ""
+    ,
       name: "Michael Lancaster"
       slug: "michael-lancaster"
       photo: "michael.png"

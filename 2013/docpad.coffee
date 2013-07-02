@@ -113,7 +113,7 @@ module.exports =
       name: "Fábio Magnoni"
       slug: "fabio-magnoni"
       photo: "fabio-magnoni.jpg"
-      bio: "Developer Evangelist da Mozilla na América Latina."
+      bio: "Fábio Magnoni é Account Manager da Mozilla. Desenvolvedor, foi voluntário da Mozilla por 2 anos e contribui com desenvolvimento do Firefox OS. Além de contribuir em diversos projetos Open Source. Também fundador de start-ups na área de tecnologia, compras coletivas e mídia."
       job: "Developer Evangelist"
       type: "palestrante"
       company: "Mozilla Corporation (América Latina)"

@@ -224,6 +224,14 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       name: "Devcast"
       logo: "/themes/front-in-bh/img/devcast.png"
       url: "http://devcastbrasil.com/"
+    ,
+      name: "GitHub"
+      logo: "/themes/front-in-bh/img/github.png"
+      url: "http://github.com/"
+    ,
+      name: "LifeRay"
+      logo: "/themes/front-in-bh/img/liferay.png"
+      url: "http://www.liferay.com/"
     ]
 
     # Theme path

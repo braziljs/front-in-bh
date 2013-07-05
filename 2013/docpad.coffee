@@ -177,6 +177,10 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       name: "Mozilla"
       logo: "/themes/front-in-bh/img/mozilla.png"
       url: "http://www.mozilla.org/en-US/"
+    ,
+      name: "Globo.com"
+      logo: "/themes/front-in-bh/img/globo.png"
+      url: "http://www.globo.com"
     ]
 
     sponsors_gold: [

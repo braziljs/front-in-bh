@@ -76,8 +76,8 @@ module.exports =
       github: "andrewsmedina"
       personal: "andrewsmedina.com"
       presentation:
-        title: "Em breve"
-        description: "Em breve"
+        title: "Testando interfaces de forma divertida"
+        description: "O aumento de confiança e agilidade que os testes automatizados trazem é um fato. Mas escrever testes para interfaces costumam serem chatos, complicados e difíceis de manter. Nessa palestra veremos técnicas e ferramentas para tornar os testes de interfaces mais simples e fáceis de manter"
         time: ""
     ,
       name: "Ciro Nunes"

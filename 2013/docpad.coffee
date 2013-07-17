@@ -121,8 +121,9 @@ module.exports =
       github: "FabioMagnoni"
       personal: ""
       presentation:
-        title: "Persona"
-        description: "Em breve"
+        title: "Mozilla Persona"
+        description: "Persona é um sistema de identidade Web. Persona você fazer login em websites utilizando um email escolhido, ao invés do usuário ficar guardando usuários e senhas. A Mozilla lida com os detalhes.
+Desenvolvedores só precisam de algumas linhas de código para gerar uma boa relação com usuários e prover um sistema de login confiável e seguro."
         time: ""
     ,
       name: "Michael Lancaster"

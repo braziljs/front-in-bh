@@ -48,7 +48,7 @@ module.exports =
     # The entire schedule
     schedule: [
       name: "Check-in / Breakfast"
-      time: "9h00"
+      time: "8h00"
     ,
       name: "Maurício Samy Silva (Maujor)"
       slug: "maujor"
@@ -63,7 +63,7 @@ module.exports =
       presentation:
         title: "Convidado Especial"
         description: "Como convidado especial, ele irá autografar seus livros e bater um papo com a galera."
-        time: ""
+        time: "Full time no evento :)"
     ,
       name: "Andrews Medina"
       slug: "andrews-medina"
@@ -78,7 +78,7 @@ module.exports =
       presentation:
         title: "Testando interfaces de forma divertida"
         description: "O aumento de confiança e agilidade que os testes automatizados trazem é um fato. Mas escrever testes para interfaces costumam serem chatos, complicados e difíceis de manter. Nessa palestra veremos técnicas e ferramentas para tornar os testes de interfaces mais simples e fáceis de manter"
-        time: ""
+        time: "9h00"
     ,
       name: "Ciro Nunes"
       slug: "ciro-nunes"
@@ -93,7 +93,7 @@ module.exports =
       presentation:
         title: "Desenvolvimento ágil com o AngularJS"
         description: "A demanda do mercado por agilidade no desenvolvimento de sites/apps/serviços é cada vez mais evidente. Os frameworks ágeis como o SCRUM são excelentes para nos ajudar a nos organizar, para respondermos rapidamente a mudanças e fazer entregas rápidas. Nesta palestra, ele vai mostrar como o AngularJS e seu ecosistema de desenvolvimento se encaixa nos princípios do Agile Manifest, racionalizando o workflow e facilitando testar nosso JavaScript"
-        time: ""
+        time: "10h00"
     ,
       name: "Eduardo Lundgren"
       slug: "eduardo-lundgren"
@@ -108,7 +108,7 @@ module.exports =
       presentation:
         title: "Indo além com AlloyUI"
         description: "Descubra o poder do framework AlloyUI para construção de aplicações web de alta escala, aprimorando a experiência e elevando a interação do usuário para um outro nível."
-        time: ""
+        time: "11h00"
     ,
       name: "Fábio Magnoni"
       slug: "fabio-magnoni"
@@ -124,7 +124,7 @@ module.exports =
         title: "Mozilla Persona"
         description: "Persona é um sistema de identidade Web. Persona você fazer login em websites utilizando um email escolhido, ao invés do usuário ficar guardando usuários e senhas. A Mozilla lida com os detalhes.
 Desenvolvedores só precisam de algumas linhas de código para gerar uma boa relação com usuários e prover um sistema de login confiável e seguro."
-        time: ""
+        time: "14h00"
     ,
       name: "Michael Lancaster"
       slug: "michael-lancaster"
@@ -140,7 +140,7 @@ Desenvolvedores só precisam de algumas linhas de código para gerar uma boa rel
         title: "CSS do jeito correto?"
         description: "Mesmo com vários cases de que CSS faz muita diferença na qualidade da aplicação Web e na produtividade do time desenvolvedores continuam ignorando esses cases e sinais de que um CSS bem arquitetado é essencial para o sucesso da aplicação Web.
 Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você a ser mais produtivo, desenvolver melhores CSS arquitetura, também vamos falar de standards e melhores pratica."
-        time: ""
+        time: "15h00"
     ,
       name: "Miller Medeiros"
       slug: "miller-medeiros"
@@ -155,7 +155,7 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       presentation:
         title: "Em breve"
         description: "Com projetos escritos em JS cada vez maiores e mais complexos é fundamental aprender técnicas, metodologias e ferramentas que ajudem no desenvolvimento e manutenção. O RequireJS e o uso de módulos é sem dúvida uma dessas ferramentas. Essa palestra explicará como que o RequireJS funciona internamente, boas práticas, os benefícios do seu uso, como que os plugins e a ferramenta de build (r.js) aumentam o poder e flexibilidade da sua aplicação, melhoram a performance e reduzem a burocracia durante o desenvolvimento."
-        time: ""
+        time: "16h00"
     ,
       name: "Sérgio Lopes"
       slug: "sergio-lopes"
@@ -170,7 +170,7 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       presentation:
         title: "Repensando o front-end para telas de alta resolução"
         description: "Telas de alta resolução? Imagens responsivas? Retina? Gráficos vetoriais? SVG, icon fonts? DPIs, viewports, device pixel ratio? Muitos termos confusos? Essa palestra vai mostrar tudo que você precisa saber pra entender e trabalhar com telas de resoluções diferentes. Vamos ver como adaptar seu design e suas imagens pra esses contextos e dicas de como suportar os vários tipos de tela de hoje e do futuro!"
-        time: ""
+        time: "17h00"
     ]
 
     # List of Sponsors
@@ -237,6 +237,10 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       name: "LifeRay"
       logo: "/themes/front-in-bh/img/liferay.png"
       url: "http://www.liferay.com/"
+    ,
+      name: "Wide"
+      logo: "/themes/front-in-bh/img/wide.png"
+      url: "http://www.revistawide.com.br/"
     ]
 
     # Theme path

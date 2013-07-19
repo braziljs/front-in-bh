@@ -35,14 +35,14 @@
 
         <div class="col5 desc-speaker">
             <h2>
-                <span class="desc-speaker-name"><%= speaker.name %></span><br>
-                <span class="desc-speaker-company"><%= speaker.job %> - <%= speaker.company %></span>
+                <span class="desc-speaker-name"><%= speaker.name %> / <i><%= speaker.presentation.title %></i></span><br>
             </h2>
             <div id="content">
               <p id="talk" class="talk-description hide">
                   <%= speaker.presentation.description %>
               </p>
               <p id="bio" class="bio" >
+                <span class="desc-speaker-company"><%= speaker.job %> - <%= speaker.company %></span>
                 <%= speaker.bio %>
               </p>
             </div>

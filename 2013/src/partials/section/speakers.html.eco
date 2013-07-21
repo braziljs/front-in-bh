@@ -1,19 +1,19 @@
   <!-- Palestrantes -->
-  <h2>Programação</h2>
   <% for speaker in @schedule: %>
     <% if speaker.presentation: %>
 
       <div class="col6 list-speaker" id="<%= speaker.slug %>">
         <% if speaker.photo: %>
         <div class="col1 img-speaker">
-          <img src="/themes/front-in-bh/img/mask.png" class="speaker-mask" alt="" width="188" height="220">
           <img src="/themes/front-in-bh/img/<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image" class="speaker-img" width="140" height="140">
 
+          <% if speaker.presentation.title: %>
           <div id="tabs" class="nav <%= speaker.type %>">
             <span class="item guest-btn">convidado</span>
             <a href="#talk" class="item btn talk-btn" role="button">+ sobre a palestra</a>
             <a href="#bio" class="item btn bio-btn current" role="button">+ biografia</a>
           </div>
+          <% end %>
 
           <div class="social">
           <% if speaker.twitter: %>
@@ -40,7 +40,14 @@
         <% if speaker.name: %>
         <div class="col5 desc-speaker">
             <h2>
-                <span class="desc-speaker-name"> <b><%= speaker.presentation.time %></b> <%= speaker.name %> / <i><%= speaker.presentation.title %></i></span><br>
+                <span class="desc-speaker-name">
+                  <b><%= speaker.presentation.time %></b> 
+                  <%= speaker.name %>
+                  <% if speaker.presentation.title: %>
+                    <i> / <%= speaker.presentation.title %></i>
+                  <% end %>
+                </span>
+                <br>
             </h2>
             <div id="content">
               <p id="talk" class="talk-description hide">

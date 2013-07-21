@@ -754,3 +754,16 @@ background: transparent url(../img/pin-tickets.jpg) no-repeat 0 0;
 span {
   font-weight: bold;
 }
+
+
+
+#coffee-break  .desc-speaker,
+#almoco .desc-speaker, 
+#abertura .desc-speaker, 
+#welcome-coffee .desc-speaker, 
+#encerramento .desc-speaker {
+  padding-top: 70px;
+}
+
+
+

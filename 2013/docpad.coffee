@@ -50,36 +50,6 @@ module.exports =
       name: "Check-in / Breakfast"
       time: "8h00"
     ,
-      name: "Cadastramento e Welcome Coffee"
-      slug: ""
-      photo: ""
-      bio: ""
-      job: ""
-      type: ""
-      company: ""
-      twitter: ""
-      github: ""
-      personal: ""
-      presentation:
-        title: ""
-        description: ""
-        time: "08:00"
-    ,
-      name: "Abertura com Bernard de Luna e Zeno Rocha"
-      slug: ""
-      photo: ""
-      bio: ""
-      job: ""
-      type: ""
-      company: ""
-      twitter: ""
-      github: ""
-      personal: ""
-      presentation:
-        title: ""
-        description: ""
-        time: "08:50"
-    ,
       name: "Maurício Samy Silva (Maujor)"
       slug: "maujor"
       photo: "maujor.jpg"
@@ -94,6 +64,36 @@ module.exports =
         title: "Convidado Especial"
         description: "Como convidado especial, ele irá autografar seus livros e bater um papo com a galera."
         time: "Full time no evento :)"
+    ,
+      name: "Cadastramento e Welcome Coffee"
+      slug: "welcome-coffee"
+      photo: "cofe.png"
+      bio: ""
+      job: ""
+      type: ""
+      company: ""
+      twitter: ""
+      github: ""
+      personal: ""
+      presentation:
+        title: ""
+        description: ""
+        time: "08:00"
+    ,
+      name: "Abertura com Bernard de Luna"
+      slug: "abertura"
+      photo: "bernard.png"
+      bio: ""
+      job: ""
+      type: ""
+      company: ""
+      twitter: ""
+      github: ""
+      personal: ""
+      presentation:
+        title: ""
+        description: ""
+        time: "08:50"
     ,
       name: "Fábio Magnoni"
       slug: "fabio-magnoni"
@@ -143,8 +143,8 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
         time: "11h00"
     ,
       name: "Almoço - Não incluido no evento"
-      slug: ""
-      photo: ""
+      slug: "almoco"
+      photo: "almoco.png"
       bio: ""
       job: ""
       type: ""
@@ -185,11 +185,11 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       presentation:
         title: "Em breve"
         description: "Com projetos escritos em JS cada vez maiores e mais complexos é fundamental aprender técnicas, metodologias e ferramentas que ajudem no desenvolvimento e manutenção. O RequireJS e o uso de módulos é sem dúvida uma dessas ferramentas. Essa palestra explicará como que o RequireJS funciona internamente, boas práticas, os benefícios do seu uso, como que os plugins e a ferramenta de build (r.js) aumentam o poder e flexibilidade da sua aplicação, melhoram a performance e reduzem a burocracia durante o desenvolvimento."
-        time: "16h00"
+        time: "14h30"
     ,
       name: "Coffee Break - Incluido no evento"
-      slug: ""
-      photo: ""
+      slug: "coffee-break"
+      photo: "cofe.png"
       bio: ""
       job: ""
       type: ""
@@ -230,11 +230,11 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       presentation:
         title: "Testando interfaces de forma divertida"
         description: "O aumento de confiança e agilidade que os testes automatizados trazem é um fato. Mas escrever testes para interfaces costumam serem chatos, complicados e difíceis de manter. Nessa palestra veremos técnicas e ferramentas para tornar os testes de interfaces mais simples e fáceis de manter"
-        time: "16h40"
+        time: "16h50"
     ,
-      name: "Encerramento com Bernard de Luna e Zeno Rocha"
-      slug: ""
-      photo: ""
+      name: "Encerramento com Zeno Rocha"
+      slug: "encerramento"
+      photo: "zeno.jpg"
       bio: ""
       job: ""
       type: ""
@@ -245,7 +245,7 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       presentation:
         title: ""
         description: ""
-        time: "17:40"
+        time: "17:50"
     ]
 
     # List of Sponsors

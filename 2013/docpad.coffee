@@ -316,6 +316,10 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       name: "Wide"
       logo: "/themes/front-in-bh/img/wide.png"
       url: "http://www.revistawide.com.br/"
+    ,
+      name: "Dev Island"
+      logo: "/themes/front-in-bh/img/dev-island.png"
+      url: "http://devday.devisland.com/"
     ]
 
     # Theme path

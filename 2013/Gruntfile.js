@@ -31,7 +31,7 @@ module.exports = function( grunt ) {
             watch : {
                 dist : {
                     files : [
-                        'src/assets/**/*'
+                        'src/**/*'
                     ],
                     tasks : [ 'uglify', 'cssmin']
                 }

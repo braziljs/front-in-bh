@@ -114,12 +114,10 @@
     </section><!-- content -->
   </div>
 
-  <script src="themes/front-in-bh/js/jquery.js"></script>
-  <script src="themes/front-in-bh/js/tabs.js"></script>
-  <script src="themes/front-in-bh/js/functions.js"></script>
+  <script src="themes/front-in-bh/js/main.js"></script>
 
   <!-- GOOGLE ANALYTICS -->
-  <script>
+  <script async>
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', '<%= @site.googleanalytics %>']);
       _gaq.push(['_trackPageview']);

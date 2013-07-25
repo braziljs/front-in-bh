@@ -183,7 +183,7 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       github: "millermedeiros"
       personal: "blog.millermedeiros.com/"
       presentation:
-        title: "Em breve"
+        title: "RequireJS"
         description: "Com projetos escritos em JS cada vez maiores e mais complexos é fundamental aprender técnicas, metodologias e ferramentas que ajudem no desenvolvimento e manutenção. O RequireJS e o uso de módulos é sem dúvida uma dessas ferramentas. Essa palestra explicará como que o RequireJS funciona internamente, boas práticas, os benefícios do seu uso, como que os plugins e a ferramenta de build (r.js) aumentam o poder e flexibilidade da sua aplicação, melhoram a performance e reduzem a burocracia durante o desenvolvimento."
         time: "14h30"
     ,

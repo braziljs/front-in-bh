@@ -266,6 +266,10 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
     ]
 
     sponsors_bronze: [
+      name: "Google Brasil"
+      logo: "/themes/front-in-bh/img/google-logo.jpg"
+      url: "http://www.google.com"
+    ,
       name: "Avenue Code"
       logo: "/themes/front-in-bh/img/avenue-code.png"
       url: "http://www.avenuecode.com.br/"

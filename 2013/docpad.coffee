@@ -284,6 +284,18 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       logo: "/themes/front-in-bh/img/mozilla.png"
       url: "http://www.mozilla.org/en-US/"
     ,
+      name: "W3C Brasil"
+      logo: "/themes/front-in-bh/img/w3c.png"
+      url: "http://www.w3c.br/"
+    ,
+      name: "NIC.BR"
+      logo: "/themes/front-in-bh/img/nic-br.png"
+      url: "http://www.nic.br/index.shtml"
+    ,
+      name: "CGI.BR"
+      logo: "/themes/front-in-bh/img/cgi-br.png"
+      url: "http://www.cgi.br/"
+    ,
       name: "Globo.com"
       logo: "/themes/front-in-bh/img/globo.png"
       url: "http://www.globo.com"

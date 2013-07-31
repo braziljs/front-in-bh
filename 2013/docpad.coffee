@@ -140,7 +140,7 @@ Desenvolvedores só precisam de algumas linhas de código para gerar uma boa rel
         title: "CSS do jeito correto?"
         description: "Mesmo com vários cases de que CSS faz muita diferença na qualidade da aplicação Web e na produtividade do time desenvolvedores continuam ignorando esses cases e sinais de que um CSS bem arquitetado é essencial para o sucesso da aplicação Web.
 Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você a ser mais produtivo, desenvolver melhores CSS arquitetura, também vamos falar de standards e melhores pratica."
-        time: "10h10"
+        time: "10h15"
     ,
       name: "Sérgio Lopes"
       slug: "sergio-lopes"
@@ -172,21 +172,6 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
         description: ""
         time: "12:00"
     ,
-      name: "Reinaldo Ferraz"
-      slug: "reinaldo-ferraz"
-      photo: "reinaldo.jpg"
-      bio: "Especialista em desenvolvimento web do W3C Brasil. Formado em desenho e computação gráfica e pós graduado em design de hipermídia pela Universidade Anhembi Morumbi em São Paulo. Trabalha há mais de 12 anos com desenvolvimento web. Coordenador do Prêmio Nacional de Acessibilidade na Web e do Grupo de Trabalho em Acessibilidade na Web e representante do W3C Brasil em plenárias técnicas do W3C."
-      job: "Especialista em desenvolvimento web"
-      type: "palestrante"
-      company: "W3C Brasil"
-      twitter: "reinaldoferraz"
-      github: "reinaldoferraz"
-      personal: "blog.w3c.br/author/reinaldo/"
-      presentation:
-        title: "Como contribuir para um padrão do W3C"
-        description: "Você sabia que pode participar da construção e evolução de um padrão dentro do W3C? Nessa lightning talk você vai descobrir como contribuir para a evolução da Web e quais os caminhos para conhecer ainda mais os processos do W3C."
-        time: "13h30"
-    ,
       name: "Ciro Nunes"
       slug: "ciro-nunes"
       photo: "ciro.jpg"
@@ -200,7 +185,22 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       presentation:
         title: "Desenvolvimento ágil com o AngularJS"
         description: "A demanda do mercado por agilidade no desenvolvimento de sites/apps/serviços é cada vez mais evidente. Os frameworks ágeis como o SCRUM são excelentes para nos ajudar a nos organizar, para respondermos rapidamente a mudanças e fazer entregas rápidas. Nesta palestra, ele vai mostrar como o AngularJS e seu ecosistema de desenvolvimento se encaixa nos princípios do Agile Manifest, racionalizando o workflow e facilitando testar nosso JavaScript"
-        time: "13h45"
+        time: "13h15"
+    ,
+      name: "Reinaldo Ferraz"
+      slug: "reinaldo-ferraz"
+      photo: "reinaldo.jpg"
+      bio: "Especialista em desenvolvimento web do W3C Brasil. Formado em desenho e computação gráfica e pós graduado em design de hipermídia pela Universidade Anhembi Morumbi em São Paulo. Trabalha há mais de 12 anos com desenvolvimento web. Coordenador do Prêmio Nacional de Acessibilidade na Web e do Grupo de Trabalho em Acessibilidade na Web e representante do W3C Brasil em plenárias técnicas do W3C."
+      job: "Especialista em desenvolvimento web"
+      type: "palestrante"
+      company: "W3C Brasil"
+      twitter: "reinaldoferraz"
+      github: "reinaldoferraz"
+      personal: "blog.w3c.br/author/reinaldo/"
+      presentation:
+        title: "Como contribuir para um padrão do W3C"
+        description: "Você sabia que pode participar da construção e evolução de um padrão dentro do W3C? Nessa lightning talk você vai descobrir como contribuir para a evolução da Web e quais os caminhos para conhecer ainda mais os processos do W3C."
+        time: "14h05"
     ,
       name: "Miller Medeiros"
       slug: "miller-medeiros"
@@ -215,7 +215,7 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       presentation:
         title: "RequireJS"
         description: "Com projetos escritos em JS cada vez maiores e mais complexos é fundamental aprender técnicas, metodologias e ferramentas que ajudem no desenvolvimento e manutenção. O RequireJS e o uso de módulos é sem dúvida uma dessas ferramentas. Essa palestra explicará como que o RequireJS funciona internamente, boas práticas, os benefícios do seu uso, como que os plugins e a ferramenta de build (r.js) aumentam o poder e flexibilidade da sua aplicação, melhoram a performance e reduzem a burocracia durante o desenvolvimento."
-        time: "14h40"
+        time: "14h25"
     ,
       name: "Coffee Break - Incluido no evento"
       slug: "coffee-break"
@@ -230,7 +230,7 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       presentation:
         title: ""
         description: ""
-        time: "15:35"
+        time: "15:10"
     ,
       name: "Eduardo Lundgren"
       slug: "eduardo-lundgren"
@@ -245,7 +245,7 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       presentation:
         title: "Indo além com AlloyUI"
         description: "Descubra o poder do framework AlloyUI para construção de aplicações web de alta escala, aprimorando a experiência e elevando a interação do usuário para um outro nível."
-        time: "15h55"
+        time: "15h35"
     ,
       name: "Andrews Medina"
       slug: "andrews-medina"
@@ -260,7 +260,7 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       presentation:
         title: "Testando interfaces de forma divertida"
         description: "O aumento de confiança e agilidade que os testes automatizados trazem é um fato. Mas escrever testes para interfaces costumam serem chatos, complicados e difíceis de manter. Nessa palestra veremos técnicas e ferramentas para tornar os testes de interfaces mais simples e fáceis de manter"
-        time: "16h50"
+        time: "16h25"
     ,
       name: "Encerramento Zeno Rocha"
       slug: "encerramento"
@@ -275,7 +275,7 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       presentation:
         title: "Bernard de Luna"
         description: ""
-        time: "17:45"
+        time: "17:15"
     ]
 
     # List of Sponsors

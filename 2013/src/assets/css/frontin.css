@@ -424,6 +424,10 @@ display: block;
   display: none;
 }
 
+.apresentadores .btn {
+  display: none;
+}
+
 #tabs {
   position: absolute;
   bottom: 56px;

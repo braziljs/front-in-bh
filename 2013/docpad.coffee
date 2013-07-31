@@ -80,36 +80,51 @@ module.exports =
         description: ""
         time: "08:00"
     ,
-      name: "Abertura com Bernard de Luna"
+      name: "Abertura Bernard de Luna"
       slug: "abertura"
       photo: "bernard.png"
       bio: ""
       job: ""
-      type: ""
+      type: "apresentadores"
       company: ""
       twitter: ""
       github: ""
       personal: ""
       presentation:
-        title: ""
+        title: "Zeno Rocha"
         description: ""
         time: "08:50"
     ,
-      name: "Fábio Magnoni"
-      slug: "fabio-magnoni"
-      photo: "fabio-magnoni.jpg"
-      bio: "Fábio Magnoni é Account Manager da Mozilla. Desenvolvedor, foi voluntário da Mozilla por 2 anos e contribui com desenvolvimento do Firefox OS. Além de contribuir em diversos projetos Open Source. Também fundador de start-ups na área de tecnologia, compras coletivas e mídia."
+      name: "Clauber Stipkovic"
+      slug: "clauber-stipkovic"
+      photo: "clauber-stipkovic.jpeg"
+      bio: "Clauber Stipkovic é desenvolvedor front-end no UOL Hosts, voluntário da comunidade mozilla (desde fevereiro de 2004), além de estudante de Ciência da Computação na Universidade Mackenzie - FCI."
       job: "Developer Evangelist"
       type: "palestrante"
-      company: "Mozilla Corporation (América Latina)"
-      twitter: "FabioMagnoni"
-      github: "FabioMagnoni"
+      company: "UOL (SP)"
+      twitter: ""
+      github: ""
       personal: ""
       presentation:
         title: "Mozilla Persona"
         description: "Persona é um sistema de identidade Web. Persona você fazer login em websites utilizando um email escolhido, ao invés do usuário ficar guardando usuários e senhas. A Mozilla lida com os detalhes.
 Desenvolvedores só precisam de algumas linhas de código para gerar uma boa relação com usuários e prover um sistema de login confiável e seguro."
         time: "09h00"
+    ,
+      name: "Tiago Hilkner Venegas"
+      slug: "tiago-hilkner"
+      photo: "tiago-hilkner.jpeg"
+      bio: "Tiago Hilkner Venegas é proprietário da Empresa de tecnologia Edunet e atua na área de desenvolvimento a mais de 15 anos, atendendo a grandes empresas do mercado nacional, nos últimos 5 vem se especializando em desenvolvimento para plataformas móveis. Venegas atuou por anos como evangelista das tecnologias Adobe e ministrou treinamentos e palestras por todo o Brasil, hoje é gerente do BlackBerry Dev Group Belo Horizonte e BlackBerry Elite Member."
+      job: ""
+      type: "palestrante"
+      company: "Edunet"
+      twitter: "tiagoflash"
+      github: ""
+      personal: ""
+      presentation:
+        title: "Desenvolvendo aplicações móveis com bbUI.js  "
+        description: "Conheça a Toolkit bbUI.js para desenvolvimento de aplicações móveis com HTML5.Permite criar aplicações móveis seguindo os padrões de UI da nova platarforma BlackBerry 10."
+        time: "09h50"
     ,
       name: "Michael Lancaster"
       slug: "michael-lancaster"
@@ -125,7 +140,7 @@ Desenvolvedores só precisam de algumas linhas de código para gerar uma boa rel
         title: "CSS do jeito correto?"
         description: "Mesmo com vários cases de que CSS faz muita diferença na qualidade da aplicação Web e na produtividade do time desenvolvedores continuam ignorando esses cases e sinais de que um CSS bem arquitetado é essencial para o sucesso da aplicação Web.
 Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você a ser mais produtivo, desenvolver melhores CSS arquitetura, também vamos falar de standards e melhores pratica."
-        time: "10h00"
+        time: "10h10"
     ,
       name: "Sérgio Lopes"
       slug: "sergio-lopes"
@@ -140,7 +155,7 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       presentation:
         title: "Repensando o front-end para telas de alta resolução"
         description: "Telas de alta resolução? Imagens responsivas? Retina? Gráficos vetoriais? SVG, icon fonts? DPIs, viewports, device pixel ratio? Muitos termos confusos? Essa palestra vai mostrar tudo que você precisa saber pra entender e trabalhar com telas de resoluções diferentes. Vamos ver como adaptar seu design e suas imagens pra esses contextos e dicas de como suportar os vários tipos de tela de hoje e do futuro!"
-        time: "11h00"
+        time: "11h05"
     ,
       name: "Almoço - Não incluido no evento"
       slug: "almoco"
@@ -157,6 +172,21 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
         description: ""
         time: "12:00"
     ,
+      name: "Reinaldo Ferraz"
+      slug: "reinaldo-ferraz"
+      photo: "reinaldo.jpg"
+      bio: "Especialista em desenvolvimento web do W3C Brasil. Formado em desenho e computação gráfica e pós graduado em design de hipermídia pela Universidade Anhembi Morumbi em São Paulo. Trabalha há mais de 12 anos com desenvolvimento web. Coordenador do Prêmio Nacional de Acessibilidade na Web e do Grupo de Trabalho em Acessibilidade na Web e representante do W3C Brasil em plenárias técnicas do W3C."
+      job: "Especialista em desenvolvimento web"
+      type: "palestrante"
+      company: "W3C Brasil"
+      twitter: "reinaldoferraz"
+      github: "reinaldoferraz"
+      personal: "blog.w3c.br/author/reinaldo/"
+      presentation:
+        title: "Como contribuir para um padrão do W3C"
+        description: "Você sabia que pode participar da construção e evolução de um padrão dentro do W3C? Nessa lightning talk você vai descobrir como contribuir para a evolução da Web e quais os caminhos para conhecer ainda mais os processos do W3C."
+        time: "13h30"
+    ,
       name: "Ciro Nunes"
       slug: "ciro-nunes"
       photo: "ciro.jpg"
@@ -170,7 +200,7 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       presentation:
         title: "Desenvolvimento ágil com o AngularJS"
         description: "A demanda do mercado por agilidade no desenvolvimento de sites/apps/serviços é cada vez mais evidente. Os frameworks ágeis como o SCRUM são excelentes para nos ajudar a nos organizar, para respondermos rapidamente a mudanças e fazer entregas rápidas. Nesta palestra, ele vai mostrar como o AngularJS e seu ecosistema de desenvolvimento se encaixa nos princípios do Agile Manifest, racionalizando o workflow e facilitando testar nosso JavaScript"
-        time: "13h30"
+        time: "13h45"
     ,
       name: "Miller Medeiros"
       slug: "miller-medeiros"
@@ -185,7 +215,7 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       presentation:
         title: "RequireJS"
         description: "Com projetos escritos em JS cada vez maiores e mais complexos é fundamental aprender técnicas, metodologias e ferramentas que ajudem no desenvolvimento e manutenção. O RequireJS e o uso de módulos é sem dúvida uma dessas ferramentas. Essa palestra explicará como que o RequireJS funciona internamente, boas práticas, os benefícios do seu uso, como que os plugins e a ferramenta de build (r.js) aumentam o poder e flexibilidade da sua aplicação, melhoram a performance e reduzem a burocracia durante o desenvolvimento."
-        time: "14h30"
+        time: "14h40"
     ,
       name: "Coffee Break - Incluido no evento"
       slug: "coffee-break"
@@ -200,7 +230,7 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       presentation:
         title: ""
         description: ""
-        time: "15:30"
+        time: "15:35"
     ,
       name: "Eduardo Lundgren"
       slug: "eduardo-lundgren"
@@ -215,7 +245,7 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       presentation:
         title: "Indo além com AlloyUI"
         description: "Descubra o poder do framework AlloyUI para construção de aplicações web de alta escala, aprimorando a experiência e elevando a interação do usuário para um outro nível."
-        time: "15h50"
+        time: "15h55"
     ,
       name: "Andrews Medina"
       slug: "andrews-medina"
@@ -232,20 +262,20 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
         description: "O aumento de confiança e agilidade que os testes automatizados trazem é um fato. Mas escrever testes para interfaces costumam serem chatos, complicados e difíceis de manter. Nessa palestra veremos técnicas e ferramentas para tornar os testes de interfaces mais simples e fáceis de manter"
         time: "16h50"
     ,
-      name: "Encerramento com Zeno Rocha"
+      name: "Encerramento Zeno Rocha"
       slug: "encerramento"
       photo: "zeno.jpg"
       bio: ""
       job: ""
-      type: ""
+      type: "apresentadores"
       company: ""
       twitter: ""
       github: ""
       personal: ""
       presentation:
-        title: ""
+        title: "Bernard de Luna"
         description: ""
-        time: "17:50"
+        time: "17:45"
     ]
 
     # List of Sponsors
@@ -281,6 +311,10 @@ Nesse talk vamos ver algumas metodologias/modos de como ajudar seu time e você 
       name: "Casa do Código"
       logo: "/themes/front-in-bh/img/casa-codigo.png"
       url: "http://www.casadocodigo.com.br/"
+    ,
+      name: "Black Berry"
+      logo: "/themes/front-in-bh/img/bb.png"
+      url: "http://br.blackberry.com/"
     ,
       name: "Treinaweb"
       logo: "/themes/front-in-bh/img/treinaweb.png"

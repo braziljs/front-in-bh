@@ -3,4 +3,5 @@
 2013/vai.sh
 2013/publish.sh
 *node_modules
-certificado/certificado-data.php
+certificado/
+certificado-2013/

@@ -769,5 +769,22 @@ span {
   padding-top: 70px;
 }
 
+ .certificado {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background: #e7215f;
+  color: #FFF;
+  padding: 20px 0;
+  width: 100%;
+  font-size: 25px;
+}
+
+.certificado:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
 
 

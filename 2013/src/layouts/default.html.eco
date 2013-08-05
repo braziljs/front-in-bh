@@ -114,6 +114,8 @@
     </section><!-- content -->
   </div>
 
+  <a href="/certificado-2013/" class="certificado">Gerar Certificado</a>
+
   <script src="themes/front-in-bh/js/main.js"></script>
 
   <!-- GOOGLE ANALYTICS -->

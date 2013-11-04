@@ -5,7 +5,7 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="certificado-gerado" method="POST" class="gerador-certificado">
+  <form action="certificado-gerado.php" method="POST" class="gerador-certificado">
         <input type="email" name="name" Placeholder="Digite seu email" required>
         <input type="submit" value="Gerar Certificado" class="submit">
     </form>

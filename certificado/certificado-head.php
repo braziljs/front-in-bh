@@ -1,11 +1,11 @@
-  <title itemprop="name">Front in BH 2012 | Gere seu certificado</title>
+  <title itemprop="name">Front in BH 2013 | Gere seu certificado</title>
   <meta charset="utf-8">
 
   <!--[if lt IE 7]>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <![endif]-->
 
-<meta name="description" content="O Front in BH 2012 tem foco em desenvolvimento Front-end e o evento acontecerá em Maceió no dia 27 de Outubro no auditório principal do CESMAC">
+<meta name="description" content="">
 <meta property="og:title" content="FrontInBH 2012" />
 <meta property="og:type" content="article"/>
 <meta property="og:description" content="O FrontInBH chega a sua segunda edição com um passado de sucesso. Reunirá a comunidade frontend de minas gerais e trará grandes palestrantes do cenário nacional." />

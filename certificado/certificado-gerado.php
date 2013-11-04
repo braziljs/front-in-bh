@@ -25,7 +25,7 @@
 
         <?php if($name){ ?>
         <div class="container">
-            <img class="image" src="http://frontinbh.com.br/certificado/certificado.jpg" alt="certificado">
+            <img class="image" src="http://frontinbh.com.br/certificado-2013/img/certificado.png" alt="certificado">
             <p class="name"><?php echo $name; ?></p>
         </div>
         <?php }else{ ?>

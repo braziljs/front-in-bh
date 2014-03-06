@@ -1,4 +1,4 @@
-![ScreenShot](http://frontinbh.com.br/readme.png)
+![ScreenShot](http://frontinbh.com.br/facebook/facebook.png)
 
 
 ###Frontend development conference for team leaders, developers, and project managers.

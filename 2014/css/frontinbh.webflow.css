@@ -1,8 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #333;
-  font-size: 14px;
-  line-height: 20px;
+  font-family: Dosis, sans-serif;
 }
 h1 {
   display: inline-block;
@@ -55,7 +52,10 @@ h6 {
   font-weight: 700;
 }
 p {
-  margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.49);
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
 }
 .button {
   display: inline-block;
@@ -102,7 +102,6 @@ p {
   margin-top: 20px;
 }
 .menu-bar {
-  position: fixed;
   width: 100%;
   height: 80px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.49);
@@ -119,13 +118,14 @@ p {
   padding: 8px 12px;
   border: 2px solid white;
   border-radius: 6px;
+  background-color: transparent;
   -webkit-transition: all 100ms ease-in-out;
   -o-transition: all 100ms ease-in-out;
   transition: all 100ms ease-in-out;
   font-family: Dosis, sans-serif;
   color: white;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 200;
   text-align: center;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -139,7 +139,8 @@ p {
   border-color: rgba(255, 255, 255, 0.49);
 }
 .header {
-  height: 550px;
+  height: 600px;
+  margin-top: -80px;
   background-image: url('../images/header.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -147,7 +148,7 @@ p {
   background-attachment: fixed;
 }
 .text {
-  margin-top: 200px;
+  margin-top: 250px;
   text-align: center;
 }
 .text-image {
@@ -170,11 +171,108 @@ p {
   padding-right: 125px;
   padding-left: 10px;
 }
+.column-button.right.submit {
+  margin-bottom: 30px;
+}
 .gradient-line {
-  height: 3px;
   background-image: -webkit-linear-gradient(left, #ff2c55, #f8492c);
   background-image: -o-linear-gradient(left, #ff2c55, #f8492c);
   background-image: linear-gradient(to right, #ff2c55, #f8492c);
+}
+.form-input {
+  height: 40px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.49);
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.09);
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  font-family: Dosis, sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.form-input:hover {
+  border-color: white;
+}
+.form-input:focus {
+  border-color: white;
+}
+.form-button {
+  width: 100%;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: transparent;
+  -webkit-transition: all 100ms ease-in-out;
+  -o-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  font-family: Dosis, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.form-button:hover {
+  background-color: white;
+  color: #ff2c55;
+}
+.form-row {
+  margin-top: 45px;
+  letter-spacing: 1.5px;
+}
+.form {
+  font-family: Dosis, sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+}
+.success {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  border-radius: 6px;
+}
+.error {
+  border-radius: 6px;
+  background-color: lightpink;
+}
+.speakers {
+  height: 800px;
+  background-image: url('../images/foto-teste.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.speaker-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/foto-teste.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+html.w-mod-js *[data-ix="fade-in-slide-down"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -50px);
+  -ms-transform: translate(0px, -50px);
+  -o-transform: translate(0px, -50px);
+  transform: translate(0px, -50px);
+}
+html.w-mod-js *[data-ix="fade-in-slide-down-2"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 50px);
+  -ms-transform: translate(0px, 50px);
+  -o-transform: translate(0px, 50px);
+  transform: translate(0px, 50px);
 }
 @media (max-width: 991px) {
   .menu-bar {
@@ -239,6 +337,14 @@ p {
   .column-button.right {
     padding-right: 10px;
   }
+  .success {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .error {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
 @media (max-width: 479px) {
   .logo {
@@ -272,5 +378,9 @@ p {
   }
   .text {
     margin-top: 310px;
+  }
+  .error {
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }

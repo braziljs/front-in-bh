@@ -46,8 +46,11 @@ img {
   vertical-align: middle;
   display: inline-block;
 }
-.w-mobile * {
+html.w-mod-touch * {
   background-attachment: scroll !important;
+}
+a:focus {
+  outline: 0;
 }
 .w-block {
   display: block;
@@ -117,11 +120,6 @@ fieldset {
   margin: 0;
   border: 0;
 }
-label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -135,13 +133,18 @@ input[type="submit"] {
 .w-form-done {
   display: none;
   padding: 10px;
-  background-color: #dbffd1;
+  background-color: #dddddd;
 }
 .w-form-fail {
   display: none;
   margin-top: 10px;
   padding: 10px;
   background-color: #ffdede;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 .w-input,
 .w-select {
@@ -156,7 +159,6 @@ input[type="submit"] {
   vertical-align: middle;
   background-color: #ffffff;
   border: 1px solid #cccccc;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 .w-input:-moz-placeholder,
 .w-select:-moz-placeholder {
@@ -179,7 +181,6 @@ input[type="submit"] {
 .w-select:focus {
   border-color: rgba(82, 168, 236, 0.8);
   outline: 0;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
 }
 .w-input[disabled],
 .w-select[disabled],
@@ -204,6 +205,37 @@ textarea.w-select {
   color: white;
   border: 0;
   line-height: inherit;
+}
+.w-form-label {
+  display: inline-block;
+  cursor: pointer;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+.w-checkbox,
+.w-radio {
+  display: block;
+  margin-bottom: 5px;
+  padding-left: 20px;
+}
+.w-checkbox:before,
+.w-radio:before,
+.w-checkbox:after,
+.w-radio:after {
+  content: " ";
+  display: table;
+}
+.w-checkbox:after,
+.w-radio:after {
+  clear: both;
+}
+.w-checkbox-input,
+.w-radio-input {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+  float: left;
+  margin-left: -20px;
 }
 .w-container {
   margin-left: auto;
@@ -529,6 +561,11 @@ textarea.w-select {
   .w-col-medium-offset-11 {
     margin-left: 91.66666666666666%;
   }
+  .w-col-stack {
+    width: 100%;
+    left: auto;
+    right: auto;
+  }
 }
 @media screen and (max-width: 767px) {
   .w-hidden-main {
@@ -550,14 +587,41 @@ textarea.w-select {
     left: auto;
     right: auto;
   }
+  .w-col-small-1 {
+    width: 8.333333333333332%;
+  }
+  .w-col-small-2 {
+    width: 16.666666666666664%;
+  }
   .w-col-small-3 {
     width: 25%;
   }
   .w-col-small-4 {
     width: 33.33333333333333%;
   }
+  .w-col-small-5 {
+    width: 41.66666666666667%;
+  }
   .w-col-small-6 {
     width: 50%;
+  }
+  .w-col-small-7 {
+    width: 58.333333333333336%;
+  }
+  .w-col-small-8 {
+    width: 66.66666666666666%;
+  }
+  .w-col-small-9 {
+    width: 75%;
+  }
+  .w-col-small-10 {
+    width: 83.33333333333334%;
+  }
+  .w-col-small-11 {
+    width: 91.66666666666666%;
+  }
+  .w-col-small-12 {
+    width: 100%;
   }
   .w-col-small-push-1 {
     left: 8.333333333333332%;
@@ -678,14 +742,41 @@ textarea.w-select {
   .w-col {
     width: 100%;
   }
+  .w-col-tiny-1 {
+    width: 8.333333333333332%;
+  }
+  .w-col-tiny-2 {
+    width: 16.666666666666664%;
+  }
   .w-col-tiny-3 {
     width: 25%;
   }
   .w-col-tiny-4 {
     width: 33.33333333333333%;
   }
+  .w-col-tiny-5 {
+    width: 41.66666666666667%;
+  }
   .w-col-tiny-6 {
     width: 50%;
+  }
+  .w-col-tiny-7 {
+    width: 58.333333333333336%;
+  }
+  .w-col-tiny-8 {
+    width: 66.66666666666666%;
+  }
+  .w-col-tiny-9 {
+    width: 75%;
+  }
+  .w-col-tiny-10 {
+    width: 83.33333333333334%;
+  }
+  .w-col-tiny-11 {
+    width: 91.66666666666666%;
+  }
+  .w-col-tiny-12 {
+    width: 100%;
   }
   .w-col-tiny-push-1 {
     left: 8.333333333333332%;
@@ -877,9 +968,9 @@ textarea.w-select {
   line-height: inherit;
 }
 .w-slider-nav.w-shadow > div {
-  -webkit-box-shadow: 0px 0px 3px rgba(51, 51, 51, 0.4);
-  -moz-box-shadow: 0px 0px 3px rgba(51, 51, 51, 0.4);
-  box-shadow: 0px 0px 3px rgba(51, 51, 51, 0.4);
+  -webkit-box-shadow: 0 0 3px rgba(51, 51, 51, 0.4);
+  -moz-box-shadow: 0 0 3px rgba(51, 51, 51, 0.4);
+  box-shadow: 0 0 3px rgba(51, 51, 51, 0.4);
 }
 .w-slider-nav-invert {
   color: #fff;
@@ -1081,4 +1172,7 @@ textarea.w-select {
   .w-nav[data-collapse="tiny"] .w-nav-button {
     display: block;
   }
+}
+.w-ix-emptyfix:after {
+  content: "";
 }

@@ -274,6 +274,68 @@ html.w-mod-js *[data-ix="fade-in-slide-down-2"] {
   -o-transform: translate(0px, 50px);
   transform: translate(0px, 50px);
 }
+
+.main-speaker {
+  background: #FFF;
+  padding-bottom: 30px;
+}
+
+.main-speaker h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #555;
+}
+
+.speaker li {
+  margin: 20px 30px;
+  width: 245px;
+  list-style: none;
+  float: left;
+}
+
+.picture-speaker {
+  width: 245px;
+  height: 245px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.picture-speaker.picture-patro {
+  height: auto;
+  border-radius: 0;
+}
+
+.picture-speaker.picture-apo {
+  width: 155px;
+  height: auto;
+  border-radius: 0;
+}
+
+.name-speaker {
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  font-weight: 400;
+}
+
+.link-social {
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+  width: 85px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #555;
+}
+
+.description {
+  font-size: 14px;
+  text-transform: none;
+}
+
+
+
 @media (max-width: 991px) {
   .menu-bar {
     position: absolute;

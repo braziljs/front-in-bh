@@ -294,11 +294,16 @@ html.w-mod-js *[data-ix="fade-in-slide-down-2"] {
   float: left;
 }
 
+.speaker.apoio li {
+  width: 170px;
+  min-height: 100px;
+}
+
 .picture-speaker {
   width: 245px;
   height: 245px;
   text-align: center;
-  border-radius: 50%;
+  border-radius: 3px;
 }
 
 .picture-speaker.picture-patro {

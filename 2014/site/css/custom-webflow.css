@@ -1,0 +1,11 @@
+p{
+    text-align: left;
+    margin-bottom: 10px;
+    text-transform: none;
+}
+.w-form p{
+    color: rgba(0, 0, 0, 0.49);
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}

@@ -469,6 +469,7 @@ p {
   font-size: 12px;
   font-weight: 300;
   text-transform: uppercase;
+  width: 70%;
 }
 .button-text-complement {
   opacity: 0.5;

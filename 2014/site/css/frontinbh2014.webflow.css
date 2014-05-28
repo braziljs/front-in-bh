@@ -488,9 +488,17 @@ p {
   width: 100%;
   height: 100%;
   opacity: 1;
-  -webkit-transition: all 300ms ease;
-  -o-transition: all 300ms ease;
-  transition: all 300ms ease;
+  /*-webkit-transition: all 300ms ease;*/
+  /*-o-transition: all 300ms ease;*/
+  /*transition: all 300ms ease;*/
+}
+.speaker-link-block:hover .speaker-image {
+  /*display: none;*/
+  filter: none;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
 }
 .speakers-column {
   padding-right: 0px;

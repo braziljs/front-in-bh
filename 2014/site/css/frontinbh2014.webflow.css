@@ -334,14 +334,13 @@ p {
 }
 .schedule-event {
   min-height: 100px;
-  padding-right: 3%;
-  padding-left: 3%;
   border-top: 1px solid #ff2c55;
   border-right: 1px solid #ff2c55;
   border-left: 1px solid #ff2c55;
   -webkit-transition: all 300ms ease;
   -o-transition: all 300ms ease;
   transition: all 300ms ease;
+  position: relative;
 }
 .schedule-event:hover {
   background-color: rgba(255, 255, 255, 0.09);
@@ -394,6 +393,7 @@ p {
   width: 11%;
   margin-top: 41px;
   float: left;
+  margin-left: 3%;
 }
 .schedule-picture {
   position: absolute;
@@ -411,30 +411,23 @@ p {
   border-radius: 100%;
   background-color: #ff2c55;
 }
-.schedule-lines {
-  width: 50%;
-  min-height: 100px;
-  float: right;
-  border-left: 3px solid #ff2c55;
-  background-color: transparent;
-}
-.schedule-lines.top {
-  z-index: 0;
-  min-height: 50px;
-  margin-top: 50px;
-}
-.schedule-lines.bottom {
-  min-height: 70px;
-}
 .schedule-column-center {
-  position: relative;
+  position: absolute;
+  left: 12%;
   display: block;
   width: 14%;
-  float: left;
+  overflow: hidden;
+  height: 100px;
 }
 .schedule-column-right {
-  width: 100%;
-  float: none;
+  min-height: 100px;
+  float: left;
+  width: 78%;
+  padding-left: 5%;
+  margin-left: 5%;
+  padding-bottom: 25px;
+  border-left: 3px solid #ff2c55;
+  margin-right: 3%;
 }
 .schedule-speaker-name {
   margin-top: 25px;
@@ -469,7 +462,7 @@ p {
   font-size: 12px;
   font-weight: 300;
   text-transform: uppercase;
-  width: 70%;
+  width: 95%;
 }
 .button-text-complement {
   opacity: 0.5;

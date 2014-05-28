@@ -1313,7 +1313,7 @@ html.w-mod-js *[data-ix="display-none"] {
     display: none;
   }
   .schedule-column-right {
-    float: left;
+    border-left: 0;
   }
   .schedule-speaker-name {
     margin-top: 15px;

@@ -40,6 +40,9 @@ p{
 .text-spon{
     min-height: 500px;
 }
+.text-spon a{
+    text-decoration: none;
+}
 .spon-t{
     min-height: inherit;
 }

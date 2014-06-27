@@ -31,3 +31,51 @@ p{
     text-align: center;
     text-transform: none;
 }
+.sponsor-label, .sponsor-button{
+    position: relative;
+    top: -10px;
+    margin: -10px 0px 0px 0px;
+}
+
+.text-spon{
+    min-height: 500px;
+}
+.spon-t{
+    min-height: inherit;
+}
+.sponsor-logo{
+    width: 72%;
+}
+.bgnone{
+    background: none;
+}
+.sponsor-button{
+    left:0;
+}
+.spon-txt{
+    min-height: 300px;
+}
+.spon-txt .sponsor-label{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 991px){
+    .text-spon{
+        min-height: 550px;
+    }
+    .spon-txt{
+        min-height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 591px){
+    .text-spon{
+        min-height: 350px;
+    }
+    .spon-txt{
+        min-height: inherit;
+    }
+
+}

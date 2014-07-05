@@ -5,3 +5,4 @@
 2013/vai.sh
 2013/publish.sh
 *node_modules
+*npm-debug.log

@@ -591,7 +591,8 @@ p {
   color: white;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
+  text-shadow: 1px 2px #333;
   text-align: center;
 }
 .speakers-name-bio {
@@ -606,9 +607,10 @@ p {
   color: white;
   font-size: 36px;
   line-height: 50px;
-  font-weight: 200;
+  font-weight: 300;
   text-align: center;
   letter-spacing: -0.5px;
+  text-shadow: 1px 2px #333;
   text-transform: uppercase;
 }
 .speakers-button {

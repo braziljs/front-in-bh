@@ -893,22 +893,37 @@ body {
 
 @font-face {
   font-family: 'Geogrotesquecomp mdit';
-  src: url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-MdIt.ttf') format('truetype');
-  font-weight: 500;
-  font-style: italic;
+  src: url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-MdIt.eot');
+  src: local('☺'), 
+  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-MdIt.woff') format('woff'), 
+  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-MdIt.ttf') format('truetype'), 
+  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-MdIt.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
   font-family: 'Geogrotesquecomp rgit';
-  src: url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-RgIt.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
+  src: url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-RgIt.eot');
+  src: local('☺'), 
+  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-RgIt.woff') format('woff'), 
+  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-RgIt.ttf') format('truetype'), 
+  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-RgIt.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
   font-family: 'Geogrotesquecomp ltit';
-  src: url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-LtIt.ttf') format('truetype');
-  font-weight: 300;
-  font-style: italic;
+  src: url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-LtIt.eot');
+  src: local('☺'), 
+  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-LtIt.woff') format('woff'), 
+  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-LtIt.ttf') format('truetype'), 
+  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-LtIt.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
   font-family: 'Geogrotesquecomp smbdit';
   src: url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-SmBdIt.ttf') format('truetype');

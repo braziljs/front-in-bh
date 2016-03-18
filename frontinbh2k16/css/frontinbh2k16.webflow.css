@@ -1,0 +1,917 @@
+body {
+  height: 100%;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.header {
+  height: 100%;
+}
+
+.header-video {
+  height: 100%;
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/pattern.png');
+  background-position: 0px 0px;
+}
+
+.header-overlay {
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.slider {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .3);
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
+}
+
+.slider-text {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  right: 0px;
+  display: block;
+  margin: 0px auto;
+  padding-top: 20px;
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
+  font-family: 'Geogrotesquecomp rgit', sans-serif;
+  color: #fff;
+  font-size: 15vw;
+  line-height: 100%;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: -0.5vw;
+  text-transform: uppercase;
+}
+
+.slider-text.first {
+  color: #ff2c55;
+}
+
+.slider-mask {
+  overflow: visible;
+}
+
+.dash {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -50px;
+  z-index: 10;
+  display: block;
+  width: 1px;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ff2c55;
+}
+
+.dash-top {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 10;
+  display: block;
+  width: 1px;
+  height: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ff2c55;
+}
+
+.menu {
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+  width: 140px;
+  height: 40px;
+  padding-top: 10px;
+  border-top: 1px solid #ff2c55;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: Lekton, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  text-decoration: none;
+}
+
+.menu:hover {
+  width: 155px;
+}
+
+.menu.right {
+  right: 0px;
+  text-align: left;
+}
+
+.logo-container {
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  right: 0px;
+  z-index: 100;
+  display: block;
+  width: 201px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  width: 200px;
+  height: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/frontinbh-logo.svg');
+  background-position: 50% 50%;
+  background-size: 201px;
+  background-repeat: no-repeat;
+  line-height: 0px;
+}
+
+.about {
+  position: absolute;
+  left: 50%;
+  bottom: 45px;
+  z-index: 100;
+  padding: 10px 30px;
+  -webkit-transform: translate(-50%, 0px);
+  -ms-transform: translate(-50%, 0px);
+  transform: translate(-50%, 0px);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: Lekton, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.about:hover {
+  padding-bottom: 25px;
+}
+
+.section-about {
+  width: 100%;
+  padding: 150px 50px;
+  background-color: #0f0f57;
+}
+
+.section-speaker {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #0f0f57;
+}
+
+.paragraph {
+  display: inline-block;
+  margin-bottom: 30px;
+  font-family: Lekton, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.h3 {
+  display: block;
+  height: 90px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Geogrotesquecomp rgit', sans-serif;
+  color: #fff;
+  font-size: 96px;
+  line-height: 90px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -3px;
+  text-transform: uppercase;
+}
+
+.h3.heading-highlight {
+  font-family: 'Geogrotesquecomp rgit', sans-serif;
+  font-weight: 400;
+}
+
+.heading-highlight {
+  font-family: 'Geogrotesquecomp ltit', sans-serif;
+  color: #ff2c55;
+  font-weight: 300;
+}
+
+.column-left {
+  padding-right: 20px;
+  padding-left: 0px;
+}
+
+.column-right {
+  padding-right: 0px;
+  padding-left: 20px;
+}
+
+.section-sponsors {
+  padding: 100px 50px;
+  background-color: #fff;
+}
+
+.sponsors-title {
+  display: block;
+  max-width: 1200px;
+  margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px solid #ddd;
+  font-family: Lekton, sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.column {
+  display: block;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo-wrapper {
+  display: block;
+  max-width: 1200px;
+  margin: 30px auto 25px;
+}
+
+.logo-sponsor {
+  margin-right: 50px;
+  float: left;
+  -webkit-transition: opacity 300ms ease;
+  transition: opacity 300ms ease;
+}
+
+.logo-sponsor:hover {
+  opacity: 0.75;
+}
+
+.section-map {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  background-color: #000;
+}
+
+.mapa {
+  position: absolute;
+  left: -50%;
+  width: 150%;
+  height: 100%;
+  opacity: 0.85;
+}
+
+.right-column {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  z-index: 5;
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+.info-title {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Geogrotesquecomp rgit', sans-serif;
+  color: #ff2c55;
+  font-size: 9vw;
+  line-height: 7.5vw;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.4vw;
+  text-transform: uppercase;
+}
+
+.paragraph-dark {
+  position: static;
+  z-index: 10;
+  display: block;
+  max-width: 500px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-family: Lekton, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.text-link {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+}
+
+.text-link.black {
+  color: #333;
+}
+
+.social-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+  margin-right: 15px;
+}
+
+.social-icon-circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: none;
+  width: 1px;
+  height: 1px;
+  border-style: none;
+  border-width: 1px;
+  border-color: hsla(0, 0%, 100%, .1);
+  border-radius: 100px;
+  background-color: hsla(0, 0%, 100%, .05);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.social-icon-circle.dark {
+  border-color: rgba(15, 15, 87, .2);
+  background-color: #0f0f57;
+}
+
+.social-icon-circle.dark.tt {
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/icon-tt.svg');
+  background-position: 50% 50%;
+  background-size: 24px;
+  background-repeat: no-repeat;
+}
+
+.social-icon-circle.dark.gh {
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/icon-gh.svg');
+  background-position: 50% 50%;
+  background-size: 24px;
+  background-repeat: no-repeat;
+}
+
+.social-icon-inner-circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsla(0, 0%, 100%, .1);
+  border-radius: 100px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.social-icon-inner-circle.dark {
+  border-color: rgba(15, 15, 87, .2);
+}
+
+.social-icon-inner-circle.dark.gh {
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/icon-gh-dark.svg');
+  background-position: 50% 50%;
+  background-size: 24px;
+  background-repeat: no-repeat;
+}
+
+.social-icon-inner-circle.tt {
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/icon-tt.svg');
+  background-position: 50% 50%;
+  background-size: 24px;
+  background-repeat: no-repeat;
+}
+
+.social-icon-inner-circle.tt.dark {
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/icon-tt-dark.svg');
+  background-size: 24px;
+}
+
+.social-icon-inner-circle.fb {
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/icon-fb.svg');
+  background-position: 50% 50%;
+  background-size: 24px;
+  background-repeat: no-repeat;
+}
+
+.complement-tag {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: 'Geogrotesquecomp rgit', sans-serif;
+  color: #0f0f57;
+  font-size: 30px;
+  line-height: 30px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.info-wrapper {
+  position: absolute;
+  left: 0px;
+  right: 80px;
+  height: 100%;
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/texture-optim-darker.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.info-text-wrapper {
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  right: 0px;
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
+}
+
+.rectangle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/texture-optim-darker.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.rectangle._01 {
+  left: -40px;
+  bottom: 40px;
+  height: 50%;
+}
+
+.rectangle._02 {
+  top: 0px;
+  right: -40px;
+  bottom: 0px;
+  height: 75%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.rectangle._03 {
+  right: -80px;
+  height: 60%;
+}
+
+.rectangle._04 {
+  right: -80px;
+  bottom: 0px;
+  height: 12.5%;
+}
+
+.rectangle._05 {
+  left: -80px;
+  bottom: 50%;
+  height: 80px;
+  margin-bottom: 40px;
+}
+
+.left-column {
+  position: static;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.left-column.speaker-1 {
+  position: absolute;
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/zagallo-filter.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.left-column.speaker-2 {
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/jean-filter.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.footer-link {
+  font-family: Lekton, sans-serif;
+  color: #ff2c55;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-link-list {
+  display: block;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-list-item {
+  margin-top: 50px;
+  margin-right: 50px;
+  float: left;
+}
+
+.footer-list-item.right {
+  margin-right: 0px;
+  margin-left: 50px;
+  float: right;
+}
+
+.section-magic {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-scroll {
+  position: fixed;
+  z-index: 500;
+  display: none;
+  width: 100%;
+  height: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/texture-optim.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-wrapper {
+  display: block;
+  height: 50px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo-menu {
+  width: 150px;
+  height: 50px;
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/frontinbh-logo-color.svg');
+  background-position: 0px 50%;
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+
+.menu-list {
+  height: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.menu-item {
+  height: 50px;
+  margin-left: 30px;
+  padding-top: 15px;
+  float: right;
+}
+
+.menu-logo {
+  display: block;
+  float: left;
+}
+
+.section-picture {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #0f0f57;
+}
+
+.section-picture._1 {
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/font-in-bh-teatro-ney-soares.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.section-picture._2 {
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/font-in-bh-networking.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.section-picture._3 {
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/font-in-bh-plateia.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.section-picture._4 {
+  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/photo-speaker.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.stats-number {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  right: 0px;
+  margin-bottom: 0px;
+  padding-right: 50px;
+  padding-left: 50px;
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
+  font-family: 'Geogrotesquecomp mdit', sans-serif;
+  color: #fff;
+  font-size: 15vw;
+  line-height: 100%;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -0.5vw;
+}
+
+.highlight {
+  font-family: 'Geogrotesquecomp ltit', sans-serif;
+  color: #ff2c55;
+  font-weight: 300;
+}
+
+@media (max-width: 991px) {
+  .header-video.magic {
+    background-image: none;
+    background-position: 0px 0px;
+  }
+  .section-about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .section-speaker {
+    position: relative;
+    height: auto;
+  }
+  .paragraph {
+    margin-bottom: 0px;
+  }
+  .h3 {
+    height: auto;
+    font-size: 90px;
+    line-height: 80px;
+  }
+  .section-sponsors {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .section-map {
+    height: auto;
+  }
+  .mapa {
+    position: static;
+    left: 0%;
+    top: -50%;
+    width: 100%;
+    height: 400px;
+  }
+  .right-column {
+    position: relative;
+    left: 0%;
+    top: auto;
+    bottom: 0px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+  .info-title {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .paragraph-dark {
+    max-width: 100%;
+  }
+  .info-wrapper {
+    position: static;
+    overflow: hidden;
+    height: auto;
+    padding: 50px;
+  }
+  .info-text-wrapper {
+    position: static;
+    -webkit-transform: translate(0px, 0%);
+    -ms-transform: translate(0px, 0%);
+    transform: translate(0px, 0%);
+  }
+  .rectangle._02 {
+    display: none;
+  }
+  .rectangle._03 {
+    display: none;
+  }
+  .rectangle._04 {
+    display: none;
+  }
+  .left-column {
+    height: 600px;
+  }
+  .left-column.speaker-1 {
+    position: static;
+    background-image: url('https://dudgphgdirdpb.cloudfront.net/images/tadeu.jpg');
+    background-position: 50% 50%;
+    background-attachment: scroll;
+  }
+  .left-column.speaker-2 {
+    background-image: url('https://dudgphgdirdpb.cloudfront.net/images/jean.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  .menu-item {
+    margin-left: 20px;
+  }
+  .section-picture {
+    height: 550px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dash-top {
+    height: 30px;
+  }
+  .menu {
+    width: 100px;
+  }
+  .menu:hover {
+    width: 115px;
+  }
+  .logo-container.w--current {
+    top: 30px;
+  }
+  .section-about {
+    padding: 100px 30px;
+  }
+  .h3 {
+    font-size: 70px;
+    line-height: 60px;
+  }
+  .column-left {
+    margin-bottom: 30px;
+    padding-right: 0px;
+  }
+  .column-right {
+    padding-left: 0px;
+  }
+  .section-sponsors {
+    padding: 30px;
+  }
+  .mapa {
+    height: 200px;
+  }
+  .info-wrapper {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .info-text-wrapper {
+    top: 40px;
+    -webkit-transform: translate(0px, 0%);
+    -ms-transform: translate(0px, 0%);
+    transform: translate(0px, 0%);
+  }
+  .left-column {
+    height: 450px;
+  }
+  .footer-list-item.right {
+    margin-top: 30px;
+    margin-left: 0px;
+    float: left;
+  }
+  .section-magic {
+    height: 300px;
+  }
+  .menu-scroll {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .section-picture {
+    height: 300px;
+  }
+  .stats-number {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .menu {
+    display: none;
+    width: 90px;
+  }
+  .menu:hover {
+    width: 105px;
+  }
+  .section-about {
+    padding: 80px 20px;
+  }
+  .paragraph {
+    margin-bottom: 0px;
+  }
+  .h3 {
+    font-size: 50px;
+    line-height: 40px;
+  }
+  .section-sponsors {
+    padding: 30px 20px;
+  }
+  .complement-tag {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .info-wrapper {
+    right: 0px;
+    height: 100%;
+    padding: 30px 20px;
+  }
+  .info-text-wrapper {
+    left: 20px;
+    right: 20px;
+  }
+  .left-column {
+    height: 300px;
+  }
+  .section-magic {
+    height: 400px;
+  }
+  .menu-scroll {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .logo-menu {
+    width: 100px;
+    background-size: 100px;
+  }
+  .section-picture {
+    height: 400px;
+  }
+  .stats-number {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@font-face {
+  font-family: 'Geogrotesquecomp mdit';
+  src: url('../fonts/GeogrotesqueComp-MdIt.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Geogrotesquecomp rgit';
+  src: url('../fonts/GeogrotesqueComp-RgIt.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Geogrotesquecomp ltit';
+  src: url('../fonts/GeogrotesqueComp-LtIt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Geogrotesquecomp smbdit';
+  src: url('../fonts/GeogrotesqueComp-SmBdIt.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}

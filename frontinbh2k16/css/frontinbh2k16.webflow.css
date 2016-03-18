@@ -893,25 +893,25 @@ body {
 
 @font-face {
   font-family: 'Geogrotesquecomp mdit';
-  src: url('../fonts/GeogrotesqueComp-MdIt.ttf') format('truetype');
+  src: url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-MdIt.ttf') format('truetype');
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
   font-family: 'Geogrotesquecomp rgit';
-  src: url('../fonts/GeogrotesqueComp-RgIt.ttf') format('truetype');
+  src: url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-RgIt.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: 'Geogrotesquecomp ltit';
-  src: url('../fonts/GeogrotesqueComp-LtIt.ttf') format('truetype');
+  src: url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-LtIt.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
   font-family: 'Geogrotesquecomp smbdit';
-  src: url('../fonts/GeogrotesqueComp-SmBdIt.ttf') format('truetype');
+  src: url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-SmBdIt.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }

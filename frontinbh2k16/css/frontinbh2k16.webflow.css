@@ -515,6 +515,15 @@ body {
 }
 
 .left-column.speaker-2 {
+  background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/max-filter.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.left-column.speaker-3 {
+  position: absolute;
   background-image: url('https://dudgphgdirdpb.cloudfront.net/images/jean-filter.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -755,8 +764,14 @@ body {
     background-attachment: scroll;
   }
   .left-column.speaker-2 {
-    background-image: url('https://dudgphgdirdpb.cloudfront.net/images/jean.jpg');
+    background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/max.jpg');
     background-size: cover;
+    background-attachment: scroll;
+  }
+  .left-column.speaker-3 {
+    position: static;
+    background-image: url('https://dudgphgdirdpb.cloudfront.net/images/jean.jpg');
+    background-position: 50% 50%;
     background-attachment: scroll;
   }
   .menu-item {

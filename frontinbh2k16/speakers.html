@@ -164,23 +164,7 @@
   <script type="text/javascript" src="https://dudgphgdirdpb.cloudfront.net/js/webflow.js"></script>
   <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
   <script>
-    var sort = function(variation) {
-      var hasAB = localStorage.getItem('variation');
-
-      if(hasAB) {
-        return hasAB;
-      }
-
-      var ab = variation[Math.floor(Math.random() * variation.length)];
-      localStorage.setItem('variation', ab);
-
-      return ab;
-    };
-    var ab = sort(['eventick', 'sympla']);
-
-    if (ab == 'sympla') {
-      $('.ticktes-ab').attr('href', 'https://www.sympla.com.br/front-in-bh-2016__54441');
-    }
+    $('.ticktes-ab').attr('href', 'https://www.sympla.com.br/front-in-bh-2016__54441');
   </script>
 </body>
 </html>

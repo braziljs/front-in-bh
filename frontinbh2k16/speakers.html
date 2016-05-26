@@ -144,12 +144,42 @@
     </aside>
   </section>
   <footer class="w-section section-sponsors">
-    <h4 class="sponsors-title">Obrigado aos nossos apoiadores:</h4>
-    <div class="w-clearfix logo-wrapper">
-      <a href="https://www.facebook.com" target="_blank" class="w-inline-block logo-sponsor"><img height="40" src="https://dudgphgdirdpb.cloudfront.net/images/logo-fb.svg">
-      </a>
-      <a href="https://braziljs.org" target="_blank" class="w-inline-block logo-sponsor"><img height="40" src="https://dudgphgdirdpb.cloudfront.net/images/logo-brasiljs.png">
-      </a>
+    <h4 class="sponsors-title">Obrigado aos afiliados BrazilJS:</h4>
+    <div class="sponsors-list">
+      <div class="w-clearfix logo-wrapper">
+        <div id="gold">
+          <h4 class="sponsors-title">Gold</h4>
+          <div class="itens"></div>
+        </div>
+      </div>
+    </div>
+    <div class="sponsors-list">
+      <div class="w-clearfix logo-wrapper">
+        <div id="silver">
+          <h4 class="sponsors-title">Silver</h4>
+          <div class="itens"></div>
+        </div>
+      </div>
+    </div>
+    <div class="sponsors-list">
+      <div class="w-clearfix logo-wrapper">
+        <div id="bronze">
+          <h4 class="sponsors-title">Bronze</h4>
+          <div class="itens"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="sponsors-list">
+      <br><br>
+      <h4 class="sponsors-title">Obrigado aos nossos apoiadores:</h4>
+      <div class="w-clearfix logo-wrapper">
+        <a href="https://www.facebook.com" target="_blank" class="w-inline-block logo-sponsor"><img height="40" src="https://dudgphgdirdpb.cloudfront.net/images/logo-fb.svg">
+        </a>
+        <a href="https://braziljs.org" target="_blank" class="w-inline-block logo-sponsor"><img height="40" src="https://dudgphgdirdpb.cloudfront.net/images/logo-brasiljs.png">
+        </a>
+      </div>
     </div>
     <ul class="w-list-unstyled w-clearfix footer-link-list">
       <li class="w-clearfix footer-list-item right"><a href="http://pt-br.confcodeofconduct.com/" target="_blank" class="footer-link">Código de Conduta</a>
@@ -164,6 +194,31 @@
   <script type="text/javascript" src="https://dudgphgdirdpb.cloudfront.net/js/webflow.js"></script>
   <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
   <script>
+    $.get('https://braziljs.org/api/list/sponsors?eventId=56b248426ed0619c7e1d5530', function(response) {
+      var gold = '';
+      var silver = '';
+      var bronze = '';
+
+      for (var i = 0; i < response.sponsors.gold.length; i++) {
+        gold += '<a href="'+ response.sponsors.gold[i].link +'" target="_blank" class="w-inline-block logo-sponsor">' +
+          '<img height="70" src="https://braziljs.org/images/cms/'+ response.sponsors.gold[i].image.filename +'"></a>';
+      }
+
+      for (var i = 0; i < response.sponsors.silver.length; i++) {
+        silver += '<a href="'+ response.sponsors.silver[i].link +'" target="_blank" class="w-inline-block logo-sponsor">' +
+          '<img height="60" src="https://braziljs.org/images/cms/'+ response.sponsors.silver[i].image.filename +'"></a>';
+      }
+
+      for (var i = 0; i < response.sponsors.bronze.length; i++) {
+        bronze += '<a href="'+ response.sponsors.bronze[i].link +'" target="_blank" class="w-inline-block logo-sponsor">' +
+          '<img height="40" src="https://braziljs.org/images/cms/'+ response.sponsors.bronze[i].image.filename +'"></a>';
+      }
+
+      $('#gold .itens').append(gold);
+      $('#silver .itens').append(silver);
+      $('#bronze .itens').append(bronze);
+    });
+
     $('.ticktes-ab').attr('href', 'https://www.sympla.com.br/front-in-bh-2016__54441');
   </script>
 </body>

@@ -242,6 +242,15 @@ body {
   font-weight: 400;
 }
 
+.sponsors-list .sponsors-title {
+  border: none;
+  margin-top: 0;
+}
+
+.sponsors-list {
+  margin-bottom: 25px;
+}
+
 .column {
   display: block;
   max-width: 1200px;

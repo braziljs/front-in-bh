@@ -540,6 +540,14 @@ body {
   background-attachment: fixed;
 }
 
+.left-column.speaker-4 {
+  background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-willian-filter.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .footer-link {
   font-family: Lekton, sans-serif;
   color: #ff2c55;
@@ -783,6 +791,11 @@ body {
     background-position: 50% 50%;
     background-attachment: scroll;
   }
+  .left-column.speaker-4 {
+    background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-willian.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+  }
   .menu-item {
     margin-left: 20px;
   }
@@ -913,6 +926,13 @@ body {
     padding-right: 20px;
     padding-left: 20px;
   }
+
+  .logo-wrapper a {
+    width: 36%;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+  }
 }
 
 @font-face {
@@ -953,4 +973,9 @@ body {
   src: url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-SmBdIt.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
+}
+
+.desaturate {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }

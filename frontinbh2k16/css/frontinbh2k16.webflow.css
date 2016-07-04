@@ -533,6 +533,16 @@ body {
 
 .left-column.speaker-3 {
   position: absolute;
+  background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-zeno-filter.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.left-column.speaker-4 {
+  position: absolute;
   background-image: url('https://dudgphgdirdpb.cloudfront.net/images/jean-filter.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -540,14 +550,14 @@ body {
   background-attachment: fixed;
 }
 
-.left-column.speaker-4 {
+.left-column.speaker-5 {
   background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-willian-filter.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.left-column.speaker-5 {
+.left-column.speaker-6 {
   position: absolute;
   background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-newton-filter.jpg');
   background-position: 50% 50%;
@@ -555,14 +565,14 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.left-column.speaker-6 {
+.left-column.speaker-7 {
   background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-diego-filter.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.left-column.speaker-7 {
+.left-column.speaker-8 {
   position: absolute;
   background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-igor-filter.jpg');
   background-position: 50% 50%;
@@ -810,28 +820,34 @@ body {
   }
   .left-column.speaker-3 {
     position: static;
-    background-image: url('https://dudgphgdirdpb.cloudfront.net/images/jean.jpg');
+    background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-zeno.jpg');
     background-position: 50% 50%;
     background-attachment: scroll;
   }
   .left-column.speaker-4 {
+    position: static;
+    background-image: url('https://dudgphgdirdpb.cloudfront.net/images/jean.jpg');
+    background-position: 50% 50%;
+    background-attachment: scroll;
+  }
+  .left-column.speaker-5 {
     background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-willian.jpg');
     background-size: cover;
     background-attachment: scroll;
   }
-  .left-column.speaker-5 {
+  .left-column.speaker-6 {
     position: static;
     background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-newton.jpg');
     background-position: 50% 50%;
     background-attachment: scroll;
   }
-  .left-column.speaker-6 {
+  .left-column.speaker-7 {
     background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-diego.jpg');
     background-size: cover;
     background-attachment: scroll;
   }
 
-  .left-column.speaker-7 {
+  .left-column.speaker-8 {
     position: static;
     background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-igor.jpg');
     background-position: 50% 50%;

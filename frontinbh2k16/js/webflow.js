@@ -467,6 +467,9 @@
 	var queueIndex = -1;
 
 	function cleanUpNextTick() {
+	    if (!draining || !currentQueue) {
+	        return;
+	    }
 	    draining = false;
 	    if (currentQueue.length) {
 	        queue = currentQueue.concat(queue);
@@ -638,6 +641,11 @@
 
 	  api.ready = function() {
 	    var doBranding = $html.attr('data-wf-status');
+	    var publishedDomain = $html.attr('data-wf-domain') || '';
+
+	    if (/\.webflow\.io$/i.test(publishedDomain) && location.hostname !== publishedDomain) {
+	      doBranding = true;
+	    }
 
 	    if (doBranding) {
 	      var $branding = $('<div></div>');
@@ -2586,6 +2594,7 @@
 	  var google = null;
 	  var $maps;
 	  var namespace = '.w-widget-map';
+	  var apiKey = 'AIzaSyBks0W0NawnPju70JQS5XXPOTTrguDQjWE';
 
 	  // -----------------------------------
 	  // Module methods
@@ -2632,7 +2641,7 @@
 	    if (!$maps.length) return;
 
 	    if (google === null) {
-	      $.getScript('https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=_wf_maps_loaded');
+	      $.getScript('https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=_wf_maps_loaded&key=' + apiKey);
 	      window._wf_maps_loaded = mapsLoaded;
 	    } else {
 	      mapsLoaded();

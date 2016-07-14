@@ -762,12 +762,7 @@ textarea.w-select {
   tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .w-slider-nav.w-round > div {
-  -webkit-border-radius: 100%;
-  -webkit-background-clip: padding-box;
-  -moz-border-radius: 100%;
-  -moz-background-clip: padding;
   border-radius: 100%;
-  background-clip: padding-box;
 }
 .w-slider-nav.w-num > div {
   width: auto;
@@ -777,8 +772,6 @@ textarea.w-select {
   line-height: inherit;
 }
 .w-slider-nav.w-shadow > div {
-  -webkit-box-shadow: 0 0 3px rgba(51, 51, 51, 0.4);
-  -moz-box-shadow: 0 0 3px rgba(51, 51, 51, 0.4);
   box-shadow: 0 0 3px rgba(51, 51, 51, 0.4);
 }
 .w-slider-nav-invert {
@@ -798,9 +791,6 @@ textarea.w-select {
   background-color: rgba(255, 255, 255, 0.4);
   cursor: pointer;
   margin: 0 3px 0.5em;
-  -webkit-transition: background-color 100ms, color 100ms;
-  -moz-transition: background-color 100ms, color 100ms;
-  -o-transition: background-color 100ms, color 100ms;
   transition: background-color 100ms, color 100ms;
 }
 .w-slider-dot.w-active {
@@ -1353,6 +1343,8 @@ textarea.w-select {
   text-align: center;
   clear: both;
   display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 .w-richtext figure.w-richtext-align-fullwidth > div {
   display: inline-block;
@@ -1554,14 +1546,6 @@ textarea.w-select {
 }
 .w-ix-emptyfix:after {
   content: "";
-}
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
 }
 @keyframes spin {
   0% {

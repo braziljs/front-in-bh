@@ -6,13 +6,21 @@ body {
   line-height: 20px;
 }
 
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
 .header {
   height: 100%;
 }
 
 .header-video {
   height: 100%;
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/pattern.png');
+  background-image: url('../images/pattern.png');
   background-position: 0px 0px;
 }
 
@@ -137,7 +145,7 @@ body {
   height: 50px;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/frontinbh-logo.svg');
+  background-image: url('../images/frontinbh-logo.svg');
   background-position: 50% 50%;
   background-size: 201px;
   background-repeat: no-repeat;
@@ -168,7 +176,7 @@ body {
 
 .section-about {
   width: 100%;
-  padding: 150px 50px;
+  padding: 120px 50px 90px;
   background-color: #0f0f57;
 }
 
@@ -182,6 +190,18 @@ body {
 .paragraph {
   display: inline-block;
   margin-bottom: 30px;
+  font-family: Lekton, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.schecule-list {
+  margin: -20px 0 30px 20px;
+  padding: 0;
+}
+
+.schecule-list li {
   font-family: Lekton, sans-serif;
   color: #fff;
   font-size: 14px;
@@ -215,13 +235,13 @@ body {
 }
 
 .column-left {
-  padding-right: 20px;
+  padding-right: 10px;
   padding-left: 0px;
 }
 
 .column-right {
   padding-right: 0px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .section-sponsors {
@@ -240,15 +260,6 @@ body {
   color: #333;
   font-size: 14px;
   font-weight: 400;
-}
-
-.sponsors-list .sponsors-title {
-  border: none;
-  margin-top: 0;
-}
-
-.sponsors-list {
-  margin-bottom: 25px;
 }
 
 .column {
@@ -306,8 +317,8 @@ body {
   margin-bottom: 0px;
   font-family: 'Geogrotesquecomp rgit', sans-serif;
   color: #ff2c55;
-  font-size: 9vw;
-  line-height: 7.5vw;
+  font-size: 8.5vw;
+  line-height: 7vw;
   font-style: italic;
   font-weight: 400;
   letter-spacing: -0.4vw;
@@ -319,7 +330,7 @@ body {
   z-index: 10;
   display: block;
   max-width: 500px;
-  margin-top: 30px;
+  margin-top: 25px;
   margin-bottom: 0px;
   font-family: Lekton, sans-serif;
   font-size: 14px;
@@ -344,7 +355,7 @@ body {
   position: relative;
   width: 40px;
   height: 40px;
-  margin-top: 30px;
+  margin-top: 25px;
   margin-right: 15px;
 }
 
@@ -371,14 +382,14 @@ body {
 }
 
 .social-icon-circle.dark.tt {
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/icon-tt.svg');
+  background-image: url('../images/icon-tt.svg');
   background-position: 50% 50%;
   background-size: 24px;
   background-repeat: no-repeat;
 }
 
 .social-icon-circle.dark.gh {
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/icon-gh.svg');
+  background-image: url('../images/icon-gh.svg');
   background-position: 50% 50%;
   background-size: 24px;
   background-repeat: no-repeat;
@@ -404,38 +415,38 @@ body {
 }
 
 .social-icon-inner-circle.dark.gh {
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/icon-gh-dark.svg');
+  background-image: url('../images/icon-gh-dark.svg');
   background-position: 50% 50%;
   background-size: 24px;
   background-repeat: no-repeat;
 }
 
 .social-icon-inner-circle.tt {
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/icon-tt.svg');
+  background-image: url('../images/icon-tt.svg');
   background-position: 50% 50%;
   background-size: 24px;
   background-repeat: no-repeat;
 }
 
 .social-icon-inner-circle.tt.dark {
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/icon-tt-dark.svg');
+  background-image: url('../images/icon-tt-dark.svg');
   background-size: 24px;
 }
 
 .social-icon-inner-circle.fb {
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/icon-fb.svg');
+  background-image: url('../images/icon-fb.svg');
   background-position: 50% 50%;
   background-size: 24px;
   background-repeat: no-repeat;
 }
 
 .complement-tag {
-  margin-top: 5px;
+  margin-top: 2px;
   margin-bottom: 10px;
   font-family: 'Geogrotesquecomp rgit', sans-serif;
   color: #0f0f57;
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 28px;
+  line-height: 28px;
   font-style: italic;
   text-transform: uppercase;
 }
@@ -443,9 +454,10 @@ body {
 .info-wrapper {
   position: absolute;
   left: 0px;
-  right: 80px;
+  right: 60px;
   height: 100%;
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/texture-optim-darker.png');
+  background-color: hsla(0, 0%, 100%, .4);
+  background-image: url('../images/texture-optim-darker.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -454,7 +466,7 @@ body {
 
 .info-text-wrapper {
   position: absolute;
-  left: 40px;
+  left: 30px;
   top: 50%;
   right: 0px;
   -webkit-transform: translate(0px, -50%);
@@ -464,9 +476,10 @@ body {
 
 .rectangle {
   position: absolute;
-  width: 40px;
+  width: 30px;
   height: 40px;
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/texture-optim-darker.png');
+  background-color: hsla(0, 0%, 100%, .4);
+  background-image: url('../images/texture-optim-darker.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -474,14 +487,14 @@ body {
 }
 
 .rectangle._01 {
-  left: -40px;
+  left: -30px;
   bottom: 40px;
   height: 50%;
 }
 
 .rectangle._02 {
   top: 0px;
-  right: -40px;
+  right: -30px;
   bottom: 0px;
   height: 75%;
   margin-top: auto;
@@ -489,18 +502,18 @@ body {
 }
 
 .rectangle._03 {
-  right: -80px;
+  right: -60px;
   height: 60%;
 }
 
 .rectangle._04 {
-  right: -80px;
+  right: -60px;
   bottom: 0px;
   height: 12.5%;
 }
 
 .rectangle._05 {
-  left: -80px;
+  left: -60px;
   bottom: 50%;
   height: 80px;
   margin-bottom: 40px;
@@ -514,68 +527,74 @@ body {
   height: 100%;
 }
 
-.left-column.speaker-1 {
+.left-column.speaker-tadeu {
   position: absolute;
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/zagallo-filter.jpg');
+  background-image: url('../images/zagallo-filter.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.left-column.speaker-2 {
-  background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/max-filter.jpg');
+.left-column.speaker-max {
+  background-image: url('../images/max-filter.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.left-column.speaker-bernard {
+  background-image: url('../images/speaker-bernard-filter.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.left-column.speaker-3 {
-  position: absolute;
-  background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-zeno-filter.jpg');
-  background-position: 50% 50%;
+.left-column.speaker-zeno {
+  background-image: url('../images/speaker-zeno-filter.jpg');
+  background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-
-.left-column.speaker-4 {
-  position: absolute;
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/jean-filter.jpg');
-  background-position: 50% 50%;
+.left-column.speaker-jean {
+  background-image: url('../images/jean-filter.jpg');
+  background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.left-column.speaker-5 {
-  background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-willian-filter.jpg');
-  background-position: 50% 50%;
+.left-column.speaker-willian {
+  background-image: url('../images/speaker-willian-filter.jpg');
+  background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.left-column.speaker-6 {
-  position: absolute;
-  background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-newton-filter.jpg');
-  background-position: 50% 50%;
+
+.left-column.speaker-newton {
+  background-image: url('../images/speaker-newton-filter.jpg');
+  background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.left-column.speaker-7 {
-  background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-diego-filter.jpg');
-  background-position: 50% 50%;
+
+.left-column.speaker-diego {
+  background-image: url('../images/speaker-diego-filter.jpg');
+  background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.left-column.speaker-8 {
-  position: absolute;
-  background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-igor-filter.jpg');
-  background-position: 50% 50%;
+
+.left-column.speaker-igor {
+  background-image: url('../images/speaker-igor-filter_1024.jpg');
+  background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -623,7 +642,8 @@ body {
   height: 50px;
   padding-right: 50px;
   padding-left: 50px;
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/texture-optim.png');
+  background-color: hsla(0, 0%, 100%, .4);
+  background-image: url('../images/texture-optim.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -640,7 +660,7 @@ body {
 .logo-menu {
   width: 150px;
   height: 50px;
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/frontinbh-logo-color.svg');
+  background-image: url('../images/frontinbh-logo-color.svg');
   background-position: 0px 50%;
   background-size: 150px;
   background-repeat: no-repeat;
@@ -673,7 +693,7 @@ body {
 }
 
 .section-picture._1 {
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/font-in-bh-teatro-ney-soares.jpg');
+  background-image: url('../images/font-in-bh-teatro-ney-soares.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -681,7 +701,7 @@ body {
 }
 
 .section-picture._2 {
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/font-in-bh-networking.jpg');
+  background-image: url('../images/font-in-bh-networking.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -689,7 +709,7 @@ body {
 }
 
 .section-picture._3 {
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/font-in-bh-plateia.jpg');
+  background-image: url('../images/font-in-bh-plateia.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -697,7 +717,7 @@ body {
 }
 
 .section-picture._4 {
-  background-image: url('https://dudgphgdirdpb.cloudfront.net/images/photo-speaker.jpg');
+  background-image: url('../images/photo-speaker.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -717,7 +737,7 @@ body {
   transform: translate(0px, -50%);
   font-family: 'Geogrotesquecomp mdit', sans-serif;
   color: #fff;
-  font-size: 15vw;
+  font-size: 14vw;
   line-height: 100%;
   font-style: italic;
   font-weight: 500;
@@ -729,6 +749,174 @@ body {
   font-family: 'Geogrotesquecomp ltit', sans-serif;
   color: #ff2c55;
   font-weight: 300;
+}
+
+.pink {
+  color: #ff2c55;
+}
+
+.schedule-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.schedule-timeline {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  margin-right: 20px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.schedule-icon {
+  position: relative;
+  z-index: 5;
+  width: 50px;
+  height: 50px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsla(0, 0%, 100%, .2);
+  border-radius: 100px;
+  background-color: #0f0f57;
+}
+
+.schedule-icon.badge {
+  background-image: url('../images/icon-badge.svg');
+  background-position: 50% 50%;
+  background-size: 32px;
+  background-repeat: no-repeat;
+}
+
+.schedule-icon.intro {
+  background-image: url('../images/icon-microphone.svg');
+  background-position: 50% 50%;
+  background-size: 32px;
+  background-repeat: no-repeat;
+}
+
+.schedule-icon.speaker {
+  background-image: url('../images/icon-speaker.svg');
+  background-position: 50% 50%;
+  background-size: 32px;
+  background-repeat: no-repeat;
+}
+
+.schedule-icon.lunch {
+  background-image: url('../images/icon-fork.svg');
+  background-position: 50% 50%;
+  background-size: 32px;
+  background-repeat: no-repeat;
+}
+
+.schedule-icon.finish {
+  background-image: url('../images/icon-finish.svg');
+  background-position: 50% 50%;
+  background-size: 32px;
+  background-repeat: no-repeat;
+}
+
+.schedule-timeline-line {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: block;
+  width: 1px;
+  height: 100%;
+  min-height: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: hsla(0, 0%, 100%, .2);
+}
+
+.schedule-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: 'Geogrotesquecomp mdit', sans-serif;
+  color: #ff2c55;
+  font-size: 34px;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.schedule-time {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Geogrotesquecomp rgit', sans-serif;
+  color: #fff;
+  font-size: 22px;
+  line-height: 22px;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.host-wrapper {
+  margin-bottom: 30px;
+}
+
+.host-title {
+  min-height: 45px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-family: 'Geogrotesquecomp mdit', sans-serif;
+  color: #ff2c55;
+  font-size: 24px;
+  line-height: 24px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.host-list {
+  padding-left: 0px;
+  direction: ltr;
+  font-family: Lekton, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.icon-open {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url('../images/icon-popup.svg');
+  background-position: 50% 50%;
+  background-size: 12px;
+  background-repeat: no-repeat;
+  color: transparent;
+  line-height: 17px;
+}
+
+.host-text {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-speakers {
+  height: 100%;
 }
 
 @media (max-width: 991px) {
@@ -745,12 +933,15 @@ body {
     height: auto;
   }
   .paragraph {
-    margin-bottom: 0px;
+    margin-bottom: 30px;
   }
   .h3 {
     height: auto;
     font-size: 90px;
     line-height: 80px;
+  }
+  .column-left {
+    margin-bottom: 50px;
   }
   .section-sponsors {
     padding-top: 50px;
@@ -807,59 +998,68 @@ body {
   .left-column {
     height: 600px;
   }
-  .left-column.speaker-1 {
+  .left-column.speaker-tadeu {
     position: static;
-    background-image: url('https://dudgphgdirdpb.cloudfront.net/images/tadeu.jpg');
+    background-image: url('../images/tadeu.jpg');
     background-position: 50% 50%;
     background-attachment: scroll;
   }
-  .left-column.speaker-2 {
-    background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/max.jpg');
+  .left-column.speaker-max {
+    background-image: url('../images/max.jpg');
     background-size: cover;
     background-attachment: scroll;
   }
-  .left-column.speaker-3 {
-    position: static;
-    background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-zeno.jpg');
-    background-position: 50% 50%;
-    background-attachment: scroll;
-  }
-  .left-column.speaker-4 {
-    position: static;
-    background-image: url('https://dudgphgdirdpb.cloudfront.net/images/jean.jpg');
-    background-position: 50% 50%;
-    background-attachment: scroll;
-  }
-  .left-column.speaker-5 {
-    background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-willian.jpg');
+  .left-column.speaker-bernard {
+    background-image: url('../images/speaker-bernard.jpg');
+    background-position: 50% 0px;
     background-size: cover;
     background-attachment: scroll;
   }
-  .left-column.speaker-6 {
-    position: static;
-    background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-newton.jpg');
-    background-position: 50% 50%;
-    background-attachment: scroll;
-  }
-  .left-column.speaker-7 {
-    background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-diego.jpg');
+  .left-column.speaker-zeno {
+    background-image: url('../images/speaker-zeno.jpg');
+    background-position: 50% 0px;
     background-size: cover;
     background-attachment: scroll;
   }
-
-  .left-column.speaker-8 {
-    position: static;
-    background-image: url('https://s3-sa-east-1.amazonaws.com/frontinbh.com.br/images/speaker-igor.jpg');
+  .left-column.speaker-jean {
+    background-image: url('../images/jean.jpg');
     background-position: 50% 50%;
+    background-size: cover;
     background-attachment: scroll;
   }
-
-
+  .left-column.speaker-willian {
+    background-image: url('../images/speaker-willian.jpg');
+    background-position: 50% 0px;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  .left-column.speaker-newton {
+    background-image: url('../images/speaker-newton.jpg');
+    background-position: 50% 0px;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  .left-column.speaker-diego {
+    background-image: url('../images/speaker-diego.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  .left-column.speaker-igor {
+    background-image: url('../images/speaker-igor_360.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+  }
   .menu-item {
     margin-left: 20px;
   }
   .section-picture {
     height: 550px;
+  }
+  .host-wrapper {
+    margin-bottom: 0px;
+  }
+  .host-list {
+    margin-right: 20px;
   }
 }
 
@@ -942,7 +1142,8 @@ body {
     padding: 80px 20px;
   }
   .paragraph {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
+    line-height: 21px;
   }
   .h3 {
     font-size: 50px;
@@ -985,56 +1186,38 @@ body {
     padding-right: 20px;
     padding-left: 20px;
   }
-
-  .logo-wrapper a {
-    width: 36%;
-    text-align: center;
-    display: block;
-    margin-bottom: 20px;
+  .schedule-title {
+    font-size: 26px;
+    line-height: 25px;
   }
 }
 
 @font-face {
   font-family: 'Geogrotesquecomp mdit';
-  src: url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-MdIt.eot');
-  src: local('☺'),
-  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-MdIt.woff') format('woff'),
-  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-MdIt.ttf') format('truetype'),
-  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-MdIt.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  src: url('../fonts/GeogrotesqueComp-MdIt.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
 }
-
 @font-face {
   font-family: 'Geogrotesquecomp rgit';
-  src: url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-RgIt.eot');
-  src: local('☺'),
-  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-RgIt.woff') format('woff'),
-  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-RgIt.ttf') format('truetype'),
-  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-RgIt.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  src: url('../fonts/GeogrotesqueComp-RgIt.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
 }
-
 @font-face {
   font-family: 'Geogrotesquecomp ltit';
-  src: url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-LtIt.eot');
-  src: local('☺'),
-  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-LtIt.woff') format('woff'),
-  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-LtIt.ttf') format('truetype'),
-  url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-LtIt.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  src: url('../fonts/GeogrotesqueComp-LtIt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
 }
-
 @font-face {
   font-family: 'Geogrotesquecomp smbdit';
-  src: url('https://dudgphgdirdpb.cloudfront.net/fonts/GeogrotesqueComp-SmBdIt.ttf') format('truetype');
+  src: url('../fonts/GeogrotesqueComp-SmBdIt.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
 
 .desaturate {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }

@@ -196,18 +196,6 @@ h2 {
   line-height: 24px;
 }
 
-.schecule-list {
-  margin: -20px 0 30px 20px;
-  padding: 0;
-}
-
-.schecule-list li {
-  font-family: Lekton, sans-serif;
-  color: #fff;
-  font-size: 14px;
-  line-height: 24px;
-}
-
 .h3 {
   display: block;
   height: 90px;
@@ -919,6 +907,56 @@ h2 {
   height: 100%;
 }
 
+.live-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0f0f57;
+}
+
+.player-container {
+  max-height: 480px;
+  min-height: 180px;
+  min-width: 320px;
+  background-color: hsla(0, 0%, 100%, .1);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .2);
+}
+
+.share-wrapper {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 25px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.share-text {
+  margin: 25px 15px 0px;
+  font-family: Lekton, sans-serif;
+  color: #fff;
+}
+
 @media (max-width: 991px) {
   .header-video.magic {
     background-image: none;
@@ -1220,4 +1258,16 @@ h2 {
 .desaturate {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+}
+
+.schecule-list {
+  margin: -20px 0 30px 20px;
+  padding: 0;
+}
+
+.schecule-list li {
+  font-family: Lekton, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
 }

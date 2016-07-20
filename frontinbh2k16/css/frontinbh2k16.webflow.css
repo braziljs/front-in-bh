@@ -588,6 +588,14 @@ h2 {
   background-attachment: fixed;
 }
 
+.left-column.speaker-alda {
+  background-image: url('../images/speaker-alda-filter.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .footer-link {
   font-family: Lekton, sans-serif;
   color: #ff2c55;

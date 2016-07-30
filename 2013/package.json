@@ -7,15 +7,11 @@
     "type": "git",
     "url": "http://github.com/braziljs/conf-boilerplate.git"
   },
-  "engines": {
-    "node": ">0.8.x",
-    "npm": "1.1.x"
-  },
   "scripts": {
     "install": "npm install -fg docpad@6.30.x"
   },
   "dependencies": {
-    "docpad-plugin-eco": "2.0.2",
+    "docpad-plugin-eco": "2.1.0",
     "docpad-plugin-marked": "2.1.1",
     "docpad-plugin-partials": "2.6.1",
     "docpad-plugin-less": "2.1.3",

@@ -98,7 +98,7 @@ h3,
 
 .header .wrapper {
   position: relative;
-  top: 130px;
+  top: 30px;
   color: #FFF;
   text-align: center;
 }
@@ -762,9 +762,9 @@ span {
 
 
 #coffee-break  .desc-speaker,
-#almoco .desc-speaker, 
-#abertura .desc-speaker, 
-#welcome-coffee .desc-speaker, 
+#almoco .desc-speaker,
+#abertura .desc-speaker,
+#welcome-coffee .desc-speaker,
 #encerramento .desc-speaker {
   padding-top: 70px;
 }
@@ -785,6 +785,3 @@ span {
   color: #FFF;
   text-decoration: none;
 }
-
-
-
